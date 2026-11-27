@@ -1,0 +1,233 @@
+{
+ "type": "Feature",
+ "stac_version": "1.0.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+  "https://stac-extensions.github.io/classification/v2.0.0/schema.json",
+  "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+ ],
+ "id": "copenhagen-dwellings-2026-10-24",
+ "bbox": [
+  12.44445,
+  55.60646,
+  12.73658,
+  55.73588
+ ],
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     12.44445,
+     55.60646
+    ],
+    [
+     12.73658,
+     55.60646
+    ],
+    [
+     12.73658,
+     55.73588
+    ],
+    [
+     12.44445,
+     55.73588
+    ],
+    [
+     12.44445,
+     55.60646
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "Example data: Dwellings in Copenhagen",
+  "description": "Data for the SemanticGIS examples on dwellings in Copenhagen (Housing studies), frozen as they were used, so the examples' numbers can be reproduced without API keys.",
+  "datetime": "2026-10-24T00:00:00Z",
+  "proj:code": "EPSG:25832",
+  "proj:bbox": [
+   716908,
+   6168578,
+   734618,
+   6182092
+  ],
+  "license": "various",
+  "semanticgis:sources": [
+   {
+    "name": "BBR (Bygnings- og Boligregistret) and DAR (Danmarks Adresseregister), via Datafordeleren",
+    "text": [
+     "Free public data. Extracted 24 October 2026.",
+     "Attribution: Indeholder data fra BBR og DAR (Datafordeleren), hentet 24. oktober 2026",
+     "(standard wording; check Datafordeleren's terms before publishing)"
+    ]
+   },
+   {
+    "name": "Statistical divisions: Københavns Kommune",
+    "text": [
+     "Open data (CC BY 4.0, via opendata.dk), snapshot 22 October 2026,",
+     "renumbered to Statistikbanken's codes by SemanticGIS."
+    ]
+   },
+   {
+    "name": "Code lists: BBR, teknik.bbr.dk/kodelister",
+    "text": [
+     "Retrieved on the date given for each list."
+    ]
+   }
+  ]
+ },
+ "assets": {
+  "codelist-bbr_livscyklus": {
+   "href": "codelists/bbr_livscyklus.csv",
+   "type": "text/csv",
+   "roles": [
+    "metadata",
+    "codelist"
+   ],
+   "title": "BBR Livscyklus (status)",
+   "semanticgis:source": "https://teknik.bbr.dk/kodelister/0/1/0/Livscyklus",
+   "semanticgis:retrieved": "2026-10-28"
+  },
+  "codelist-bbr_enhedens_anvendelse": {
+   "href": "codelists/bbr_enhedens_anvendelse.csv",
+   "type": "text/csv",
+   "roles": [
+    "metadata",
+    "codelist"
+   ],
+   "title": "BBR Enhedens anvendelse (use)",
+   "semanticgis:source": "https://teknik.bbr.dk/kodelister/0/1/0/EnhAnvendelse",
+   "semanticgis:retrieved": "2026-10-28"
+  },
+  "codelist-bbr_udlejningsforhold": {
+   "href": "codelists/bbr_udlejningsforhold.csv",
+   "type": "text/csv",
+   "roles": [
+    "metadata",
+    "codelist"
+   ],
+   "title": "BBR Udlejningsforhold (rental arrangement)",
+   "semanticgis:source": "https://teknik.bbr.dk/kodelister/0/1/0/Udlejningsforhold",
+   "semanticgis:retrieved": "2026-10-28"
+  },
+  "codelist-bbr_offentlig_stoette": {
+   "href": "codelists/bbr_offentlig_stoette.csv",
+   "type": "text/csv",
+   "roles": [
+    "metadata",
+    "codelist"
+   ],
+   "title": "BBR Offentlig støtte (public support)",
+   "semanticgis:source": "https://teknik.bbr.dk/kodelister/0/1/0/OffentligStoette",
+   "semanticgis:retrieved": "2026-10-28"
+  },
+  "dwellings": {
+   "href": "dwellings.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "Standing dwellings (GeoParquet, points)",
+   "description": "Every standing dwelling in Københavns Kommune (BBR status 6, use 110–190) on its entrance's address point (DAR). Addresses, register ids and coordinate fields are left out.",
+   "table:primary_geometry": "geom",
+   "table:row_count": 349743,
+   "table:columns": [
+    {
+     "name": "status_kode",
+     "type": "int32",
+     "description": "BBR status (6 = standing)",
+     "semanticgis:codelist": "codelist-bbr_livscyklus"
+    },
+    {
+     "name": "anvendelse_kode",
+     "type": "int32",
+     "description": "use of the unit (110–190 = dwellings)",
+     "semanticgis:codelist": "codelist-bbr_enhedens_anvendelse"
+    },
+    {
+     "name": "samlet_areal",
+     "type": "int32",
+     "description": "total area, m²"
+    },
+    {
+     "name": "areal_beboelse",
+     "type": "int32",
+     "description": "residential area, m²"
+    },
+    {
+     "name": "antal_vaerelser",
+     "type": "int32",
+     "description": "number of rooms"
+    },
+    {
+     "name": "udlejning_kode",
+     "type": "int32",
+     "description": "rental arrangement",
+     "semanticgis:codelist": "codelist-bbr_udlejningsforhold"
+    },
+    {
+     "name": "offentlig_stoette_kode",
+     "type": "int32",
+     "description": "public support",
+     "semanticgis:codelist": "codelist-bbr_offentlig_stoette"
+    },
+    {
+     "name": "opfoerelsesaar",
+     "type": "int32",
+     "description": "the building's construction year"
+    }
+   ]
+  },
+  "divisions": {
+   "href": "divisions.gpkg",
+   "type": "application/geopackage+sqlite3",
+   "roles": [
+    "data"
+   ],
+   "title": "Københavns Kommune's statistical divisions (GeoPackage)",
+   "description": "The same divisions as Statistikbanken, as published by SemanticGIS.",
+   "semanticgis:layers": [
+    {
+     "name": "bydel",
+     "title": "bydele, 10 districts",
+     "table:row_count": 10
+    },
+    {
+     "name": "lokaludvalg",
+     "title": "local council areas, 12",
+     "table:row_count": 12
+    },
+    {
+     "name": "kvarter",
+     "title": "statistical neighbourhoods, 67",
+     "table:row_count": 67
+    },
+    {
+     "name": "rode",
+     "title": "roder, 400 smallest statistical units",
+     "table:row_count": 400
+    }
+   ]
+  },
+  "readme": {
+   "href": "README.txt",
+   "type": "text/plain",
+   "roles": [
+    "metadata"
+   ],
+   "title": "README"
+  }
+ },
+ "links": [
+  {
+   "rel": "related",
+   "title": "Share of rented dwellings in Copenhagen",
+   "href": "https://semanticgis.org/Domain-hubs/Housing-studies/Share-of-rented-dwellings-in-Copenhagen-(Example)"
+  },
+  {
+   "rel": "related",
+   "title": "Dwelling size by construction period in Copenhagen",
+   "href": "https://semanticgis.org/Domain-hubs/Housing-studies/Dwelling-size-by-construction-period-in-Copenhagen-(Example)"
+  }
+ ]
+}

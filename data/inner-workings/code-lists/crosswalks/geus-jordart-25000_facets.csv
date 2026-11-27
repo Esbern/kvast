@@ -1,0 +1,84 @@
+tsym,label_en,material,genesis,period,status
+FG,Freshwater gravel,gravel,freshwater,postglacial,inferred from code and label
+FS,Freshwater sand,sand,freshwater,postglacial,inferred from code and label
+FI,Freshwater silt,silt,freshwater,postglacial,inferred from code and label
+FL,Freshwater clay,clay,freshwater,postglacial,inferred from code and label
+FP,Freshwater gyttja,gyttja,freshwater,postglacial,inferred from code and label
+FT,Freshwater peat,peat,freshwater,postglacial,inferred from code and label
+FV,Alternating thin freshwater beds,alternating,freshwater,postglacial,inferred from code and label
+FK,"Tufa, bog- and lake marl",marl,freshwater,postglacial,inferred from code and label
+FJ,Ocher and bog iron,ocher and bog iron,freshwater,postglacial,inferred from code and label
+FHG,Delta gravel,gravel,freshwater,postglacial,inferred from code and label
+FHS,Delta sand,sand,freshwater,postglacial,inferred from code and label
+FHL,Delta clay,clay,freshwater,postglacial,inferred from code and label
+HG,Saltwater gravel,gravel,marine,postglacial,inferred from code and label
+HS,Saltwater sand,sand,marine,postglacial,inferred from code and label
+HI,Saltwater silt,silt,marine,postglacial,inferred from code and label
+HL,Saltwater clay,clay,marine,postglacial,inferred from code and label
+HP,Saltwater gyttja,gyttja,marine,postglacial,inferred from code and label
+HT,Saltwater peat,peat,marine,postglacial,inferred from code and label
+HV,"Alternating thin saltwater beds, marsh",alternating,marine,postglacial,inferred from code and label
+HSG,Saltwater shell gravel,shell gravel,marine,postglacial,inferred from code and label
+EK,Aeolian dune sand,dune sand,aeolian,postglacial,inferred from code and label
+ES,Aeolian sand,sand,aeolian,postglacial,inferred from code and label
+YG,Saltwater gravel,gravel,marine,lateglacial,inferred from code and label
+YS,Saltwater sand,sand,marine,lateglacial,inferred from code and label
+YL,Saltwater clay,clay,marine,lateglacial,inferred from code and label
+YP,Saltwater gyttja,gyttja,marine,lateglacial,inferred from code and label
+TG,Meltwater gravel,gravel,meltwater,proglacial,inferred from code and label
+TS,Meltwater sand,sand,meltwater,proglacial,inferred from code and label
+TI,Meltwater silt,silt,meltwater,proglacial,inferred from code and label
+TL,Meltwater clay,clay,meltwater,proglacial,inferred from code and label
+TV,Alternating thin meltwater beds,alternating,meltwater,proglacial,inferred from code and label
+ZG,Glaciolacustrine gravel,gravel,glaciolacustrine,marginal glacial,inferred from code and label
+ZS,Glaciolacustrine sand,sand,glaciolacustrine,marginal glacial,inferred from code and label
+ZI,Glaciolacustrine silt,silt,glaciolacustrine,marginal glacial,inferred from code and label
+ZL,Glaciolacustrine clay,clay,glaciolacustrine,marginal glacial,inferred from code and label
+ZV,Alternating thin glaciolacustrine beds,alternating,glaciolacustrine,marginal glacial,inferred from code and label
+DG,Meltwater gravel,gravel,meltwater,glacial,inferred from code and label
+DS,Meltwater sand,sand,meltwater,glacial,inferred from code and label
+DI,Meltwater silt,silt,meltwater,glacial,inferred from code and label
+DL,Meltwater clay,clay,meltwater,glacial,inferred from code and label
+DV,Alternating thin meltwater beds,alternating,meltwater,glacial,inferred from code and label
+MG,Gravelly till,gravel,till,glacial,inferred from code and label
+MS,Sandy till,sand,till,glacial,inferred from code and label
+MI,Silty till,silt,till,glacial,inferred from code and label
+ML,Clayey till,clay,till,glacial,inferred from code and label
+MV,Alternating thin till beds,,till,glacial,inferred from code and label
+KMG,"Limey till, gravelly",gravel,till,glacial,inferred from code and label
+KMS,"Limey till, sandy",sand,till,glacial,inferred from code and label
+KML,"Limey till, clayey",clay,till,glacial,inferred from code and label
+IT,Freshwater peat,peat,freshwater,interglacial,inferred from code and label
+QG,Saltwater gravel,gravel,marine,interglacial,inferred from code and label
+QS,Saltwater sand,sand,marine,interglacial,inferred from code and label
+QL,Saltwater clay,clay,marine,interglacial,inferred from code and label
+BY,Town,,,,not a deposit
+SØ,Freshwater,,,,not a deposit
+HAV,Sea,,,,not a deposit
+TA,Technical and artificial construction,,,,not a deposit
+RÅ,Pit,,,,not a deposit
+LRÅ,Abandoned pit,,,,not a deposit
+LSL,Landslide,,,,not a deposit
+O,Land fill,,,,not a deposit
+X,"Bed unkown, no infomation",,,,not a deposit
+IA,No access,,,,not a deposit
+BK,Danian bryozoan og corallian limestone,limestone,,Danian,inferred from code and label
+ED,Eocene diatomite,diatomite,,Eocene,inferred from code and label
+EE,Eocene volcanic ash,volcanic ash,,Eocene,inferred from code and label
+G,Gravel / sand and gravel,gravel,,,inferred from code and label
+GC,Oligocene/Miocene/Pliocene brown coal,brown coal,,Oligocene/Miocene/Pliocene,inferred from code and label
+GL,Oligocene/Miocene/Pliocene mica clay,mica clay,,Oligocene/Miocene/Pliocene,inferred from code and label
+GS,Oligocene/Miocene/Pliocene mica sand,mica sand,,Oligocene/Miocene/Pliocene,inferred from code and label
+K,Chalk and limestone,chalk,,pre-Quaternary,inferred from code and label
+KS,Miocene quartz sand,quartz sand,,Miocene,inferred from code and label
+LL,"Eocene clay, plastic clay",clay,,Eocene,inferred from code and label
+OL,Oligocene clay,clay,,Oligocene,inferred from code and label
+PKV,Pre-Quaternary layers,,,pre-Quaternary,inferred from code and label
+PL,"Selandian clay, Paleocene clay",clay,,Selandian,inferred from code and label
+PS,"Selandian sand, Paleocene greensand",sand,,Selandian,inferred from code and label
+RL,Eocene Røsnæs clay,clay,,Eocene,inferred from code and label
+S,Sand,sand,,,inferred from code and label
+SK,Campanian-Maastrichtian chalk,chalk,,Campanian-Maastrichtian,inferred from code and label
+SL,Eocene Søvind marl,marl,,Eocene,inferred from code and label
+ZK,Danian chalk / chalk and flint,chalk,,Danian,inferred from code and label
+GV,Oligocene/Miocene/Pliocene alternating layers,alternating,,Oligocene/Miocene/Pliocene,inferred from code and label

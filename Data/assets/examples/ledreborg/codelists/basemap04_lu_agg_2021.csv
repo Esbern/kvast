@@ -1,0 +1,36 @@
+code,name,name_en
+110000,Bygning,Building
+121000,Lav bebyggelse,Low built up
+121110,Lav bebyggelse; Bygning,Low built up; Building
+122000,Høj bebyggelse,High built up
+122110,Høj bebyggelse; Bygning,High built up; Building
+123000,Bykerne,City centre
+123110,Bykerne; Bygning,City centre; Building
+124000,Andet bebyggelse,Other built up
+124110,Andet bebyggelse; Bygning,Other built up; Building
+125000,Erhverv,Industry / business
+125110,Erhverv; Bygning,Industry / business; Building
+126000,Lufthavn / landingsbane,Airport / runway
+126110,Lufthavn / landingsbane; Bygning,Airport / runway; Building
+130000,Rekreativt område / sportsanlæg,Recreation area / sports ground
+130110,Rekreativt område / sportsanlæg; Bygning,Recreation area / sports ground; Building
+141000,"Vej, befæstet","Road, paved"
+142000,"Vej, ikke befæstet","Road, not paved"
+150000,Jernbane,Railway
+150110,Jernbane; Bygning,Railway; Building
+160000,Råstofudvinding,Resource extraction
+211000,"Landbrug, intensivt, midlertidige afgrøder","Agriculture, intensive, temporary crops"
+212000,"Landbrug, intensivt, permanente afgrøder","Agriculture, intensive, permanent crops"
+220000,"Landbrug, ekstensivt","Agriculture, extensive"
+230000,"Landbrug, ikke klassificeret","Agriculture, not classified"
+311000,Skov,Forest
+312000,"Skov, våd","Forest, wet"
+321000,"Natur, tør","Nature, dry"
+321220,"Natur, tør, Landbrug, ekstensivt","Nature, dry, Agriculture, extensive"
+322000,"Natur, våd","Nature, wet"
+322220,"Natur, våd, Landbrug, ekstensiv","Nature, wet, Agriculture, extensive"
+411000,Sø,Lake
+412000,Vandløb,Stream
+420000,Hav,Sea
+800000,Ikke kortlagt,Unmapped
+999999,Tyskland,Germany

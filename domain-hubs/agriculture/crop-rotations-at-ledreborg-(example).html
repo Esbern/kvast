@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><meta name="robots" content="noindex,nofollow"/><title>Crop rotations at Ledreborg (Example)</title><meta charset="utf-8"/><link rel="preload" href="../../index-bb6c1746.css" as="style"/><link rel="preload" href="../../prescript-2bfc6315.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="SemanticGIS v2 (test)"/><meta property="og:title" content="Crop rotations at Ledreborg (Example)"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Crop rotations at Ledreborg (Example)"/><meta name="twitter:description" content="A worked case for the course Environmental Regulation and Management with GIS, Themes 3.1 (nitrogen in the agro-environment: pollution and regulation) and 3.2 (cultivation and food consumption)."/><meta property="og:description" content="A worked case for the course Environmental Regulation and Management with GIS, Themes 3.1 (nitrogen in the agro-environment: pollution and regulation) and 3.2 (cultivation and food consumption)."/><meta property="og:image:alt" content="A worked case for the course Environmental Regulation and Management with GIS, Themes 3.1 (nitrogen in the agro-environment: pollution and regulation) and 3.2 (cultivation and food consumption)."/><meta property="twitter:domain" content="semanticgis.xyz"/><meta property="og:url" content="https://semanticgis.xyz/domain-hubs/agriculture/crop-rotations-at-ledreborg-(example)"/><meta property="twitter:url" content="https://semanticgis.xyz/domain-hubs/agriculture/crop-rotations-at-ledreborg-(example)"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="A worked case for the course Environmental Regulation and Management with GIS, Themes 3.1 (nitrogen in the agro-environment: pollution and regulation) and 3.2 (cultivation and food consumption)."/><meta name="generator" content="Quartz"/><link href="../../index-bb6c1746.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-7f220492.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-67aa041a.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-9857b007.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-d3a1a224.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../prescript-2bfc6315.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk%3Awght%40400%3B700&amp;family=Source%20Sans%20Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;family=IBM%20Plex%20Mono%3Awght%40400%3B600&amp;display=swap"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://semanticgis.xyz/domain-hubs/agriculture/crop-rotations-at-ledreborg-(example)-og-image.webp"/><meta property="og:image:url" content="https://semanticgis.xyz/domain-hubs/agriculture/crop-rotations-at-ledreborg-(example)-og-image.webp"/><meta name="twitter:image" content="https://semanticgis.xyz/domain-hubs/agriculture/crop-rotations-at-ledreborg-(example)-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="domain-hubs/agriculture/crop-rotations-at-ledreborg-(example)" data-basepath><div id="v2-test-banner" role="note" style="position:sticky;top:0;z-index:9999;background:#8a1c1c;color:#fff;text-align:center;padding:.45rem 1rem;font:600 .95rem/1.4 sans-serif">Test site: content may be wrong or change. Use <a href="https://semanticgis.org/" style="color:#fff;text-decoration:underline">semanticgis.org</a></div><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">SemanticGIS v2 (test)</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Search" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something..." placeholder="Search for something..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="Dark mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="Reader mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-2785" aria-label="Explorer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-2785" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../domain-hubs/">Domain hubs</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../domain-hubs/agriculture/">Agriculture</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Crop rotations at Ledreborg (Example)</a></div></nav><h1 class="article-title">Crop rotations at Ledreborg (Example)</h1><details class="note-properties metadata-container" open data-collapsed="false"><summary class="note-properties-header"><span class="note-properties-title">Properties</span><span class="note-properties-count">1</span></summary><table class="note-properties-table"><tbody><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">tags</td><td class="note-properties-value metadata-property-value"><span class="note-properties-empty">—</span></td></tr></tbody></table></details><p show-comma="true" class="content-meta"><time datetime="2026-11-26T12:03:26.000Z">Nov 26, 2026</time><span>9 min read</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><p><em>A worked case for the course Environmental Regulation and Management with GIS, Themes 3.1 (nitrogen in the agro-environment: pollution and regulation) and 3.2 (cultivation and food consumption). Companions: <a href="../../domain-hubs/landscape-ecology/vegetation-greenness-at-ledreborg-(example)" class="internal internal-link alias" data-slug="domain-hubs/landscape-ecology/vegetation-greenness-at-ledreborg-(example)">Vegetation greenness at Ledreborg (Example)</a> (NDVI), <a href="../../domain-hubs/soil/soil-carbon-and-land-use-at-ledreborg-(example)" class="internal internal-link alias" data-slug="domain-hubs/soil/soil-carbon-and-land-use-at-ledreborg-(example)">Soil carbon and land use at Ledreborg (Example)</a>. Hub: <a href="../../domain-hubs/agriculture/" class="internal internal-link alias" data-slug="domain-hubs/agriculture/index">Agriculture</a>.</em></p>
+<p>Within the Ledreborg landscapes, farmers declared about 1,520 ha of fields each year from 2021 to 2026, 56 % of the area. Most of it is in cereal–oilseed rotations: a third of the fields (515 ha) grew only winter wheat, spring barley and winter canola, with or without seed grass, in those six years. Legumes are rare. Pulses (peas and faba beans) were grown on 65 ha in all, each field in one year only, and on none in 2025 and 2026. Clover and lucerne, mixed into grass, cover 80–110 ha every year.</p>
+<h2 id="example-data">Example data<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#example-data" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>Ready to use:</strong> <a href="https://semanticgis.org/data/assets/examples/ledreborg-crops/ledreborg_crops_example_data.zip" class="external external-link">ledreborg_crops_example_data.zip<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (1.5 MB), a <a href="../../workflow/part-3-getting-your-feet-wet/project-stewardship/snapshot-packages" class="internal internal-link alias" data-slug="workflow/part-3-getting-your-feet-wet/project-stewardship/snapshot-packages">snapshot package</a>: Marker 2021–2026 as this example used it (clipped to the landscapes; the applicant’s identifiers left out), the landscapes, and the crop code table (<code>codelists/crop_codes_dk.csv</code>), with <code>snapshot.json</code> and a README.</li>
+<li><strong>Or fetch it yourself</strong> with <em>Download snapshot series</em> (step 2 below), for these years or others, and for your own landscape.</li>
+</ul>
+<h2 id="1-spatial-intent">1. Spatial Intent<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-spatial-intent" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Question:</strong> which crops have the fields of the study area carried from 2021 to 2026, where are the legumes, and which crop combinations cover the most land? What does that mean for nitrogen leaching and for a regulation targeted at where leaching does the most harm?</p>
+<p><strong>Study area and zones:</strong> the five landscape types of the Ledreborg study area (<a href="../../domain-hubs/landscape-ecology/landscape-delineation-(task)" class="internal internal-link alias" data-slug="domain-hubs/landscape-ecology/landscape-delineation-(task)">Landscape delineation (Task)</a>), 2,704 ha.</p>
+<p><strong>Units:</strong> the fields as declared each year; after flattening, pieces of land that keep their identity through the six years.</p>
+<p><strong>Theory:</strong> nitrate leaches when there is mineral nitrogen in the soil and water draining through it, which in Denmark is mostly from autumn to spring. A field with a growing crop in autumn and winter (winter cereals, winter canola, grass, catch crops) takes up nitrogen that a field left bare after a spring crop loses. Legumes fix nitrogen from the air: they need little or no fertiliser, but their residues and ploughed-in clover grass release nitrogen to the following crop, and to the drainage water if nothing takes it up. Danish nitrogen regulation has mostly been general: the same rules for all farmland in the country. Christensen et al. (2021) argue that further reductions need <strong>targeted regulation</strong>, planned in ecologically meaningful units: landscapes, where the same pattern of land use repeats across many farms, or watersheds, where the farms share the same recipient water. In their six case watersheds, farmers and other stakeholders built land-use scenarios with a GIS landscape tool that estimated leaching field by field from soil, hydrology, nitrogen retention and crop rotation. Mapping the crop rotations of a landscape, as here, is the first step of such a tool.</p>
+<h2 id="2-auditing-the-data">2. Auditing the data<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-auditing-the-data" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Data</th><th>Source</th><th>What it is</th><th>Choices</th></tr></thead><tbody><tr><td>Fields and crops</td><td><a href="../../data/datasets/marker" class="internal internal-link alias" data-slug="data/datasets/marker">Marker</a> 2021–2026, WFS <code>Marker:Marker_&lt;year></code>, fetched 12 November 2026</td><td>the fields farmers declared for EU area payments, with the crop code <code>Afgkode</code></td><td>clipped to the landscapes; 2026 is preliminary</td></tr><tr><td>Crop classes</td><td><a href="../../data/inner-workings/code-lists/danish-crop-codes-afgkode" class="internal internal-link alias" data-slug="data/inner-workings/code-lists/danish-crop-codes-afgkode">Data/Inner workings/Code lists/danish-crop-codes-afgkode</a></td><td>each code’s English name and a simplified class (<code>acr_class</code>, 25 classes)</td><td>the classes are a choice, made for teaching; see below for legumes</td></tr><tr><td>Landscapes</td><td>the example’s landscapes (<a href="../../domain-hubs/soil/soil-carbon-and-land-use-at-ledreborg-(example)" class="internal internal-link alias" data-slug="domain-hubs/soil/soil-carbon-and-land-use-at-ledreborg-(example)">Soil carbon and land use at Ledreborg (Example)</a>)</td><td>five landscape types</td><td>as delineated for the Ledreborg examples</td></tr></tbody></table></div>
+<p><strong>What the data cannot say:</strong></p>
+<ul>
+<li>Marker is what was <strong>applied for</strong>, not what grew; NDVI from a satellite image can check it (<a href="../../domain-hubs/landscape-ecology/vegetation-greenness-at-ledreborg-(example)" class="internal internal-link alias" data-slug="domain-hubs/landscape-ecology/vegetation-greenness-at-ledreborg-(example)">Vegetation greenness at Ledreborg (Example)</a>).</li>
+<li>Catch crops and green cover after harvest are not crop codes in Marker; a winter NDVI image shows where the soil was green and where bare.</li>
+<li>The field boundaries are drawn anew each year and differ by a metre or two; flattening moves older boundaries onto the newest (2026).</li>
+<li>The simplified classes put clover grass and lucerne grass into <em>Grass in rotation</em> or <em>Permanent grass</em>. A legume map from the class alone shows only the pulses (class <em>Leguminous seed</em>). This example therefore maps the clover and lucerne from the English crop name as well.</li>
+</ul>
+<h2 id="3-the-analytical-schema">3. The Analytical Schema<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-the-analytical-schema" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<pre><button class="expand-button" aria-label="Expand mermaid diagram" data-view-component="true"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M3.72 3.72a.75.75 0 011.06 1.06L2.56 7h10.88l-2.22-2.22a.75.75 0 011.06-1.06l3.5 3.5a.75.75 0 010 1.06l-3.5 3.5a.75.75 0 11-1.06-1.06l2.22-2.22H2.56l2.22 2.22a.75.75 0 11-1.06 1.06l-3.5-3.5a.75.75 0 010-1.06l3.5-3.5z"></path></svg></button><code class="mermaid" data-clipboard="&quot;flowchart LR\n  F[Fetch 2021–2026 for the landscapes] --> J[Codes to crop classes]\n  J --> S[Area per class and year]\n  J --> T[Flatten: one piece, one column per year]\n  T --> C[Combination of classes per piece]\n  T --> L[Years with legumes per piece]\n  C --> M[Largest combinations: map and table]&quot;">flowchart LR
+  F[Fetch 2021–2026 for the landscapes] --> J[Codes to crop classes]
+  J --> S[Area per class and year]
+  J --> T[Flatten: one piece, one column per year]
+  T --> C[Combination of classes per piece]
+  T --> L[Years with legumes per piece]
+  C --> M[Largest combinations: map and table]
+</code><div id="mermaid-container" role="dialog"><div id="mermaid-space"><div class="mermaid-content"></div></div></div></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Task</th><th>Recipe</th><th>Operator families used</th></tr></thead><tbody><tr><td><a href="../../tasks/history-from-yearly-snapshots-(task)" class="internal internal-link alias" data-slug="tasks/history-from-yearly-snapshots-(task)">History from yearly snapshots (Task)</a></td><td><a href="../../the-technology-stack/processing-environments/qgis/recipes/history-from-yearly-snapshots-(recipe---qgis)" class="internal internal-link alias" data-slug="the-technology-stack/processing-environments/qgis/recipes/history-from-yearly-snapshots-(recipe---qgis)">History from yearly snapshots (Recipe - QGIS)</a></td><td>Conversion and data management, Geometry restructuring, Overlay, Attribute calculation, Aggregation</td></tr><tr><td><a href="../../tasks/categories-from-register-codes-(task)" class="internal internal-link alias" data-slug="tasks/categories-from-register-codes-(task)">Categories from register codes (Task)</a></td><td><a href="../../the-technology-stack/processing-environments/qgis/recipes/categories-from-register-codes-(recipe---qgis)" class="internal internal-link alias" data-slug="the-technology-stack/processing-environments/qgis/recipes/categories-from-register-codes-(recipe---qgis)">Categories from register codes (Recipe - QGIS)</a></td><td>Attribute calculation, Selection</td></tr></tbody></table></div>
+<h3 id="settings-used">Settings used<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#settings-used" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Fetch</strong> (<a href="../../the-technology-stack/processing-environments/qgis/tools/download-snapshot-series-(tool---qgis)" class="internal internal-link alias" data-slug="the-technology-stack/processing-environments/qgis/tools/download-snapshot-series-(tool---qgis)">Download snapshot series</a>): <em>Series</em> Marker, <em>First year</em> 2021, <em>Last year</em> 2026, <em>Area</em> the <code>landscapes</code> layer (all features), <em>Buffer</em> 0, <em>Only features that touch the area</em> on, <em>Clip features to the area</em> on, <em>Output CRS</em> EPSG:25832. 2,814 features (445–488 a year).</li>
+<li><strong>Crop classes</strong> (<a href="../../the-technology-stack/processing-environments/qgis/tools/join-attributes-by-field-value-(tool---qgis)" class="internal internal-link alias" data-slug="the-technology-stack/processing-environments/qgis/tools/join-attributes-by-field-value-(tool---qgis)">Join attributes by field value</a>): <code>Afgkode</code> = <code>afgkode</code> of the crop code table; fields <code>crop_en</code> and <code>acr_class</code>; one-to-one. All 2,814 features matched.</li>
+<li><strong>Area per class and year</strong> (<a href="../../the-technology-stack/processing-environments/qgis/tools/statistics-by-categories-(tool---qgis)" class="internal internal-link alias" data-slug="the-technology-stack/processing-environments/qgis/tools/statistics-by-categories-(tool---qgis)">Statistics by categories</a>): <code>$area / 10000</code>, categories <code>acr_class</code> and <code>snapshot_year</code>.</li>
+<li><strong>Flatten</strong> (<a href="../../the-technology-stack/processing-environments/qgis/tools/flatten-snapshot-series-(tool---qgis)" class="internal internal-link alias" data-slug="the-technology-stack/processing-environments/qgis/tools/flatten-snapshot-series-(tool---qgis)">Flatten snapshot series</a>): <em>Period field</em> <code>snapshot_year</code>, <em>Fields to keep</em> <code>acr_class</code> and <code>crop_en</code>, <em>Tolerance</em> 2 m, <em>Column prefix</em> <code>y</code>. About 1,650 pieces, 1,559 ha; about 1,900 slivers merged on the way.</li>
+<li><strong>Combination</strong> (<a href="../../the-technology-stack/processing-environments/qgis/tools/combination-of-values-(tool---qgis)" class="internal internal-link alias" data-slug="the-technology-stack/processing-environments/qgis/tools/combination-of-values-(tool---qgis)">Combination of values</a>): the six <code>y&lt;year>_acr_class</code> columns, field name <code>rotation</code>, without frequencies. 184 combinations.</li>
+<li><strong>Pulses, year grown</strong> (map): <code>CASE WHEN &quot;y2021_acr_class&quot; = 'Leguminous seed' THEN 2021 WHEN &quot;y2022_acr_class&quot; = 'Leguminous seed' THEN 2022 … END</code>.</li>
+<li><strong>Years with clover or lucerne</strong> (map): one term per year, <code>if(regexp_match(lower(&quot;y2021_crop_en&quot;), 'clover|lucerne') > 0, 1, 0) + …</code>.</li>
+</ul>
+<h2 id="4-results">4. Results<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-results" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="crops-per-year">Crops per year<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#crops-per-year" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Area (ha) per crop class within the landscapes:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Crop class</th><th>2021</th><th>2022</th><th>2023</th><th>2024</th><th>2025</th><th>2026</th></tr></thead><tbody><tr><td>Winter wheat</td><td>330</td><td>319</td><td>347</td><td>438</td><td>454</td><td>361</td></tr><tr><td>Spring barley</td><td>300</td><td>269</td><td>189</td><td>228</td><td>259</td><td>313</td></tr><tr><td>Permanent grass</td><td>212</td><td>211</td><td>217</td><td>208</td><td>219</td><td>224</td></tr><tr><td>Winter canola</td><td>198</td><td>167</td><td>260</td><td>185</td><td>157</td><td>171</td></tr><tr><td>Fallow</td><td>139</td><td>141</td><td>147</td><td>158</td><td>158</td><td>153</td></tr><tr><td>Seed grass</td><td>169</td><td>171</td><td>133</td><td>27</td><td>118</td><td>23</td></tr><tr><td>Rye</td><td>48</td><td>87</td><td>77</td><td>148</td><td>55</td><td>40</td></tr><tr><td>Grass in rotation</td><td>51</td><td>49</td><td>91</td><td>76</td><td>66</td><td>65</td></tr><tr><td>Winter barley</td><td>32</td><td>52</td><td>0</td><td>0</td><td>0</td><td>63</td></tr><tr><td>Oats</td><td>6</td><td>21</td><td>9</td><td>11</td><td>4</td><td>40</td></tr><tr><td>Forest (in fields)</td><td>22</td><td>22</td><td>22</td><td>22</td><td>21</td><td>24</td></tr><tr><td>Leguminous seed (pulses)</td><td>16</td><td>11</td><td>27</td><td>11</td><td>0</td><td>0</td></tr><tr><td>Corn</td><td>5</td><td>5</td><td>8</td><td>8</td><td>7</td><td>9</td></tr><tr><td>Spring wheat</td><td>0</td><td>0</td><td>8</td><td>0</td><td>0</td><td>11</td></tr><tr><td>Horticulture</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>11</td></tr><tr><td>Fodder beets</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td><strong>All fields</strong></td><td><strong>1,529</strong></td><td><strong>1,528</strong></td><td><strong>1,534</strong></td><td><strong>1,520</strong></td><td><strong>1,520</strong></td><td><strong>1,509</strong></td></tr></tbody></table></div>
+<p>Winter wheat, spring barley and winter canola take about half of the fields every year (49–57 %); the shares shift between them from year to year, as rotations do. Seed grass falls from 170 ha in 2021–2022 to about 25 ha in 2024 and 2026.</p>
+<h3 id="legumes">Legumes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#legumes" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="../../_assets/figures/ledreborg-legumes-2021-2026.png" alt width="auto" height="auto"/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Pulses (peas, faba beans), any year</td><td>65 ha, each piece in one year only</td></tr><tr><td>Pulses per year</td><td>2021: 16 ha (faba beans 12, peas 3) · 2022: 11 ha (peas) · 2023: 27 ha (peas) · 2024: 11 ha (peas) · 2025, 2026: none</td></tr><tr><td>Grass with clover or lucerne, per year</td><td>78–108 ha</td></tr><tr><td>Grass with clover or lucerne, any year</td><td>195 ha; 18 ha in all six years</td></tr></tbody></table></div>
+<p>Most of the pulses (40 of 65 ha) lie on the till plain in the north-west; the rest in the hummocky topography and the valley system. Clover and lucerne grass is found in every landscape, most on the till plain (91 ha) and in the strongly undulating hummocky topography (53 ha), where some fields keep it for five or six years.</p>
+<h3 id="the-20-largest-crop-combinations">The 20 largest crop combinations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-20-largest-crop-combinations" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="../../_assets/figures/ledreborg-crop-combinations-2021-2026.png" alt width="auto" height="auto"/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Crop classes 2021–2026 (unordered)</th><th>Area (ha)</th></tr></thead><tbody><tr><td>Seed grass, Spring barley, Winter canola, Winter wheat</td><td>298</td></tr><tr><td>Spring barley, Winter canola, Winter wheat</td><td>217</td></tr><tr><td>Permanent grass</td><td>201</td></tr><tr><td>Fallow</td><td>98</td></tr><tr><td>Spring barley, Winter barley, Winter canola, Winter wheat</td><td>87</td></tr><tr><td>Rye, Seed grass, Spring barley, Winter canola, Winter wheat</td><td>62</td></tr><tr><td>Seed grass, Spring barley, Winter wheat</td><td>61</td></tr><tr><td>Rye, Spring barley, Winter canola, Winter wheat</td><td>55</td></tr><tr><td>Rye, Winter canola, Winter wheat</td><td>52</td></tr><tr><td>Grass in rotation, Permanent grass</td><td>31</td></tr><tr><td><em>…the 20 largest together</em></td><td><em>1,332 (85 %)</em></td></tr><tr><td><em>184 combinations in all</em></td><td><em>1,559</em></td></tr></tbody></table></div>
+<p>95 % of the flattened area (1,477 ha) has a crop in all six years; the rest are pieces that were a field in only some years, mostly along edges.</p>
+<h2 id="5-points-for-the-discussion">5. Points for the discussion<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-points-for-the-discussion" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>Winter cover.</strong> Winter wheat, winter canola, rye and winter barley (610–770 ha a year) are green through the winter; spring barley, oats and spring wheat (205–365 ha) leave the soil bare or in stubble from harvest to spring, unless a catch crop is sown. The winter NDVI the assignment asks for shows which fields were actually green; Marker alone cannot.</li>
+<li><strong>Where to target.</strong> Arable rotations cover 81–88 % of the fields on the till plain and the glacial lake deposit, but only 41 % in the strongly undulating hummocky topography, where a third of the fields are grass. The landscapes are units of the kind Christensen et al. (2021) propose: each has its own pattern of land use, repeated across several farms. Combined with soil, drainage and the national nitrogen retention map (see <a href="../../domain-hubs/agriculture/calculating-permitted-fertiliser-with-nuar-(example)" class="internal internal-link alias" data-slug="domain-hubs/agriculture/calculating-permitted-fertiliser-with-nuar-(example)">Calculating permitted fertiliser with NUAR (Example)</a>), the rotations show where changing a rotation, or taking land out of it, would reduce the load on the water the most. Their study also shows the limits: the stakeholders agreed that there was a nitrogen problem, but not on its size or on how to solve it, and a map like this is an input to that negotiation, not its answer.</li>
+<li><strong>What is a legume?</strong> By the simplified classes there are 65 ha of legumes; with clover and lucerne grass, three to four times as much. The definition decides the map; record it (<a href="../../tasks/categories-from-register-codes-(task)" class="internal internal-link alias" data-slug="tasks/categories-from-register-codes-(task)">Categories from register codes (Task)</a>).</li>
+<li><strong>Unordered on purpose, and what it loses.</strong> The combination puts fields at different stages of the same rotation together, which is why the largest combinations are clear. It also drops the order: grass ploughed before a cereal, or a pulse before wheat, releases nitrogen in a particular year. For that, read the year columns of the flattened layer.</li>
+<li><strong>Short histories.</strong> Six years is one or two rotations. <em>Permanent grass</em> in the table includes pieces that are permanent grass in every declared year, but a piece declared in fewer years gets the same label; <code>rotation_periods</code> says how many years a combination is based on.</li>
+<li><strong>Preliminary 2026.</strong> The 2026 layer is still being updated; the 2026 column will change.</li>
+<li><strong>Boundaries.</strong> At a 2 m tolerance, about 1,900 slivers from re-digitised boundaries are merged away. Strips narrower than 2 m go too; wider fallow strips along the field edges stay, which is why thin red strips show along many fields on the map.</li>
+</ul>
+<h2 id="sources">Sources<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#sources" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Christensen, A. Aa., Andersen, P. S., Kjeldsen, C., Graversgaard, M., Andersen, E., Piil, K., Dalgaard, T., Olesen, J. E. and Vejre, H. (2021). Achieving sustainable nitrogen management in mixed farming landscapes based on collaborative planning. <em>Sustainability</em> 13, 2140. <a href="https://doi.org/10.3390/su13042140" class="external external-link">doi:10.3390/su13042140<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Marker 2021–2026: Styrelsen for Grøn Arealomlægning og Vandmiljø (earlier years published by Landbrugsstyrelsen), WFS geodata.fvm.dk, fetched 12 November 2026.</li>
+<li>Crop names and classes: <a href="../../data/inner-workings/code-lists/danish-crop-codes-afgkode" class="internal internal-link alias" data-slug="data/inner-workings/code-lists/danish-crop-codes-afgkode">Data/Inner workings/Code lists/danish-crop-codes-afgkode</a>, SemanticGIS.</li>
+</ul></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-2114" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#example-data" data-for="example-data">Example data</a></li><li class="depth-0"><a href="#1-spatial-intent" data-for="1-spatial-intent">1. Spatial Intent</a></li><li class="depth-0"><a href="#2-auditing-the-data" data-for="2-auditing-the-data">2. Auditing the data</a></li><li class="depth-0"><a href="#3-the-analytical-schema" data-for="3-the-analytical-schema">3. The Analytical Schema</a></li><li class="depth-1"><a href="#settings-used" data-for="settings-used">Settings used</a></li><li class="depth-0"><a href="#4-results" data-for="4-results">4. Results</a></li><li class="depth-1"><a href="#crops-per-year" data-for="crops-per-year">Crops per year</a></li><li class="depth-1"><a href="#legumes" data-for="legumes">Legumes</a></li><li class="depth-1"><a href="#the-20-largest-crop-combinations" data-for="the-20-largest-crop-combinations">The 20 largest crop combinations</a></li><li class="depth-0"><a href="#5-points-for-the-discussion" data-for="5-points-for-the-discussion">5. Points for the discussion</a></li><li class="depth-0"><a href="#sources" data-for="sources">Sources</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-0" class="overflow"><li><a href="../../data/datasets/marker" class="internal">Marker</a></li><li><a href="../../domain-hubs/agriculture/2026-norms-and-nuar-at-ledreborg-(example)" class="internal">2026 norms and NUAR at Ledreborg (Example)</a></li><li><a href="../../domain-hubs/agriculture/" class="internal">Agriculture</a></li><li><a href="../../domain-hubs/landscape-ecology/vegetation-greenness-at-ledreborg-(example)" class="internal">Vegetation greenness at Ledreborg (Example)</a></li><li><a href="../../tasks/history-from-yearly-snapshots-(task)" class="internal">History from yearly snapshots (Task)</a></li><li><a href="../../the-technology-stack/processing-environments/qgis/recipes/history-from-yearly-snapshots-(recipe---qgis)" class="internal">History from yearly snapshots (Recipe — QGIS)</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="../../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../postscript-2d7995a1.js" type="module" data-persist="true"></script></html>

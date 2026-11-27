@@ -1,0 +1,171 @@
+{
+ "type": "Feature",
+ "stac_version": "1.0.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+  "https://stac-extensions.github.io/classification/v2.0.0/schema.json",
+  "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+ ],
+ "id": "ledreborg-crops-2026-11-12",
+ "bbox": [
+  11.87683,
+  55.60059,
+  11.96334,
+  55.64892
+ ],
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     11.87683,
+     55.60059
+    ],
+    [
+     11.96334,
+     55.60059
+    ],
+    [
+     11.96334,
+     55.64892
+    ],
+    [
+     11.87683,
+     55.64892
+    ],
+    [
+     11.87683,
+     55.60059
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "Example data: Crop rotations at Ledreborg",
+  "description": "Data for the SemanticGIS example on crop rotations at Ledreborg Gods, Lejre (Agriculture), frozen as they were used, so the example's numbers can be reproduced without downloading.",
+  "datetime": "2026-11-12T00:00:00Z",
+  "proj:code": "EPSG:25832",
+  "proj:bbox": [
+   681231,
+   6165603,
+   686468,
+   6170768
+  ],
+  "license": "various",
+  "semanticgis:sources": [
+   {
+    "name": "Marker 2021–2026: Styrelsen for Grøn Arealomlægning og Vandmiljø, WFS geodata.fvm.dk",
+    "text": [
+     "Free public data. Fetched 12 November 2026; 2026 is preliminary.",
+     "Attribution: Indeholder data fra Styrelsen for Grøn Arealomlægning og Vandmiljø, Marker, hentet 12. november 2026",
+     "(standard wording; check the publisher's terms before publishing)"
+    ]
+   },
+   {
+    "name": "Crop codes: SemanticGIS, from the agency's Oversigt over afgrødekoder til Fællesskema 2026",
+    "text": [
+     "English names and simplified classes by SemanticGIS."
+    ]
+   },
+   {
+    "name": "Landscapes",
+    "text": [
+     "Digitised for the example by Esbern Holmes, Roskilde University."
+    ]
+   }
+  ]
+ },
+ "assets": {
+  "vectors": {
+   "href": "ledreborg_crops.gpkg",
+   "type": "application/geopackage+sqlite3",
+   "roles": [
+    "data"
+   ],
+   "title": "Fields 2021–2026 and landscapes (GeoPackage)",
+   "description": "Marker 2021–2026 as the example used it: fetched with Download snapshot series (SemanticGIS plugin), clipped to the landscapes, one feature per field and year. Identifiers of the applicant are left out.",
+   "semanticgis:layers": [
+    {
+     "name": "marker",
+     "title": "Marker 2021–2026, clipped to the landscapes",
+     "table:row_count": 2814,
+     "table:columns": [
+      {
+       "name": "snapshot_year",
+       "type": "int64",
+       "description": "the year of the snapshot (the layer it came from)"
+      },
+      {
+       "name": "snapshot_layer",
+       "type": "string",
+       "description": "the WFS layer, e.g. Marker:Marker_2026"
+      },
+      {
+       "name": "Afgkode",
+       "type": "int32",
+       "description": "crop code of that year's Fællesskema",
+       "semanticgis:codelist": "codelist-crop-codes"
+      },
+      {
+       "name": "Afgroede",
+       "type": "string",
+       "description": "crop name, Danish"
+      },
+      {
+       "name": "IMK_areal",
+       "type": "float64",
+       "description": "area of the whole field, ha (not of the clipped part)"
+      },
+      {
+       "name": "GB",
+       "type": "int32",
+       "description": "basic payment applied for (1/0)"
+      },
+      {
+       "name": "Markblok",
+       "type": "string",
+       "description": "the field block the field lies in"
+      }
+     ]
+    },
+    {
+     "name": "landscapes",
+     "title": "the example's landscape types",
+     "table:row_count": 8,
+     "table:columns": [
+      {
+       "name": "landscape",
+       "type": "string"
+      }
+     ]
+    }
+   ]
+  },
+  "codelist-crop-codes": {
+   "href": "codelists/crop_codes_dk.csv",
+   "type": "text/csv",
+   "roles": [
+    "metadata",
+    "codelist"
+   ],
+   "title": "Danish crop codes: names in Danish and English, groups, categories, simplified classes",
+   "semanticgis:source": "https://semanticgis.org/data/code-lists/danish-crop-codes-(afgkode)",
+   "semanticgis:retrieved": "2026-11-12"
+  },
+  "readme": {
+   "href": "README.txt",
+   "type": "text/plain",
+   "roles": [
+    "metadata"
+   ],
+   "title": "README"
+  }
+ },
+ "links": [
+  {
+   "rel": "related",
+   "title": "Crop rotations at Ledreborg",
+   "href": "https://semanticgis.org/domain-hubs/agriculture/crop-rotations-at-ledreborg-(example)"
+  }
+ ]
+}

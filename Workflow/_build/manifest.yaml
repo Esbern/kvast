@@ -1,0 +1,39 @@
+metadata:
+  title: "SemanticGIS: Designing and Documenting Geospatial Workflows"
+  author: "Esbern Holmes"
+  date: "\\today"
+
+output_filename: "SemanticGIS Book - Draft (Part 1-2).pdf"
+
+# No numbers here anymore - LaTeX/pandoc auto-numbers Parts, Chapters and
+# A/B/C-level Sections (see _build/preamble.tex for the Part.Chapter
+# scheme). Order below is reading order; filenames on disk are just for
+# your own Obsidian browsing and are never parsed for order or numbers.
+
+parts:
+  - title: "Introduction"
+    sections:
+      - title: "Introduction"
+        file: "Workflow/Part 1 Introduction/1.1 Introduction.md"
+      - title: "The Workflow"
+        file: "Workflow/Part 1 Introduction/1.2 The workflow.md"
+
+  - title: "The Hermetic Example Workflow"
+    intro: "Workflow/Part 2 The Hermetic Example Workflow/index.md"
+    sections:
+      - title: "Scoping the Workflow"
+        subsections:
+          - title: "Explanatory Material"
+            file: "Workflow/Part 2 The Hermetic Example Workflow/2.1 Scoping the Workflow/A - Explanatorial material.md"
+          - title: "Protocol"
+            file: "Workflow/Part 2 The Hermetic Example Workflow/2.1 Scoping the Workflow/B - Scoping Protocol.md"
+          - title: "Design Rationale (Case Example: Scoping)"
+            file: "Workflow/Part 2 The Hermetic Example Workflow/2.1 Scoping the Workflow/C - Design Rationale (case example scoping).md"
+      - title: "Establishing the Data Framework"
+        subsections:
+          - title: "Explanatory Material"
+            file: "Workflow/Part 2 The Hermetic Example Workflow/2.2 Establishing the Data Framework/A - Explanatory material.md"
+          - title: "Protocol"
+            file: "Workflow/Part 2 The Hermetic Example Workflow/2.2 Establishing the Data Framework/B - Protocol.md"
+          - title: "Design Rationale (Case Example: Data Model)"
+            file: "Workflow/Part 2 The Hermetic Example Workflow/2.2 Establishing the Data Framework/C - Design Rationale (case example data model).md"

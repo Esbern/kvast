@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><meta name="robots" content="noindex,nofollow"/><title>CentraleVirksomhedsregister</title><meta charset="utf-8"/><link rel="preload" href="../../../../index-bb6c1746.css" as="style"/><link rel="preload" href="../../../../prescript-2bfc6315.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="SemanticGIS v2 (test)"/><meta property="og:title" content="CentraleVirksomhedsregister"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="CentraleVirksomhedsregister"/><meta name="twitter:description" content="The Central Business Register (CVR) is Denmark’s authoritative registry of all organizations—from one-person enterprises to multinational corporations."/><meta property="og:description" content="The Central Business Register (CVR) is Denmark’s authoritative registry of all organizations—from one-person enterprises to multinational corporations."/><meta property="og:image:alt" content="The Central Business Register (CVR) is Denmark’s authoritative registry of all organizations—from one-person enterprises to multinational corporations."/><meta property="twitter:domain" content="semanticgis.xyz"/><meta property="og:url" content="https://semanticgis.xyz/data/inner-workings/schemas/centrale-virksomhedsregister/index"/><meta property="twitter:url" content="https://semanticgis.xyz/data/inner-workings/schemas/centrale-virksomhedsregister/index"/><link rel="icon" href="../../../../static/icon.png"/><meta name="description" content="The Central Business Register (CVR) is Denmark’s authoritative registry of all organizations—from one-person enterprises to multinational corporations."/><meta name="generator" content="Quartz"/><link href="../../../../index-bb6c1746.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-7f220492.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-67aa041a.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../static/resource-style-9857b007.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../../../static/resource-style-d3a1a224.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../../../prescript-2bfc6315.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../../../static/contentIndex.json").then(data => data.json())</script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk%3Awght%40400%3B700&amp;family=Source%20Sans%20Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;family=IBM%20Plex%20Mono%3Awght%40400%3B600&amp;display=swap"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://semanticgis.xyz/data/inner-workings/schemas/centrale-virksomhedsregister/index-og-image.webp"/><meta property="og:image:url" content="https://semanticgis.xyz/data/inner-workings/schemas/centrale-virksomhedsregister/index-og-image.webp"/><meta name="twitter:image" content="https://semanticgis.xyz/data/inner-workings/schemas/centrale-virksomhedsregister/index-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/index" data-basepath><div id="v2-test-banner" role="note" style="position:sticky;top:0;z-index:9999;background:#8a1c1c;color:#fff;text-align:center;padding:.45rem 1rem;font:600 .95rem/1.4 sans-serif">Test site: content may be wrong or change. Use <a href="https://semanticgis.org/" style="color:#fff;text-decoration:underline">semanticgis.org</a></div><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../../../..">SemanticGIS v2 (test)</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Search" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something..." placeholder="Search for something..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="Dark mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="Reader mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-2071" aria-label="Explorer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-2071" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../../data/">Data</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../../data/inner-workings/">Inner workings</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../../data/inner-workings/schemas/">Schemas</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>CentraleVirksomhedsregister</a></div></nav><h1 class="article-title">CentraleVirksomhedsregister</h1><details class="note-properties metadata-container" open data-collapsed="false"><summary class="note-properties-header"><span class="note-properties-title">Properties</span><span class="note-properties-count">1</span></summary><table class="note-properties-table"><tbody><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">aliases</td><td class="note-properties-value metadata-property-value"><span class="note-properties-list"><span class="note-properties-text">Data/Realisations/CVR_CentraleVirksomhedsregister_business_financials</span><span class="note-properties-separator">, </span><span class="note-properties-text">Data/Realisations/CVR_CentraleVirksomhedsregister_business_locations</span><span class="note-properties-separator">, </span><span class="note-properties-text">Data/Realisations/CVR_CentraleVirksomhedsregister_corporate_ownership</span><span class="note-properties-separator">, </span><span class="note-properties-text">Data/Realisations/CVR_CentraleVirksomhedsregister_economic_activities</span><span class="note-properties-separator">, </span><span class="note-properties-text">Data/Realisations/CVR_CentraleVirksomhedsregister_firms</span><span class="note-properties-separator">, </span><span class="note-properties-text">Data/Realisations/CVR_CentraleVirksomhedsregister_services</span><span class="note-properties-separator">, </span><span class="note-properties-text">Data/Datasets by Collection/Datafordeleren/Det Centrale Virksomhedsregister (CVR)/index</span><span class="note-properties-separator">, </span><span class="note-properties-text">Data/Datasets by Collection/Grunddatamodellen/CentraleVirksomhedsregister/index</span></span></td></tr></tbody></table></details><p show-comma="true" class="content-meta"><time datetime="2026-11-26T12:03:25.000Z">Nov 26, 2026</time><span>14 min read</span></p></div></div><div class="popover-hint"><article class><div class="markdown-preview-view markdown-rendered"><p>The Central Business Register (CVR) is Denmark’s authoritative registry of all organizations—from one-person enterprises to multinational corporations. It is a core component of the <strong><a href="../../../../data/inner-workings/schemas/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/index">Grunddatamodellen</a></strong>.</p>
+<p>This page inherits shared contracts from Grunddatamodellen and only documents CVR-specific rules:</p>
+<ul>
+<li><a href="../../../../data/inner-workings/schemas/grunddata/shared-temporal-superclass-contract" class="internal internal-link alias" data-slug="data/inner-workings/schemas/grunddata/shared-temporal-superclass-contract">Shared Temporal Superclass Contract</a></li>
+<li><a href="../../../../data/inner-workings/schemas/grunddata/common-access-pattern-graphql-and-filedownload" class="internal internal-link alias" data-slug="data/inner-workings/schemas/grunddata/common-access-pattern-graphql-and-filedownload">Common Access Pattern - GraphQL and Filedownload</a></li>
+</ul>
+<h2 id="register-information">Register Information<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#register-information" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td><strong>Name</strong></td><td>CentraleVirksomhedsregister</td></tr><tr><td><strong>ID</strong></td><td>EAPK_5CC19393_669B_4e92_9C5B_E0931BBF44D1</td></tr><tr><td><strong>Domain</strong></td><td>Business &amp; Economic</td></tr><tr><td><strong>Object Classes</strong></td><td>27</td></tr><tr><td><strong>Attributes</strong></td><td>361</td></tr><tr><td><strong>Source</strong></td><td>2.2.0_CentraleVirksomhedsregister.xml</td></tr></tbody></table></div>
+<h2 id="overview">Overview<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#overview" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>CVR captures:</p>
+<ul>
+<li><strong>Company entities</strong>: Legal identifiers (CVR number), names, addresses, industry codes</li>
+<li><strong>Ownership structures</strong>: Ownership relations, stakeholders, beneficial owners</li>
+<li><strong>Leadership</strong>: Management boards, executive officers, authorized signatories</li>
+<li><strong>Financial data</strong>: Accounting reports, taxes, balance sheets</li>
+<li><strong>Operations</strong>: Production units, employees, business activities</li>
+<li><strong>Relations</strong>: Dependencies between companies, group structures, ownership chains</li>
+</ul>
+<h2 id="agent-start-here">Agent Start Here<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#agent-start-here" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>If an agent arrives from <a href="../../../../data/sphere" class="internal internal-link" data-slug="data/sphere">SPHERE</a> or a leaf page, use this page as the shortest collection-specific handoff.</p>
+<h3 id="1-pick-the-right-leaf-first">1. Pick the right leaf first<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-pick-the-right-leaf-first" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>User need</th><th>Start leaf</th><th>Primary CVR entities</th><th>Spatial path</th><th>Time rule</th></tr></thead><tbody><tr><td>Identify a legal business entity</td><td><a href="../../../../data/leaves/firms" class="internal internal-link alias" data-slug="data/leaves/firms">Firms</a></td><td><code>Virksomhed</code>, <code>CVREnhed</code>, <code>Navn</code>, <code>Virksomhedsform</code></td><td>registered office via <code>CVRAdresse</code> -> DAR</td><td>current = <code>registreringTil IS NULL</code> and <code>virkningTil IS NULL</code></td></tr><tr><td>Find business activity / sector</td><td><a href="../../../../data/leaves/economic-activities" class="internal internal-link alias" data-slug="data/leaves/economic-activities">Economic Activities</a></td><td><code>Branche</code>, <code>Virksomhed</code>, <code>Produktionsenhed</code></td><td>via <code>CVRAdresse</code> -> DAR</td><td>current = <code>registreringTil IS NULL</code> and <code>virkningTil IS NULL</code></td></tr><tr><td>Locate firms or establishments</td><td><a href="../../../../data/leaves/business-locations" class="internal internal-link alias" data-slug="data/leaves/business-locations">Business Locations</a></td><td><code>Produktionsenhed</code>, <code>Virksomhed</code>, <code>CVRAdresse</code></td><td><code>CVRAdresse</code> -> <code>Adresse</code> -> geometry</td><td>current = <code>registreringTil IS NULL</code> and <code>virkningTil IS NULL</code></td></tr><tr><td>Find owners / controllers</td><td><a href="../../../../data/leaves/corporate-ownership" class="internal internal-link alias" data-slug="data/leaves/corporate-ownership">Ownership and Governance</a></td><td><code>Ejerforhold</code>, <code>Reelejerrelation</code>, <code>Legalejerrelation</code>, <code>Virksomhed</code></td><td>map owned entity via <code>Virksomhed</code> -> <code>CVRAdresse</code> -> DAR</td><td>time-slice on relation entity, not only on <code>Virksomhed</code></td></tr><tr><td>Find accounts / employment</td><td><a href="../../../../data/leaves/business-financials" class="internal internal-link alias" data-slug="data/leaves/business-financials">Economics and Employment</a></td><td><code>Regnskab</code>, <code>Beskæftigelse</code>, <code>Virksomhed</code>, <code>Produktionsenhed</code></td><td>map reporting entity via <code>CVRAdresse</code> when needed</td><td>respect both accounting period and bitemporal validity</td></tr><tr><td>Measure service availability</td><td><a href="../../../../data/leaves/services" class="internal internal-link alias" data-slug="data/leaves/services">Services and Amenities</a></td><td><code>Produktionsenhed</code>, <code>Branche</code>, <code>CVRAdresse</code></td><td>service point via <code>Produktionsenhed</code> -> <code>CVRAdresse</code> -> DAR</td><td>current = <code>registreringTil IS NULL</code> and <code>virkningTil IS NULL</code></td></tr></tbody></table></div>
+<h3 id="2-apply-the-minimum-interpretation-rules">2. Apply the minimum interpretation rules<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-apply-the-minimum-interpretation-rules" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><code>Virksomhed</code> = legal entity anchor</li>
+<li><code>Produktionsenhed</code> = operational site / establishment</li>
+<li><code>CVRAdresse</code> = text-based address object, not geometry by itself</li>
+<li><code>registrering*</code> = system transaction time</li>
+<li><code>virkning*</code> = real-world legal validity time</li>
+</ul>
+<h3 id="3-use-the-semantic-bridge-before-entity-pages">3. Use the semantic bridge before entity pages<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-use-the-semantic-bridge-before-entity-pages" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation">CVR Semantic Organisation</a></li>
+<li><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/codebook-and-normalization" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/codebook-and-normalization">CVR Codebook and Normalization Model</a></li>
+</ul>
+<h2 id="key-entity-types">Key Entity Types<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-entity-types" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>virksomhed</strong> - Company/organization core entity</li>
+<li><strong>ledelse</strong> - Leadership and board members</li>
+<li><strong>regnskab</strong> - Financial accounts</li>
+<li><strong>produktionsenhed</strong> - Production units and establishment records</li>
+<li><strong>ejerforhold</strong> - Ownership relationships</li>
+<li><strong>reelejerrelation</strong> - Beneficial ownership links</li>
+<li><strong>ledelserelation</strong> - Leadership role assignments</li>
+<li><strong>kapitalforhold</strong> - Capital share relationships</li>
+<li>And 19 others (see links below)</li>
+</ul>
+<h2 id="minimal-decision-matrix">Minimal Decision Matrix<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#minimal-decision-matrix" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>If the user asks…</th><th>Start from</th><th>Prefer access path</th><th>Why</th></tr></thead><tbody><tr><td>”Which companies match these filters?”</td><td><code>Virksomhed</code> or <code>Produktionsenhed</code></td><td>GraphQL</td><td>push filters early and avoid bulk joins</td></tr><tr><td>”Give me all businesses in this municipality / sector”</td><td>relevant leaf -> entity bundle</td><td>GraphQL if bounded, file download if broad</td><td>depends on expected result volume</td></tr><tr><td>”Build a full local snapshot”</td><td>collection index -> entity catalog</td><td>File download</td><td>CVR is normalized and bulk-friendly</td></tr><tr><td>”Show owners / ownership chain”</td><td>ownership leaf -> relation entities</td><td>GraphQL for targeted lookup, file download for graph rebuild</td><td>ownership spans several relation entities</td></tr><tr><td>”Geocode business data”</td><td>business-locations leaf</td><td>either, but DAR join required</td><td>CVR stores address components, not geometry</td></tr></tbody></table></div>
+<h2 id="how-to-read-cvrs-normalized-structure">How to Read CVR’s Normalized Structure<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-to-read-cvrs-normalized-structure" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>CVR is highly normalized. This means many sub-entities are not separate “themes” but structural parts of one business-domain model.</p>
+<blockquote>
+<p><strong>Tip:</strong> If you have a specific question, start from a <strong><a href="../../../../data/leaves/" class="internal internal-link alias" data-slug="data/leaves/index">Leaf</a></strong> rather than the entity catalog below. Leaves are purpose-specific entry points:</p>
+<ul>
+<li><a href="../../../../data/leaves/firms" class="internal internal-link alias" data-slug="data/leaves/firms">Firms</a> — What firm is this, as a legal registered entity?</li>
+<li><a href="../../../../data/leaves/economic-activities" class="internal internal-link alias" data-slug="data/leaves/economic-activities">Economic Activities</a> — What economic activity does a business perform?</li>
+<li><a href="../../../../data/leaves/business-locations" class="internal internal-link alias" data-slug="data/leaves/business-locations">Business Locations</a> — Where does a business physically operate?</li>
+<li><a href="../../../../data/leaves/corporate-ownership" class="internal internal-link alias" data-slug="data/leaves/corporate-ownership">Ownership and Governance</a> — Who owns, controls, or governs a firm?</li>
+<li><a href="../../../../data/leaves/business-financials" class="internal internal-link alias" data-slug="data/leaves/business-financials">Economics and Employment</a> — What are the economic and employment characteristics of a firm or establishment?</li>
+<li><a href="../../../../data/leaves/services" class="internal internal-link alias" data-slug="data/leaves/services">Services and Amenities</a> — What services or amenities are available at or near a location?</li>
+</ul>
+</blockquote>
+<p>For humans and AI, the key interpretation is:</p>
+<ul>
+<li><code>virksomhed</code> is the anchor entity (start here)</li>
+<li>many sub-entities are attached properties or relations (for example leadership, branches, ownership, accounts)</li>
+<li>in file-download workflows, each entity is delivered separately and must be joined into an analysis-ready model</li>
+</ul>
+<h3 id="practical-rule">Practical Rule<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#practical-rule" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Treat CVR as a <strong>joinable entity graph</strong>, not as one flat table.</p>
+<h3 id="add-a-semantic-layer">Add a Semantic Layer<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#add-a-semantic-layer" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Use a second layer that maps technical entities to business meaning, so key concepts do not get hidden inside normalized structures.</p>
+<ul>
+<li>Semantic organization guide: <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation">CVR Semantic Organisation</a></li>
+<li>Machine-readable semantic map: <a href="../../../../data/inner-workings/assets/source-manifests/datafordeler/cvr.semantic.entity-attribute-map.v1.json" class="internal internal-link" data-slug="data/inner-workings/assets/source-manifests/datafordeler/cvr.semantic.entity-attribute-map.v1.json">cvr.semantic.entity-attribute-map.v1.json</a></li>
+</ul>
+<hr/>
+<h2 id="access-strategy-graphql-vs-file-download">Access Strategy: GraphQL vs File Download<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#access-strategy-graphql-vs-file-download" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Access path</th><th>Best when</th><th>Trade-off</th></tr></thead><tbody><tr><td><strong>GraphQL</strong></td><td>You have hard filters (industry, municipality, active status, time slice) and want targeted records</td><td>Less post-processing, more query design effort</td></tr><tr><td><strong>File Download API</strong></td><td>You need broad extraction or full snapshots without strict early filters</td><td>Fast bulk retrieval, but requires local joins across many entities</td></tr></tbody></table></div>
+<h3 id="decision-rules">Decision Rules<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#decision-rules" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Use <strong>GraphQL</strong> when the user already gives municipality, activity code, status, owner, or time filters.</li>
+<li>Use <strong>File Download</strong> when the user needs broad extraction, cross-entity reconstruction, or repeatable local analysis.</li>
+<li>Use <strong>DAR join after CVR selection</strong>, not before, unless the primary task is address matching or geocoding quality control.</li>
+<li>Use <strong>Produktionsenhed</strong> for operational location questions and <strong>Virksomhed</strong> for legal-registration questions.</li>
+</ul>
+<h3 id="why-this-matters">Why this matters<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#why-this-matters" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>If you pull CVR through file download, you typically download multiple entities independently, then reconstruct business objects by joining on CVR identifiers and temporal keys.</p>
+<hr/>
+<h2 id="join-blueprint-human--ai">Join Blueprint (Human + AI)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#join-blueprint-human--ai" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="canonical-join-keys">Canonical join keys<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#canonical-join-keys" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Key</th><th>Meaning</th><th>Where used</th></tr></thead><tbody><tr><td><code>CVREnhedsId</code></td><td>stable business-side identifier</td><td>joins legal entity, ownership, leadership, financial records</td></tr><tr><td><code>pnummer</code></td><td>production-unit identifier</td><td>establishment-level analysis</td></tr><tr><td><code>id_lokalid</code></td><td>record-level primary key</td><td>entity-local identity</td></tr><tr><td><code>kommunekode</code> + <code>vejnavn</code> + <code>husnummer</code> (+ <code>bogstav</code> / <code>postnummer</code>)</td><td>address matching tuple</td><td>CVR -> DAR geocoding</td></tr></tbody></table></div>
+<h3 id="task-recipes">Task recipes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#task-recipes" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Task</th><th>Base entity</th><th>Attach</th><th>Output shape</th></tr></thead><tbody><tr><td>Economic activity lookup</td><td><code>Virksomhed</code> or <code>Produktionsenhed</code></td><td><code>Branche</code>, <code>Navn</code>, optional <code>CVRAdresse</code></td><td>business list or establishment list</td></tr><tr><td>Business geolocation</td><td><code>Produktionsenhed</code></td><td><code>CVRAdresse</code> -> DAR</td><td>point dataset</td></tr><tr><td>Beneficial ownership</td><td><code>Virksomhed</code></td><td><code>Reelejerrelation</code>, <code>Legalejerrelation</code>, <code>Ejerforhold</code></td><td>graph / relation view</td></tr><tr><td>Financial extraction</td><td><code>Virksomhed</code></td><td><code>Regnskab</code>, <code>Beskæftigelse</code>, optional <code>Revision</code></td><td>yearly panel or current snapshot</td></tr></tbody></table></div>
+<h3 id="1-build-base-table">1. Build base table<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-build-base-table" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>load <code>virksomhed</code> as base</li>
+<li>keep only required records (for example active entities)</li>
+<li>retain stable IDs (<code>CVREnhedsId</code>) and temporal fields (<code>registreringFra</code>, relevant virkning fields)</li>
+</ul>
+<h3 id="2-attach-core-relation-groups">2. Attach core relation groups<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-attach-core-relation-groups" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><code>produktionsenhed</code> (operational units)</li>
+<li><code>ledelse</code> + <code>ledelserelation</code> (management)</li>
+<li><code>ejerforhold</code> + <code>reelejerrelation</code> (ownership)</li>
+<li><code>regnskab</code> (financials)</li>
+</ul>
+<h3 id="3-add-spatial-linkage">3. Add spatial linkage<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-add-spatial-linkage" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>extract address components from CVR</li>
+<li>normalize text and number format</li>
+<li>join to DAR for coordinates/geocoding</li>
+</ul>
+<h3 id="4-build-analysis-views">4. Build analysis views<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-build-analysis-views" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>company-centric view (one row per virksomhed)</li>
+<li>establishment-centric view (one row per produktionsenhed)</li>
+<li>relation/graph view (ownership and leadership networks)</li>
+</ul>
+<h2 id="current-vs-historical-queries">Current vs Historical Queries<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#current-vs-historical-queries" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Use this rule before any extraction:</p>
+<ul>
+<li><strong>Current snapshot</strong>: filter <code>registreringTil IS NULL</code> and <code>virkningTil IS NULL</code></li>
+<li><strong>Historical slice</strong>: filter by target date inside <code>virkningFra &lt;= t &lt; virkningTil</code> (or open-ended validity)</li>
+<li><strong>Audit / transaction history</strong>: inspect <code>registreringFra</code> and <code>registreringTil</code></li>
+</ul>
+<p>Do not treat <code>registrering*</code> and <code>virkning*</code> as interchangeable.</p>
+<hr/>
+<h2 id="ai-execution-contract-recommended">AI Execution Contract (Recommended)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ai-execution-contract-recommended" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>For machine execution, use the canonical source manifest plus a compact playbook:</p>
+<ul>
+<li>Canonical source manifest: <a href="../../../../data/inner-workings/assets/source-manifests/datafordeler/cvr.source.manifest.v1.json" class="internal internal-link" data-slug="data/inner-workings/assets/source-manifests/datafordeler/cvr.source.manifest.v1.json">cvr.source.manifest.v1.json</a></li>
+<li>CVR access playbook: <a href="../../../../data/inner-workings/assets/source-manifests/datafordeler/cvr.access.playbook.v1.json" class="internal internal-link" data-slug="data/inner-workings/assets/source-manifests/datafordeler/cvr.access.playbook.v1.json">cvr.access.playbook.v1.json</a></li>
+<li>CVR semantic map: <a href="../../../../data/inner-workings/assets/source-manifests/datafordeler/cvr.semantic.entity-attribute-map.v1.json" class="internal internal-link" data-slug="data/inner-workings/assets/source-manifests/datafordeler/cvr.semantic.entity-attribute-map.v1.json">cvr.semantic.entity-attribute-map.v1.json</a></li>
+<li>Shared temporal superclass: <a href="../../../../data/inner-workings/assets/source-manifests/datafordeler/grunddata.common.temporal-superclass.v1.json" class="internal internal-link" data-slug="data/inner-workings/assets/source-manifests/datafordeler/grunddata.common.temporal-superclass.v1.json">grunddata.common.temporal-superclass.v1.json</a></li>
+<li>Shared access pattern: <a href="../../../../data/inner-workings/assets/source-manifests/datafordeler/grunddata.common.access-pattern.v1.json" class="internal internal-link" data-slug="data/inner-workings/assets/source-manifests/datafordeler/grunddata.common.access-pattern.v1.json">grunddata.common.access-pattern.v1.json</a></li>
+</ul>
+<p>The playbook is intended to prevent two common failure modes:</p>
+<ul>
+<li>treating normalized sub-entities as independent datasets without join planning</li>
+<li>extracting full snapshots and only later discovering that required hard filters were missing</li>
+</ul>
+<p>If a referenced machine-readable companion is unavailable in the published site, treat this page plus <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation">CVR Semantic Organisation</a> as the canonical human-readable fallback.</p>
+<h2 id="entity-catalog">Entity Catalog<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#entity-catalog" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Each entity type is documented separately:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Entity</th><th>Purpose</th></tr></thead><tbody><tr><td><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/virksomhed" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/virksomhed">virksomhed</a></td><td>Core company entity with identification</td></tr><tr><td><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/ledelse" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/ledelse">ledelse</a></td><td>Leadership roles and board members</td></tr><tr><td><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/regnskab" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/regnskab">regnskab</a></td><td>Annual financial accounts</td></tr><tr><td><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/produktionsenhed" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/produktionsenhed">produktionsenhed</a></td><td>Production units / establishments</td></tr><tr><td><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/ejerforhold" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/ejerforhold">ejerforhold</a></td><td>Direct ownership relationships</td></tr><tr><td><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/reelejerrelation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/reelejerrelation">reelejerrelation</a></td><td>Beneficial ownership tracking</td></tr><tr><td><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/ledelserelation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/ledelserelation">ledelserelation</a></td><td>Leadership assignments</td></tr></tbody></table></div>
+<h2 id="role-of-the-collection-page">Role of the Collection Page<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#role-of-the-collection-page" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>This page is intentionally <strong>execution-oriented</strong>. It should tell humans and agents how to route from a question to the right entities, joins, temporal filters, and access path.</p>
+<p>Most concept-heavy interpretation should live in the relevant <a href="../../../../data/leaves/" class="internal internal-link alias" data-slug="data/leaves/index">leaves</a>.</p>
+<ul>
+<li>See all 27 entity types in the folder</li>
+</ul>
+<h2 id="access-cvr-data">Access CVR Data<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#access-cvr-data" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="service-access">Service Access<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#service-access" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>GraphQL</strong>: Query with flexible field selection → <a href="../../../../data/inner-workings/platforms/datafordeleren/graphql" class="internal internal-link alias" data-slug="data/inner-workings/platforms/datafordeleren/graphql">Datafordeleren GraphQL Guide</a></li>
+<li><strong>OData / REST</strong>: Standard RESTful endpoints</li>
+<li><strong>File Downloads</strong>: Bulk exports from Datafordeleren portal</li>
+<li><strong>SOAP</strong>: Legacy SOAP services</li>
+</ul>
+<h3 id="getting-started">Getting Started<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#getting-started" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>Create a Datafordeleren account: <a href="https://portal.datafordeler.dk/" class="external external-link">https://portal.datafordeler.dk/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Generate an access token</li>
+<li>Query via GraphQL, REST, or download (see <a href="../../../../data/inner-workings/platforms/datafordeleren/" class="internal internal-link alias" data-slug="data/inner-workings/platforms/datafordeleren/index">Datafordeleren services</a>)</li>
+</ol>
+<h2 id="register-details">Register Details<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#register-details" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Definition</strong>: Ingen definition tilgængelig.</p>
+<p><strong>Comment</strong>: —</p>
+<p><strong>Example</strong>: —</p>
+<hr/>
+<h2 id="relationships-to-other-registers">Relationships to Other Registers<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#relationships-to-other-registers" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>CVR entities connect to other Grunddatamodellen registries:</p>
+<ul>
+<li><strong>Person</strong>: CVR leadership roles link to individual persons via <a href="../../../../data/inner-workings/schemas/person/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/person/index">Person register</a></li>
+<li><strong>DanmarksAdresser (DAR)</strong>: Company addresses are linked to <a href="../../../../data/inner-workings/schemas/danmarks-adresser/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/danmarks-adresser/index">DAR</a></li>
+<li><strong>Matrikel</strong>: Production units and offices may be linked to <a href="../../../../data/inner-workings/schemas/matrikel/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/matrikel/index">cadastral parcels</a></li>
+<li><strong>Ejerfortegnelsen</strong>: Company ownership of property appears in <a href="../../../../data/inner-workings/schemas/ejerfortegnelsen/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/ejerfortegnelsen/index">Ejerfortegnelsen</a></li>
+<li><strong>DAGI</strong>: Companies are classified by administrative division (municipality, region)</li>
+</ul>
+<h2 id="semantic-classification-noir">Semantic Classification (NOIR)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#semantic-classification-noir" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>CVR data spans all NOIR levels:</p>
+<ul>
+<li><strong>Nominal</strong>: CVR numbers, company names, industry codes (not orderable)</li>
+<li><strong>Ordinal</strong>: Company size classifications, management tier levels</li>
+<li><strong>Interval</strong>: Founded date, registration date (no natural zero)</li>
+<li><strong>Ratio</strong>: Employee count, revenue, capital amounts (true zero)</li>
+</ul>
+<h2 id="bitemporality">Bitemporality<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#bitemporality" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>CVR maintains historical records with both:</p>
+<ul>
+<li><strong>Transaction time</strong>: When a change was recorded in the system</li>
+<li><strong>Valid time</strong>: When the change took effect in reality</li>
+</ul>
+<p>Example: “What was company X’s board composition on 2020-06-15?” requires valid-time queries.</p>
+<hr/>
+<h2 id="further-reading">Further Reading<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#further-reading" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>Datafordeleren CVR Portal</strong>: <a href="https://datafordeler.dk/" class="external external-link">https://datafordeler.dk/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><strong>Grunddatamodellen Framework</strong>: <a href="../../../../data/inner-workings/schemas/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/index">Grunddatamodellen</a></li>
+<li><strong>Object Catalog</strong>: <a href="https://grunddatamodel.datafordeler.dk/objekttypekatalog/" class="external external-link">https://grunddatamodel.datafordeler.dk/objekttypekatalog/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><strong>Official Grunddata Documentation</strong>: <a href="https://www.grunddata.dk/" class="external external-link">https://www.grunddata.dk/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="why-this-data-exists">Why this data exists<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#why-this-data-exists" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The register behind the schema: <a href="../../../../data/initiatives/cvr" class="internal internal-link alias" data-slug="data/initiatives/cvr">Det Centrale Virksomhedsregister (CVR)</a>.</p>
+<h2 id="for-the-question-of-a-leaf">For the question of a leaf<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#for-the-question-of-a-leaf" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="economics-and-employment"><a href="../../../../data/leaves/business-financials" class="internal internal-link alias" data-slug="data/leaves/business-financials">Economics and Employment</a><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#economics-and-employment" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><em>Collection method: <a href="../../../../data/inner-workings/methods/administrative-register" class="internal internal-link alias" data-slug="data/inner-workings/methods/administrative-register">administrative register</a></em></p>
+<p>The authoritative per-company realisation. <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/index">CVR</a> stores annual accounts and employment data per entity.</p>
+<h4 id="spatial-access-path">Spatial Access Path<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#spatial-access-path" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<pre><code>regnskab / Beskaeftigelse
+  │  FK: CVREnhedsId → Virksomhed / Produktionsenhed
+  ▼
+Virksomhed / Produktionsenhed
+  │  FK: → Adressering → DAR join chain
+  │       adresse → husnummer → adgangspunkt.position
+  ▼
+adgangspunkt.position (point geometry via DAR)
+</code></pre>
+<p><strong>No native geometry.</strong> Financial data attaches to the legal entity. To map it spatially, join through the entity to its address, then through the <a href="../../../../data/leaves/addresses" class="internal internal-link alias" data-slug="data/leaves/addresses">Addresses</a> join chain. For production-unit-level employment, use <code>Produktionsenhed</code> addresses (see <a href="../../../../data/leaves/business-locations" class="internal internal-link alias" data-slug="data/leaves/business-locations">Business Locations</a>).</p>
+<h4 id="key-entities">Key Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-entities" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Entity</th><th>Role</th></tr></thead><tbody><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/regnskab" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/regnskab">regnskab</a></strong></td><td>Annual financial accounts (balance sheet, income statement)</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/revision" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/revision">revision</a></strong></td><td>Audit information</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/revisorrelation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/revisorrelation">revisorrelation</a></strong></td><td>Auditor assignments</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/finansiel" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/finansiel">finansiel</a></strong></td><td>Financial classification data</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/stadfaestelse" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/stadfaestelse">stadfæstelse</a></strong></td><td>Account confirmation/approval</td></tr><tr><td><strong>Beskaeftigelse</strong></td><td>Employment figures (headcount, FTE)</td></tr><tr><td><strong>Kreditoplysninger</strong></td><td>Credit status indicators</td></tr></tbody></table></div>
+<h4 id="key-attributes">Key Attributes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-attributes" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Attribute</th><th>Description</th><th>Notes</th></tr></thead><tbody><tr><td><code>omsaetning</code></td><td>Revenue</td><td>Annual, DKK. Not all companies report this</td></tr><tr><td><code>bruttofortjeneste</code></td><td>Gross profit</td><td>May be reported instead of revenue for smaller firms</td></tr><tr><td><code>resultatfoerskat</code></td><td>Profit before tax</td><td>Key profitability indicator</td></tr><tr><td><code>balancesum</code></td><td>Total assets (balance sum)</td><td>End-of-year balance</td></tr><tr><td><code>ansatte</code></td><td>Employee count</td><td>Headcount at reporting date</td></tr><tr><td><code>aarsvaerk</code></td><td>Full-time equivalents (FTE)</td><td>Better measure of actual workforce size</td></tr></tbody></table></div>
+<h4 id="reporting-obligations">Reporting Obligations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#reporting-obligations" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Not all businesses report the same detail:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Class</th><th>Size</th><th>Detail Level</th></tr></thead><tbody><tr><td><strong>A</strong></td><td>Smallest</td><td>Minimal — may only show <code>bruttofortjeneste</code></td></tr><tr><td><strong>B</strong></td><td>Small/medium</td><td>Revenue, profit, balance</td></tr><tr><td><strong>C</strong></td><td>Large</td><td>Full financial statements with notes</td></tr><tr><td><strong>D</strong></td><td>Largest/public interest</td><td>Full statements, extended notes, segment reporting</td></tr></tbody></table></div>
+<p><strong>Missing fields usually mean the company is exempt from reporting, not that the value is zero.</strong></p>
+<h4 id="employment-data-sources">Employment Data Sources<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#employment-data-sources" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Source</th><th>Granularity</th><th>Frequency</th></tr></thead><tbody><tr><td><code>Beskaeftigelse</code> entity</td><td>Per-entity headcount + FTE intervals</td><td>Quarterly</td></tr><tr><td><code>regnskab</code></td><td>Annual employment figures in financial report</td><td>Annual</td></tr></tbody></table></div>
+<p>These can differ. <code>Beskaeftigelse</code> is more granular (quarterly) while <code>regnskab</code> is annual.</p>
+<h4 id="access">Access<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#access" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>GraphQL</strong>: <a href="../../../../data/inner-workings/platforms/datafordeleren/graphql" class="internal internal-link alias" data-slug="data/inner-workings/platforms/datafordeleren/graphql">Datafordeleren GraphQL</a> — <code>regnskab</code> and employment entities queryable</li>
+<li><strong>File Download</strong>: Bulk export of <code>regnskab</code>, <code>Beskaeftigelse</code>, join by <code>CVREnhedsId</code></li>
+<li><strong>Note</strong>: Financial data may have publication delays (annual accounts filed months after year-end)</li>
+</ul>
+<h4 id="temporal-model">Temporal Model<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#temporal-model" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Financial data is inherently <strong>periodic</strong> in addition to being bitemporal. Each <code>regnskab</code> record covers a specific accounting period (typically a fiscal year). Employment data (<code>Beskaeftigelse</code>) may have quarterly intervals. DST tables are versioned by publication year.</p>
+<h3 id="business-locations"><a href="../../../../data/leaves/business-locations" class="internal internal-link alias" data-slug="data/leaves/business-locations">Business Locations</a><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#business-locations" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><em>Collection method: <a href="../../../../data/inner-workings/methods/administrative-register" class="internal internal-link alias" data-slug="data/inner-workings/methods/administrative-register">administrative register</a></em></p>
+<p>The authoritative realisation. <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/index">CVR</a> records addresses for both firms and production units.</p>
+<h4 id="spatial-access-path-1">Spatial Access Path<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#spatial-access-path-1" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<pre><code>Produktionsenhed (or Virksomhed)
+  │  FK: → Adressering (text-based address components)
+  │         kommunekode + vejnavn + husnummer + postnummer
+  │
+  │  Geocode via DAR match:
+  │  FK: adresse → husnummer → adgangspunkt.position
+  ▼
+adgangspunkt.position (point geometry via DAR)
+</code></pre>
+<p><strong>3+ levels of joins</strong> to geometry. CVR addresses are <strong>text-based</strong> — they store <code>kommunekode</code>, <code>vejnavn</code>, <code>husnummer</code>, <code>postnummer</code> as separate fields. Coordinates require joining to <a href="../../../../data/leaves/addresses" class="internal internal-link alias" data-slug="data/leaves/addresses">Addresses (DAR)</a>:</p>
+<ol>
+<li>Normalize CVR address components (strip whitespace, standardise case)</li>
+<li>Match to DAR using <code>kommunekode</code> + <code>vejnavn</code> + <code>husnummer</code></li>
+<li>DAR resolves to <code>husnummer</code> → <code>adgangspunkt.position</code> (entrance point) or <code>vejpunkt.position</code> (road centreline point)</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Level</th><th>Entity</th><th>Role</th><th>Cardinality</th></tr></thead><tbody><tr><td>1</td><td><strong>Produktionsenhed</strong></td><td>Operational location record</td><td>—</td></tr><tr><td>2</td><td><strong>Adressering</strong></td><td>Text address fields</td><td>1..1 per P-enhed</td></tr><tr><td>3</td><td><strong>DAR husnummer</strong></td><td>Matched via address components</td><td>1..1 (when matched)</td></tr><tr><td>4a</td><td><strong>adgangspunkt</strong></td><td>Entrance coordinate</td><td>1..1 per husnummer</td></tr><tr><td>4b</td><td><strong>vejpunkt</strong></td><td>Road centreline coordinate</td><td>1..1 per husnummer</td></tr></tbody></table></div>
+<h4 id="key-attributes-1">Key Attributes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-attributes-1" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Attribute</th><th>Description</th><th>Notes</th></tr></thead><tbody><tr><td><code>kommunekode</code></td><td>Municipality code</td><td>4-digit, zero-padded (e.g., <code>0101</code> for Copenhagen)</td></tr><tr><td><code>vejnavn</code></td><td>Street name</td><td>Danish characters</td></tr><tr><td><code>husnummer</code></td><td>House number</td><td>May include letter suffix (e.g., <code>12A</code>)</td></tr><tr><td><code>postnummer</code></td><td>Postal code</td><td>4-digit</td></tr><tr><td><code>bynavn</code></td><td>City/town name</td><td>May differ from municipality name</td></tr></tbody></table></div>
+<h4 id="access-1">Access<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#access-1" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>GraphQL</strong>: <a href="../../../../data/inner-workings/platforms/datafordeleren/graphql" class="internal internal-link alias" data-slug="data/inner-workings/platforms/datafordeleren/graphql">Datafordeleren GraphQL</a> — query <code>Produktionsenhed</code> or <code>Virksomhed</code> with address subfields</li>
+<li><strong>File Download</strong>: Bulk <code>Produktionsenhed</code> + <code>Adressering</code> exports, join locally</li>
+<li><strong>Semantic map</strong>: <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation">CVR Semantic Organisation</a></li>
+</ul>
+<h4 id="temporal-model-1">Temporal Model<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#temporal-model-1" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Business locations are <strong>bitemporal</strong>. A business can move. Historical spatial analysis requires <code>virkningFra</code>/<code>virkningTil</code> filtering to reconstruct location at a given point in time. Both <code>Adressering</code> and <code>Produktionsenhed</code> carry their own temporal fields.</p>
+<h3 id="ownership-and-governance"><a href="../../../../data/leaves/corporate-ownership" class="internal internal-link alias" data-slug="data/leaves/corporate-ownership">Ownership and Governance</a><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ownership-and-governance" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><em>Collection method: <a href="../../../../data/inner-workings/methods/administrative-register" class="internal internal-link alias" data-slug="data/inner-workings/methods/administrative-register">administrative register</a></em></p>
+<p>The sole authoritative realisation in Denmark. <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/index">CVR</a> records ownership through a rich set of relation entities.</p>
+<h4 id="spatial-access-path-2">Spatial Access Path<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#spatial-access-path-2" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<pre><code>ejerforhold / reelejerrelation / legalejerrelation
+  │  FK: CVREnhedsId → target Virksomhed
+  ▼
+Virksomhed
+  │  FK: → Adressering → DAR join chain
+  │       adresse → husnummer → adgangspunkt.position
+  ▼
+adgangspunkt.position (point geometry via DAR)
+</code></pre>
+<p><strong>No native geometry.</strong> Ownership is a graph structure. To map it spatially, join through the owned/owning entity to its address, then through the <a href="../../../../data/leaves/addresses" class="internal internal-link alias" data-slug="data/leaves/addresses">Addresses</a> join chain to coordinates.</p>
+<h4 id="ownership-graph-structure">Ownership Graph Structure<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ownership-graph-structure" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<pre><code>Person A ──owns 60%──► Company B ──owns 100%──► Company C
+                                  ──owns 40%──► Company D
+
+Person E ──board member──► Company B
+</code></pre>
+<p>Analysis typically requires <strong>recursive traversal</strong> or graph queries. Ownership chains can run through multiple intermediate entities (holding companies, foundations, foreign entities).</p>
+<h4 id="key-entities-1">Key Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-entities-1" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Entity</th><th>Role</th></tr></thead><tbody><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/ejerforhold" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/ejerforhold">ejerforhold</a></strong></td><td>Direct ownership relationships</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/reelejerrelation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/reelejerrelation">reelejerrelation</a></strong></td><td>Beneficial (real) ownership — who ultimately controls the entity</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/legalejerrelation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/legalejerrelation">legalejerrelation</a></strong></td><td>Legal ownership chain</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/andendeltager" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/andendeltager">andendeltager</a></strong></td><td>Other participants in ownership structures</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/fuldtansvarligdeltagerrelation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/fuldtansvarligdeltagerrelation">fuldtansvarligdeltagerrelation</a></strong></td><td>Fully liable participant relations</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/ledelse" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/ledelse">ledelse</a></strong></td><td>Management and board members</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/ledelserelation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/ledelserelation">ledelserelation</a></strong></td><td>Management role assignments</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/kapitalforhold" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/kapitalforhold">kapitalforhold</a></strong></td><td>Capital share structure</td></tr></tbody></table></div>
+<h4 id="key-attributes-2">Key Attributes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-attributes-2" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Attribute</th><th>Description</th><th>Notes</th></tr></thead><tbody><tr><td><code>ejerandel</code></td><td>Ownership share (%)</td><td>May be a range rather than exact figure</td></tr><tr><td><code>stemmeandel</code></td><td>Voting share (%)</td><td>May differ from ownership share</td></tr><tr><td><code>rollebeskrivelse</code></td><td>Role description</td><td>Danish: “Direktion”, “Bestyrelse”, “Stifter”</td></tr><tr><td><code>CVREnhedsId</code></td><td>Identifier linking to the owned entity</td><td>Stable join key</td></tr></tbody></table></div>
+<h4 id="legal-vs-beneficial-ownership">Legal vs Beneficial Ownership<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#legal-vs-beneficial-ownership" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Layer</th><th>Entity</th><th>What it captures</th></tr></thead><tbody><tr><td><strong>Legal ownership</strong></td><td><code>legalejerrelation</code></td><td>Formal registered owner on paper</td></tr><tr><td><strong>Beneficial ownership</strong></td><td><code>reelejerrelation</code></td><td>Natural person who ultimately controls or benefits</td></tr><tr><td><strong>Management</strong></td><td><code>ledelse</code> / <code>ledelserelation</code></td><td>Directors, board members, executive roles</td></tr></tbody></table></div>
+<p>For compliance and AML analysis, beneficial ownership is the critical chain. For corporate structure mapping, all three layers matter.</p>
+<h4 id="access-2">Access<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#access-2" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>GraphQL</strong>: <a href="../../../../data/inner-workings/platforms/datafordeleren/graphql" class="internal internal-link alias" data-slug="data/inner-workings/platforms/datafordeleren/graphql">Datafordeleren GraphQL</a> — ownership relation entities are queryable with nested fields</li>
+<li><strong>File Download</strong>: Download multiple relation entities and join locally by <code>CVREnhedsId</code></li>
+<li><strong>Note</strong>: Some ownership data (especially involving natural persons) has access restrictions via <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/cvrperson" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/cvrperson">CVRPerson</a></li>
+</ul>
+<h4 id="temporal-model-2">Temporal Model<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#temporal-model-2" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Ownership is <strong>bitemporal</strong>. Ownership stakes change over time through acquisitions, mergers, and restructuring. Historical ownership analysis requires careful <code>virkningFra</code>/<code>virkningTil</code> filtering. Each ownership relation entity carries independent registration and effect periods.</p>
+<h3 id="economic-activities"><a href="../../../../data/leaves/economic-activities" class="internal internal-link alias" data-slug="data/leaves/economic-activities">Economic Activities</a><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#economic-activities" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><em>Collection method: <a href="../../../../data/inner-workings/methods/administrative-register" class="internal internal-link alias" data-slug="data/inner-workings/methods/administrative-register">administrative register</a></em></p>
+<p>The authoritative per-entity realisation. <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/index">CVR</a> classifies every registered business via the <code>Branche</code> entity.</p>
+<h4 id="spatial-access-path-3">Spatial Access Path<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#spatial-access-path-3" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<pre><code>Branche (activity code)
+  │  FK: CVREnhedsId
+  ▼
+Virksomhed / Produktionsenhed
+  │  FK: → Adressering → DAR join chain
+  │       adresse → husnummer → adgangspunkt.position
+  ▼
+adgangspunkt.position (point geometry via DAR)
+</code></pre>
+<p><strong>No native geometry.</strong> To map activities spatially, join through the business entity to its address, then through the <a href="../../../../data/leaves/addresses" class="internal internal-link alias" data-slug="data/leaves/addresses">Addresses</a> join chain to coordinates.</p>
+<h4 id="key-entities-2">Key Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-entities-2" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Entity</th><th>Role</th></tr></thead><tbody><tr><td><strong>Branche</strong></td><td>Carries the industry code and text. A business may have multiple (primary + secondary)</td></tr><tr><td><strong>Virksomhed</strong></td><td>Legal business entity that branches attach to</td></tr><tr><td><strong>Produktionsenhed</strong></td><td>Operational establishment — may have its own branch set</td></tr></tbody></table></div>
+<h4 id="key-attributes-3">Key Attributes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-attributes-3" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Attribute</th><th>Description</th><th>Notes</th></tr></thead><tbody><tr><td><code>branchekode</code></td><td>DB25 industry code</td><td>Compact form without dots: <code>561110</code> not <code>56.11.10</code>. Since Jan 2025, CVR uses DB25 (NACE Rev 2.1), replacing DB07</td></tr><tr><td><code>branchetekst</code></td><td>Human-readable description</td><td>Danish language</td></tr><tr><td><code>hovedbranche</code></td><td>Primary activity flag</td><td><code>true</code> = main activity of the business</td></tr></tbody></table></div>
+<h4 id="db07--db25-transition">DB07 → DB25 Transition<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#db07--db25-transition" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>As of January 2025, CVR stores <strong>DB25</strong> codes (Danish implementation of NACE Rev 2.1). Older records may still carry DB07 codes. CVR stores codes <strong>without dots</strong> — strip dots when matching against external references using dotted format (e.g., <code>56.11.10</code>).</p>
+<ul>
+<li><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/codebook-and-normalization" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/codebook-and-normalization">CVR Codebook and Normalization</a></li>
+<li>DST conversion table: <a href="https://www.dst.dk/da/Statistik/dokumentation/nomenklaturer/db" class="external external-link">DB07-DB25 concordance<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h4 id="access-3">Access<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#access-3" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>GraphQL</strong>: <a href="../../../../data/inner-workings/platforms/datafordeleren/graphql" class="internal internal-link alias" data-slug="data/inner-workings/platforms/datafordeleren/graphql">Datafordeleren GraphQL</a> — query <code>Branche</code> with filters on <code>branchekode</code></li>
+<li><strong>File Download</strong>: Bulk <code>Branche</code> entity export, join locally to <code>Virksomhed</code></li>
+<li><strong>Semantic map</strong>: <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation">CVR Semantic Organisation</a></li>
+</ul>
+<h4 id="temporal-model-3">Temporal Model<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#temporal-model-3" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Industry classification is <strong>bitemporal</strong> (inherited from <a href="../../../../data/inner-workings/schemas/grunddata/shared-temporal-superclass-contract" class="internal internal-link alias" data-slug="data/inner-workings/schemas/grunddata/shared-temporal-superclass-contract">Shared Temporal Superclass Contract</a>). A business can change its primary industry over time. Historical queries require <code>virkningFra</code>/<code>virkningTil</code> filtering.</p>
+<h3 id="firms"><a href="../../../../data/leaves/firms" class="internal internal-link alias" data-slug="data/leaves/firms">Firms</a><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#firms" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><em>Collection method: <a href="../../../../data/inner-workings/methods/administrative-register" class="internal internal-link alias" data-slug="data/inner-workings/methods/administrative-register">administrative register</a></em></p>
+<p>The authoritative Danish realisation. <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/index">CVR</a> models the firm through <code>Virksomhed</code>, <code>CVREnhed</code>, <code>Navn</code>, and <code>Virksomhedsform</code>.</p>
+<h4 id="spatial-access-path-4">Spatial Access Path<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#spatial-access-path-4" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<pre><code>Virksomhed (legal entity)
+  │  FK: → CVRAdresse
+  ▼
+CVRAdresse (registered office / legal address)
+  │  normalize address components
+  │  → DAR address / house-number match
+  ▼
+adgangspunkt.position (point geometry via DAR)
+</code></pre>
+<p><strong>Registered office, not operational footprint.</strong> The geometry reached through the firm address represents legal or administrative presence. For where activity happens on the ground, use <a href="../../../../data/leaves/business-locations" class="internal internal-link alias" data-slug="data/leaves/business-locations">Business Locations</a>.</p>
+<h4 id="key-entities-3">Key Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-entities-3" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Entity</th><th>Role</th></tr></thead><tbody><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/virksomhed" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/virksomhed">virksomhed</a></strong></td><td>Legal business anchor</td></tr><tr><td><strong>CVREnhed</strong></td><td>Stable business-side identity</td></tr><tr><td><strong>Navn</strong></td><td>Official and alternative names</td></tr><tr><td><strong>Virksomhedsform</strong></td><td>Legal form</td></tr><tr><td><strong><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/cvradresse" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/cvradresse">cvradresse</a></strong></td><td>Registered address components</td></tr></tbody></table></div>
+<h4 id="key-attributes-4">Key Attributes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-attributes-4" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Attribute</th><th>Description</th><th>Notes</th></tr></thead><tbody><tr><td><code>cvrnummer</code></td><td>Official firm number</td><td>Public business identifier</td></tr><tr><td><code>navn</code></td><td>Official name</td><td>May coexist with trade names / aliases</td></tr><tr><td><code>virksomhedsform</code></td><td>Legal form</td><td>Sole proprietorship, ApS, A/S, foundation, association, etc.</td></tr><tr><td><code>virksomhedstatus</code></td><td>Registry status</td><td>Active, dissolved, under liquidation, etc.</td></tr><tr><td><code>registreringfra</code> / <code>registreringtil</code></td><td>System registration interval</td><td>Audit trail</td></tr><tr><td><code>virkningfra</code> / <code>virkningtil</code></td><td>Legal validity interval</td><td>Real-world effect</td></tr></tbody></table></div>
+<h4 id="access-4">Access<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#access-4" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>GraphQL</strong>: best for targeted firm lookup by CVR number, name, legal form, or status</li>
+<li><strong>File Download</strong>: best for full business registers and repeatable local joins</li>
+<li><strong>Semantic bridge</strong>: <a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation">CVR Semantic Organisation</a></li>
+</ul>
+<h4 id="temporal-model-4">Temporal Model<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#temporal-model-4" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Firm identity is <strong>bitemporal</strong>. The legal entity can persist while name, legal form, address, activity, and ownership change over time. Historical queries should use <code>virkning*</code> for legal state and <code>registrering*</code> for system history.</p>
+<h3 id="services-and-amenities"><a href="../../../../data/leaves/services" class="internal internal-link alias" data-slug="data/leaves/services">Services and Amenities</a><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#services-and-amenities" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><em>Collection method: <a href="../../../../data/inner-workings/methods/administrative-register" class="internal internal-link alias" data-slug="data/inner-workings/methods/administrative-register">administrative register</a></em></p>
+<p><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/" class="internal internal-link alias" data-slug="data/inner-workings/schemas/centrale-virksomhedsregister/index">CVR</a> realises services and amenities through <strong>branchekode</strong> filtering, usually anchored on the operational unit (<code>Produktionsenhed</code>) rather than only the legal firm.</p>
+<h4 id="spatial-access-path-5">Spatial Access Path<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#spatial-access-path-5" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<pre><code>Produktionsenhed (preferred) / Virksomhed
+  │  Filter: branchekode ∈ [service-relevant codes]
+  │  FK: → adresse → husnummer → adgangspunkt.position
+  ▼
+adgangspunkt.position (point geometry via DAR)
+</code></pre>
+<p><strong>3 levels of joins</strong> to geometry (same as <a href="../../../../data/leaves/addresses" class="internal internal-link alias" data-slug="data/leaves/addresses">Addresses</a>):
+entity → adresse → husnummer → adgangspunkt</p>
+<h4 id="service-type-mapping-db25--service-category">Service Type Mapping (DB25 → Service Category)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#service-type-mapping-db25--service-category" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>DB25 Range</th><th>Service Category</th><th>Examples</th></tr></thead><tbody><tr><td><code>8610*</code></td><td>Hospital services</td><td>Hospitals, psychiatric hospitals</td></tr><tr><td><code>8621*</code>–<code>8690*</code></td><td>Healthcare</td><td>GP clinics, dentists, physiotherapy</td></tr><tr><td><code>8510*</code>–<code>8560*</code></td><td>Education</td><td>Primary schools, secondary, universities</td></tr><tr><td><code>5611*</code></td><td>Restaurants</td><td>Restaurants, cafés</td></tr><tr><td><code>5630*</code></td><td>Bars and pubs</td><td>Bars, nightclubs</td></tr><tr><td><code>4711*</code>–<code>4799*</code></td><td>Retail</td><td>Supermarkets, shops</td></tr><tr><td><code>5510*</code>–<code>5590*</code></td><td>Accommodation</td><td>Hotels, hostels, camping</td></tr></tbody></table></div>
+<p>Use <code>hovedbranche = true</code> to get primary activity. For regional geography and service availability studies, start from <code>Produktionsenhed</code> whenever possible. See <a href="../../../../data/leaves/economic-activities" class="internal internal-link alias" data-slug="data/leaves/economic-activities">Economic Activities</a> for the full codebook.</p></div></article><div class="page-listing"><p>25 items under this folder.</p><div><ul class="section-ul"><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:03:25.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/semantic-organisation" class="internal">CVR Semantic Organisation</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:03:25.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/socialoekonomiskvirksomhed" class="internal">SocialØkonomiskVirksomhed</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/andendeltager" class="internal">AndenDeltager</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/codebook-and-normalization" class="internal">CVR Codebook and Normalization Model</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/cvradresse" class="internal">CVRAdresse</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/cvrperson" class="internal">CVRPerson</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/ejerforhold" class="internal">Ejerforhold</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/finansiel" class="internal">Finansiel</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/fuldtansvarligdeltagerrelation" class="internal">FuldtAnsvarligDeltagerRelation</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/hovedselskabrelation" class="internal">HovedselskabRelation</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/hvidvaskrelation" class="internal">HvidvaskRelation</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/kapitalforhold" class="internal">Kapitalforhold</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/komplementarindskud" class="internal">KomplementarIndskud</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/ledelse" class="internal">Ledelse</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/ledelserelation" class="internal">LedelseRelation</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/legalejerrelation" class="internal">LegalEjerRelation</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/produktionsenhed" class="internal">Produktionsenhed</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/produktionsenhedrelation" class="internal">ProduktionsenhedRelation</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/reelejerrelation" class="internal">ReelEjerRelation</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/regnskab" class="internal">Regnskab</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/revision" class="internal">Revision</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/revisorrelation" class="internal">RevisorRelation</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/stadfaestelse" class="internal">Stadfæstelse</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/stifterrelation" class="internal">StifterRelation</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-11-26T12:02:50.000Z">Nov 26, 2026</time></p><div class="desc"><h3><a href="../../../../data/inner-workings/schemas/centrale-virksomhedsregister/virksomhed" class="internal">Virksomhed</a></h3></div><ul class="tags"></ul></div></li></ul></div></div></div><hr/><div class="page-footer"></div></div><div class="right sidebar"></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="../../../../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../../../../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../../../../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../../../../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../../../postscript-2d7995a1.js" type="module" data-persist="true"></script></html>

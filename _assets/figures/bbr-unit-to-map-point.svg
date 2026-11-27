@@ -1,0 +1,186 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1400 1190' font-family='Helvetica, Arial, sans-serif'>
+<rect width='1400' height='1190' fill='#ffffff'/>
+<text x='30' y='40' font-size='26' fill='#1c2321' text-anchor='start' font-weight='bold' >From a BBR unit to a point on the map</text>
+<text x='30' y='66' font-size='14' fill='#5b6661' text-anchor='start' font-weight='normal' >Example building Eksempelgade 12–14 (made up). One BBR building, two entrances (two DAR house numbers), 16 flats. Selected: Eksempelgade 12, 2. tv.</text>
+<g transform='translate(30,90)'>
+<rect x='0' y='360' width='700' height='70' fill='#d9ddd9'/>
+<path d='M40 72 L70 32 L630 32 L660 72 Z' fill='#a99f90' opacity='0.55'/>
+<rect x='40' y='288' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='58' y='302' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='48' y='352' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >12, st. tv</text>
+<rect x='195' y='288' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='298' y='302' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='342' y='352' font-size='12' fill='#5b6661' text-anchor='end' font-weight='normal' >12, st. th</text>
+<rect x='40' y='216' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='58' y='230' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='102' y='230' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='48' y='280' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >12, 1. tv</text>
+<rect x='195' y='216' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='254' y='230' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='298' y='230' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='342' y='280' font-size='12' fill='#5b6661' text-anchor='end' font-weight='normal' >12, 1. th</text>
+<rect x='40' y='144' width='155' height='72' fill='#d7ebec' stroke='#1d6b74' stroke-width='3'/>
+<rect x='58' y='158' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='102' y='158' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='48' y='208' font-size='12' fill='#1d6b74' text-anchor='start' font-weight='bold' >12, 2. tv</text>
+<rect x='195' y='144' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='254' y='158' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='298' y='158' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='342' y='208' font-size='12' fill='#5b6661' text-anchor='end' font-weight='normal' >12, 2. th</text>
+<rect x='40' y='72' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='58' y='86' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='102' y='86' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='48' y='136' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >12, 3. tv</text>
+<rect x='195' y='72' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='254' y='86' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='298' y='86' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='342' y='136' font-size='12' fill='#5b6661' text-anchor='end' font-weight='normal' >12, 3. th</text>
+<rect x='178' y='308' width='34' height='52' rx='2' fill='#a8641a'/>
+<text x='195' y='382' font-size='13' fill='#a8641a' text-anchor='middle' font-weight='bold' >Entrance 12</text>
+<text x='195' y='400' font-size='11' fill='#5b6661' text-anchor='middle' font-weight='normal' font-family='Menlo, Consolas, monospace'>one DAR_Husnummer</text>
+<rect x='350' y='288' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='368' y='302' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='358' y='352' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >14, st. tv</text>
+<rect x='505' y='288' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='608' y='302' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='652' y='352' font-size='12' fill='#5b6661' text-anchor='end' font-weight='normal' >14, st. th</text>
+<rect x='350' y='216' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='368' y='230' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='412' y='230' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='358' y='280' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >14, 1. tv</text>
+<rect x='505' y='216' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='564' y='230' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='608' y='230' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='652' y='280' font-size='12' fill='#5b6661' text-anchor='end' font-weight='normal' >14, 1. th</text>
+<rect x='350' y='144' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='368' y='158' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='412' y='158' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='358' y='208' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >14, 2. tv</text>
+<rect x='505' y='144' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='564' y='158' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='608' y='158' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='652' y='208' font-size='12' fill='#5b6661' text-anchor='end' font-weight='normal' >14, 2. th</text>
+<rect x='350' y='72' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='368' y='86' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='412' y='86' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='358' y='136' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >14, 3. tv</text>
+<rect x='505' y='72' width='155' height='72' fill='#e6e0d6' stroke='#a99f90' stroke-width='1'/>
+<rect x='564' y='86' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<rect x='608' y='86' width='34' height='40' rx='2' fill='#b4c6cc'/>
+<text x='652' y='136' font-size='12' fill='#5b6661' text-anchor='end' font-weight='normal' >14, 3. th</text>
+<rect x='488' y='308' width='34' height='52' rx='2' fill='#a99f90'/>
+<text x='505' y='382' font-size='13' fill='#1c2321' text-anchor='middle' font-weight='bold' >Entrance 14</text>
+<text x='505' y='400' font-size='11' fill='#5b6661' text-anchor='middle' font-weight='normal' font-family='Menlo, Consolas, monospace'>one DAR_Husnummer</text>
+<line x1='0' y1='360' x2='700' y2='360' stroke='#1c2321' stroke-width='2'/>
+<text x='350' y='30' font-size='14' fill='#1c2321' text-anchor='middle' font-weight='bold' >Eksempelgade 12–14 · one BBR_Bygning</text>
+</g>
+<g transform='translate(760,120)'>
+<text x='0' y='-6' font-size='15' fill='#1c2321' text-anchor='start' font-weight='bold' >The same building seen from above</text>
+<rect x='0' y='190' width='620' height='60' fill='#d9ddd9'/>
+<text x='610' y='228' font-size='12' fill='#5b6661' text-anchor='end' font-weight='normal' >Eksempelgade</text>
+<rect x='10' y='20' width='600' height='30' fill='none' stroke='#c8d0cb' stroke-dasharray='3 4'/>
+<text x='20' y='40' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >courtyard</text>
+<rect x='10' y='60' width='600' height='130' fill='#e6e0d6' stroke='#a99f90' stroke-width='1.5'/>
+<line x1='310' y1='60' x2='310' y2='190' stroke='#a99f90' stroke-dasharray='2 4'/>
+<line x1='165' y1='190' x2='310' y2='125' stroke='#5b6661' stroke-dasharray='5 4' stroke-width='1.5'/>
+<text x='210' y='150' font-size='12' fill='#5b6661' text-anchor='middle' font-weight='normal' >≈ 16 m</text>
+<circle cx='310' cy='125' r='7' fill='#1d6b74'/>
+<text x='310' y='111' font-size='13' fill='#1d6b74' text-anchor='middle' font-weight='bold' >building point (BBR)</text>
+<circle cx='165' cy='190' r='7' fill='#a8641a'/>
+<text x='165' y='212' font-size='13' fill='#a8641a' text-anchor='middle' font-weight='bold' >address point 12 (DAR)</text>
+<circle cx='465' cy='190' r='7' fill='#a8641a' opacity='0.35'/>
+<text x='465' y='212' font-size='13' fill='#a8641a' text-anchor='middle' font-weight='normal' >address point 14</text>
+<text x='0' y='280' font-size='12.5' fill='#5b6661' text-anchor='start' font-weight='normal' >BBR gives one point per building (byg404Koordinat). DAR gives one point per entrance (DAR_Adressepunkt),</text>
+<text x='0' y='298' font-size='12.5' fill='#5b6661' text-anchor='start' font-weight='normal' >so flats on different staircases get different address points; flats on the same staircase share one.</text>
+</g>
+<text x='30' y='560' font-size='18' fill='#1c2321' text-anchor='start' font-weight='bold' >The joins: each arrow matches an id field to id_lokalId in the next table</text>
+<text x='30' y='586' font-size='12' fill='#5b6661' text-anchor='start' font-weight='bold' >Route 1 · address point</text>
+<rect x='30' y='598' width='300' height='270' rx='8' fill='#ffffff' stroke='#c8d0cb'/>
+<rect x='30' y='598' width='300' height='5' rx='2' fill='#1d6b74'/>
+<text x='42' y='626' font-size='14' fill='#1d6b74' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>BBR_Enhed</text>
+<text x='42' y='644' font-size='10.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>BBR_V3_Enhed_0101_…csv</text>
+<text x='42' y='675' font-size='11.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>id_lokalId</text>
+<text x='42' y='692' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>4f2c09d1-…</text>
+<text x='42' y='717' font-size='11.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>enh026EnhedensSamledeAreal</text>
+<text x='42' y='734' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>76</text>
+<text x='42' y='759' font-size='11.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>enh045Udlejningsforhold</text>
+<text x='42' y='776' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>1 (Udlejet)</text>
+<rect x='36' y='786' width='288' height='38' rx='4' fill='#d7ebec' />
+<text x='42' y='801' font-size='11.5' fill='#1d6b74' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>adresseIdentificerer</text>
+<text x='42' y='818' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>9b31e0a7-…</text>
+<rect x='36' y='828' width='288' height='38' rx='4' fill='#d7ebec' />
+<text x='42' y='843' font-size='11.5' fill='#1d6b74' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>bygning</text>
+<text x='42' y='860' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>c07d55e2-…</text>
+<rect x='370' y='598' width='300' height='270' rx='8' fill='#ffffff' stroke='#c8d0cb'/>
+<rect x='370' y='598' width='300' height='5' rx='2' fill='#a8641a'/>
+<text x='382' y='626' font-size='14' fill='#a8641a' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>DAR_Adresse</text>
+<text x='382' y='644' font-size='10.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>DAR_V3_Adresse_…csv</text>
+<rect x='376' y='660' width='288' height='38' rx='4' fill='#f5e6d2' />
+<text x='382' y='675' font-size='11.5' fill='#a8641a' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>id_lokalId</text>
+<text x='382' y='692' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>9b31e0a7-…</text>
+<rect x='376' y='702' width='288' height='38' rx='4' fill='#f5e6d2' stroke='#a8641a' stroke-width='2'/>
+<text x='382' y='717' font-size='11.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>adressebetegnelse</text>
+<text x='382' y='734' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>Eksempelgade 12, 2. tv, 2100 Kbh Ø</text>
+<text x='382' y='759' font-size='11.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>etagebetegnelse / dørbetegnelse</text>
+<text x='382' y='776' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>2 / tv</text>
+<rect x='376' y='786' width='288' height='38' rx='4' fill='#f5e6d2' />
+<text x='382' y='801' font-size='11.5' fill='#a8641a' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>husnummer</text>
+<text x='382' y='818' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>e8a6142b-…</text>
+<rect x='710' y='598' width='300' height='270' rx='8' fill='#ffffff' stroke='#c8d0cb'/>
+<rect x='710' y='598' width='300' height='5' rx='2' fill='#a8641a'/>
+<text x='722' y='626' font-size='14' fill='#a8641a' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>DAR_Husnummer</text>
+<text x='722' y='644' font-size='10.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>DAR_V3_Husnummer_…csv</text>
+<rect x='716' y='660' width='288' height='38' rx='4' fill='#f5e6d2' />
+<text x='722' y='675' font-size='11.5' fill='#a8641a' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>id_lokalId</text>
+<text x='722' y='692' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>e8a6142b-…</text>
+<rect x='716' y='702' width='288' height='38' rx='4' fill='#f5e6d2' stroke='#a8641a' stroke-width='2'/>
+<text x='722' y='717' font-size='11.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>adgangsadressebetegnelse</text>
+<text x='722' y='734' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>Eksempelgade 12, 2100 Kbh Ø</text>
+<rect x='716' y='744' width='288' height='38' rx='4' fill='#f5e6d2' />
+<text x='722' y='759' font-size='11.5' fill='#a8641a' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>adgangspunkt</text>
+<text x='722' y='776' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>51d2f8c0-…</text>
+<rect x='1050' y='598' width='300' height='270' rx='8' fill='#ffffff' stroke='#c8d0cb'/>
+<rect x='1050' y='598' width='300' height='5' rx='2' fill='#a8641a'/>
+<text x='1062' y='626' font-size='14' fill='#a8641a' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>DAR_Adressepunkt</text>
+<text x='1062' y='644' font-size='10.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>DAR_V3_Adressepunkt_0101_…csv</text>
+<rect x='1056' y='660' width='288' height='38' rx='4' fill='#f5e6d2' />
+<text x='1062' y='675' font-size='11.5' fill='#a8641a' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>id_lokalId</text>
+<text x='1062' y='692' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>51d2f8c0-…</text>
+<rect x='1056' y='702' width='288' height='38' rx='4' fill='#f5e6d2' stroke='#a8641a' stroke-width='2'/>
+<text x='1062' y='717' font-size='11.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>position</text>
+<text x='1062' y='734' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>POINT (724116.5 6179841.0)</text>
+<line x1='332' y1='740' x2='362' y2='740' stroke='#5b6661' stroke-width='1.5'/>
+<path d='M360 734 L370 740 L360 746 Z' fill='#5b6661'/>
+<line x1='672' y1='740' x2='702' y2='740' stroke='#5b6661' stroke-width='1.5'/>
+<path d='M700 734 L710 740 L700 746 Z' fill='#5b6661'/>
+<line x1='1012' y1='740' x2='1042' y2='740' stroke='#5b6661' stroke-width='1.5'/>
+<path d='M1040 734 L1050 740 L1040 746 Z' fill='#5b6661'/>
+<text x='30' y='908' font-size='12' fill='#5b6661' text-anchor='start' font-weight='bold' >Route 2 · building point</text>
+<rect x='30' y='920' width='300' height='200' rx='8' fill='#ffffff' stroke='#c8d0cb'/>
+<rect x='30' y='920' width='300' height='5' rx='2' fill='#1d6b74'/>
+<text x='42' y='948' font-size='14' fill='#1d6b74' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>BBR_Enhed</text>
+<text x='42' y='966' font-size='10.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>BBR_V3_Enhed_0101_…csv</text>
+<text x='42' y='997' font-size='11.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>id_lokalId</text>
+<text x='42' y='1014' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>4f2c09d1-…</text>
+<rect x='36' y='1024' width='288' height='38' rx='4' fill='#d7ebec' />
+<text x='42' y='1039' font-size='11.5' fill='#1d6b74' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>bygning</text>
+<text x='42' y='1056' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>c07d55e2-…</text>
+<rect x='370' y='920' width='300' height='200' rx='8' fill='#ffffff' stroke='#c8d0cb'/>
+<rect x='370' y='920' width='300' height='5' rx='2' fill='#1d6b74'/>
+<text x='382' y='948' font-size='14' fill='#1d6b74' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>BBR_Bygning</text>
+<text x='382' y='966' font-size='10.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>BBR_V3_Bygning_0101_…csv</text>
+<rect x='376' y='982' width='288' height='38' rx='4' fill='#d7ebec' />
+<text x='382' y='997' font-size='11.5' fill='#1d6b74' text-anchor='start' font-weight='bold' font-family='Menlo, Consolas, monospace'>id_lokalId</text>
+<text x='382' y='1014' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>c07d55e2-…</text>
+<rect x='376' y='1024' width='288' height='38' rx='4' fill='#d7ebec' stroke='#1d6b74' stroke-width='2'/>
+<text x='382' y='1039' font-size='11.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>byg404Koordinat</text>
+<text x='382' y='1056' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>POINT (724131.0 6179847.5)</text>
+<text x='382' y='1081' font-size='11.5' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>byg026Opførelsesår</text>
+<text x='382' y='1098' font-size='11.5' fill='#1c2321' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>1898</text>
+<line x1='332' y1='1022' x2='362' y2='1022' stroke='#5b6661' stroke-width='1.5'/>
+<path d='M360 1016 L370 1022 L360 1028 Z' fill='#5b6661'/>
+<text x='710' y='952' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >Ids are shortened and made up; real ids are full UUIDs such as</text>
+<text x='710' y='970' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' font-family='Menlo, Consolas, monospace'>0a3f509f-5a38-32b8-e044-0003ba298018.</text>
+<text x='710' y='1002' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >Highlighted fields: blue/brown = the id fields that join;</text>
+<text x='710' y='1020' font-size='12' fill='#5b6661' text-anchor='start' font-weight='normal' >outlined = what the join is for (address text or coordinates).</text>
+</svg>

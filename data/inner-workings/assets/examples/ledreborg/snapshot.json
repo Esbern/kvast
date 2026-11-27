@@ -1,0 +1,389 @@
+{
+ "type": "Feature",
+ "stac_version": "1.0.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+  "https://stac-extensions.github.io/classification/v2.0.0/schema.json",
+  "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+ ],
+ "id": "ledreborg-2026-10-27",
+ "bbox": [
+  11.84185,
+  55.58854,
+  11.98476,
+  55.65724
+ ],
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     11.84185,
+     55.58854
+    ],
+    [
+     11.98476,
+     55.58854
+    ],
+    [
+     11.98476,
+     55.65724
+    ],
+    [
+     11.84185,
+     55.65724
+    ],
+    [
+     11.84185,
+     55.58854
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "Example data: Habitats and soil carbon at Ledreborg",
+  "description": "Data for the SemanticGIS examples at Ledreborg Gods, Lejre (Landscape ecology and Soil), frozen as they were used, so the examples' numbers can be reproduced without API keys.",
+  "datetime": "2026-10-27T00:00:00Z",
+  "proj:code": "EPSG:25832",
+  "proj:bbox": [
+   679077,
+   6164317,
+   687782,
+   6171607
+  ],
+  "license": "various",
+  "semanticgis:sources": [
+   {
+    "name": "GeoDanmark (Skov, Hegn, Vandløbsmidte): Klimadatastyrelsen and the municipalities, via Datafordeleren",
+    "text": [
+     "Free public data.",
+     "Attribution: Indeholder data fra Klimadatastyrelsen, GeoDanmark, hentet 27. oktober 2026"
+    ]
+   },
+   {
+    "name": "Beskyttede naturtyper (§3): the municipalities, via Danmarks Miljøportal",
+    "text": [
+     "Attribution: Indeholder data fra Kommunerne, Beskyttede naturtyper, hentet 27. oktober 2026",
+     "(standard wording; check the publisher's terms before publishing)"
+    ]
+   },
+   {
+    "name": "Basemap04: Aarhus University, Department of Environmental Science (DCE)",
+    "text": [
+     "Open access. Cite: Levin, G. 2022. Basemap04. Documentation of the data and method for the",
+     "elaboration of a land use and land cover map for Denmark. Aarhus University, DCE - Danish Centre",
+     "for Environment and Energy, 77 pp. Technical Report No. 252.",
+     "The map is not legally binding and cannot be used for handling cases about land use and land cover."
+    ]
+   },
+   {
+    "name": "Kulstofkort i 10 m opløsning (SOC 0-30 cm), version 1.1, 4 July 2024",
+    "text": [
+     "Licence CC BY 4.0. Copyright Aarhus Universitet, DHI, SEGES, Københavns Universitet.",
+     "Author Anders Bjørn Møller, Aarhus Universitet. Method: Møller, A. B. et al. 2025. Advances in",
+     "Agronomy 194, 133-. doi:10.1016/bs.agron.2025.07.001"
+    ]
+   },
+   {
+    "name": "Landscapes",
+    "text": [
+     "Digitised for the example by Esbern Holmes, Roskilde University."
+    ]
+   }
+  ]
+ },
+ "assets": {
+  "vectors": {
+   "href": "ledreborg_example.gpkg",
+   "type": "application/geopackage+sqlite3",
+   "roles": [
+    "data"
+   ],
+   "title": "Landscapes and nature content (GeoPackage)",
+   "description": "Whole features: every feature that touches the area is included, not cut at its edge, exactly as the examples used them.",
+   "semanticgis:layers": [
+    {
+     "name": "landscapes",
+     "title": "the example's landscape types",
+     "table:row_count": 8,
+     "table:columns": [
+      {
+       "name": "landscape",
+       "type": "string"
+      }
+     ]
+    },
+    {
+     "name": "protected_nature",
+     "title": "§3 protected nature (Beskyttede naturtyper)",
+     "table:row_count": 695,
+     "table:columns": [
+      {
+       "name": "Natyp_navn",
+       "type": "string"
+      }
+     ]
+    },
+    {
+     "name": "woodland",
+     "title": "GeoDanmark Skov",
+     "table:row_count": 239,
+     "table:columns": []
+    },
+    {
+     "name": "hedges",
+     "title": "GeoDanmark Hegn",
+     "table:row_count": 12645,
+     "table:columns": [
+      {
+       "name": "hegnstype",
+       "type": "string"
+      }
+     ]
+    },
+    {
+     "name": "streams",
+     "title": "GeoDanmark Vandløbsmidte",
+     "table:row_count": 1183,
+     "table:columns": [
+      {
+       "name": "vandloebstype",
+       "type": "string"
+      },
+      {
+       "name": "midtebredde",
+       "type": "string"
+      }
+     ]
+    }
+   ]
+  },
+  "landuse": {
+   "href": "basemap04_lu_agg_2021_ledreborg.tif",
+   "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+   "roles": [
+    "data"
+   ],
+   "title": "Basemap04 aggregated land use 2021, 10 m (COG)",
+   "description": "Styles: basemap04_lu_agg_2021_ledreborg.qml (English names), _da.qml (Danish).",
+   "classification:classes": [
+    {
+     "value": 110000,
+     "name": "building",
+     "title": "Building"
+    },
+    {
+     "value": 121000,
+     "name": "low_built_up",
+     "title": "Low built up"
+    },
+    {
+     "value": 121110,
+     "name": "low_built_up_building",
+     "title": "Low built up; Building"
+    },
+    {
+     "value": 122000,
+     "name": "high_built_up",
+     "title": "High built up"
+    },
+    {
+     "value": 122110,
+     "name": "high_built_up_building",
+     "title": "High built up; Building"
+    },
+    {
+     "value": 123000,
+     "name": "city_centre",
+     "title": "City centre"
+    },
+    {
+     "value": 123110,
+     "name": "city_centre_building",
+     "title": "City centre; Building"
+    },
+    {
+     "value": 124000,
+     "name": "other_built_up",
+     "title": "Other built up"
+    },
+    {
+     "value": 124110,
+     "name": "other_built_up_building",
+     "title": "Other built up; Building"
+    },
+    {
+     "value": 125000,
+     "name": "industry_business",
+     "title": "Industry / business"
+    },
+    {
+     "value": 125110,
+     "name": "industry_business_building",
+     "title": "Industry / business; Building"
+    },
+    {
+     "value": 126000,
+     "name": "airport_runway",
+     "title": "Airport / runway"
+    },
+    {
+     "value": 126110,
+     "name": "airport_runway_building",
+     "title": "Airport / runway; Building"
+    },
+    {
+     "value": 130000,
+     "name": "recreation_area_sports_ground",
+     "title": "Recreation area / sports ground"
+    },
+    {
+     "value": 130110,
+     "name": "recreation_area_sports_ground_building",
+     "title": "Recreation area / sports ground; Building"
+    },
+    {
+     "value": 141000,
+     "name": "road_paved",
+     "title": "Road, paved"
+    },
+    {
+     "value": 142000,
+     "name": "road_not_paved",
+     "title": "Road, not paved"
+    },
+    {
+     "value": 150000,
+     "name": "railway",
+     "title": "Railway"
+    },
+    {
+     "value": 150110,
+     "name": "railway_building",
+     "title": "Railway; Building"
+    },
+    {
+     "value": 160000,
+     "name": "resource_extraction",
+     "title": "Resource extraction"
+    },
+    {
+     "value": 211000,
+     "name": "agriculture_intensive_temporary_crops",
+     "title": "Agriculture, intensive, temporary crops"
+    },
+    {
+     "value": 212000,
+     "name": "agriculture_intensive_permanent_crops",
+     "title": "Agriculture, intensive, permanent crops"
+    },
+    {
+     "value": 220000,
+     "name": "agriculture_extensive",
+     "title": "Agriculture, extensive"
+    },
+    {
+     "value": 230000,
+     "name": "agriculture_not_classified",
+     "title": "Agriculture, not classified"
+    },
+    {
+     "value": 311000,
+     "name": "forest",
+     "title": "Forest"
+    },
+    {
+     "value": 312000,
+     "name": "forest_wet",
+     "title": "Forest, wet"
+    },
+    {
+     "value": 321000,
+     "name": "nature_dry",
+     "title": "Nature, dry"
+    },
+    {
+     "value": 321220,
+     "name": "nature_dry_agriculture_extensive",
+     "title": "Nature, dry, Agriculture, extensive"
+    },
+    {
+     "value": 322000,
+     "name": "nature_wet",
+     "title": "Nature, wet"
+    },
+    {
+     "value": 322220,
+     "name": "nature_wet_agriculture_extensive",
+     "title": "Nature, wet, Agriculture, extensive"
+    },
+    {
+     "value": 411000,
+     "name": "lake",
+     "title": "Lake"
+    },
+    {
+     "value": 412000,
+     "name": "stream",
+     "title": "Stream"
+    },
+    {
+     "value": 420000,
+     "name": "sea",
+     "title": "Sea"
+    },
+    {
+     "value": 800000,
+     "name": "unmapped",
+     "title": "Unmapped"
+    },
+    {
+     "value": 999999,
+     "name": "germany",
+     "title": "Germany"
+    }
+   ],
+   "semanticgis:codelist": "codelists/basemap04_lu_agg_2021.csv"
+  },
+  "soc": {
+   "href": "soc_0_30cm_ledreborg.tif",
+   "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+   "roles": [
+    "data"
+   ],
+   "title": "Soil organic carbon 0–30 cm, % by mass, 10 m (COG)",
+   "description": "NoData −1. Style: soc_0_30cm_ledreborg.qml."
+  },
+  "codelist-basemap04": {
+   "href": "codelists/basemap04_lu_agg_2021.csv",
+   "type": "text/csv",
+   "roles": [
+    "metadata",
+    "codelist"
+   ],
+   "title": "Basemap04 aggregated land-use classes",
+   "semanticgis:source": "Basemap04, lu_agg_2021.tif.vat.dbf (the raster attribute table distributed with the map)",
+   "semanticgis:retrieved": "2026-10-24"
+  },
+  "readme": {
+   "href": "README.txt",
+   "type": "text/plain",
+   "roles": [
+    "metadata"
+   ],
+   "title": "README"
+  }
+ },
+ "links": [
+  {
+   "rel": "related",
+   "title": "Habitat network at Ledreborg",
+   "href": "https://semanticgis.org/Domain-hubs/Landscape-ecology/Habitat-network-at-Ledreborg-(Example)"
+  },
+  {
+   "rel": "related",
+   "title": "Soil carbon and land use at Ledreborg",
+   "href": "https://semanticgis.org/Domain-hubs/Soil/Soil-carbon-and-land-use-at-Ledreborg-(Example)"
+  }
+ ]
+}

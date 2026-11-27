@@ -1,0 +1,2942 @@
+{
+  "$schema": "https://semanticgis.dk/assets/sphere-index.schema.v1.json",
+  "protocol": "SPHERE",
+  "version": "0.4.0",
+  "description": "Machine-readable index of spheres, leaves, and cross-domain connections for agent discovery",
+  "generated": "2026-11-08",
+  "documentation": "/SPHERE",
+  "extensions": {
+    "multi_twig_membership": true,
+    "optional_primary_lens": true,
+    "threads": true,
+    "twig_membership_required": true,
+    "collection_method": true,
+    "reference_units": true
+  },
+  "spheres": [
+    {
+      "id": "atmosphere",
+      "title": "Atmosphere",
+      "path": "/SPHERE/Atmosphere/",
+      "description": "Air, weather, climate, atmospheric composition and air pollutants",
+      "subspheres": [
+        "atmosphere_climate",
+        "atmosphere_weather",
+        "atmosphere_composition",
+        "atmosphere_contaminants"
+      ]
+    },
+    {
+      "id": "biosphere",
+      "title": "Biosphere",
+      "path": "/SPHERE/Biosphere/",
+      "description": "Living systems: vegetation, fauna, microbial life, ecosystems and biological contaminants",
+      "subspheres": [
+        "biosphere_vegetation",
+        "biosphere_fauna",
+        "biosphere_microbial",
+        "biosphere_ecosystems",
+        "biosphere_contaminants"
+      ]
+    },
+    {
+      "id": "hydrosphere",
+      "title": "Hydrosphere",
+      "path": "/SPHERE/Hydrosphere/",
+      "description": "Earth's waters: surface freshwater, groundwater, marine, cryosphere, atmospheric water, contaminants and water-borne hazards",
+      "subspheres": [
+        "hydrosphere_freshwater_surface",
+        "hydrosphere_groundwater",
+        "hydrosphere_marine",
+        "hydrosphere_cryosphere",
+        "hydrosphere_atmospheric_water",
+        "hydrosphere_contaminants",
+        "hydrosphere_hazards"
+      ]
+    },
+    {
+      "id": "geosphere",
+      "title": "Geosphere",
+      "path": "/SPHERE/Geosphere/",
+      "description": "The solid Earth from bedrock to soil: geology, tectonics, resources, hazards, landform and topography, soils and contaminants",
+      "aliases": [
+        "lithosphere",
+        "pedosphere"
+      ],
+      "subspheres": [
+        "geosphere_geology",
+        "geosphere_tectonics",
+        "geosphere_resources",
+        "geosphere_hazards",
+        "geosphere_landform_topography",
+        "geosphere_soil_properties",
+        "geosphere_soil_types_mapping",
+        "geosphere_soil_moisture_temperature",
+        "geosphere_soil_erosion_sedimentation",
+        "geosphere_contaminants"
+      ]
+    },
+    {
+      "id": "anthroposphere",
+      "title": "Anthroposphere",
+      "path": "/SPHERE/Anthroposphere/",
+      "description": "Human systems: infrastructure, services, socioeconomics, governance, planning, ICT and flows, thematic perception, informal systems, contaminants, risk and resource utilisation",
+      "aliases": [
+        "anthroposphere"
+      ],
+      "subspheres": [
+        "anthroposphere_infrastructure",
+        "anthroposphere_services",
+        "anthroposphere_socioeconomic",
+        "anthroposphere_governance",
+        "anthroposphere_planning",
+        "anthroposphere_ict_flows",
+        "anthroposphere_contaminants",
+        "anthroposphere_hazard_vulnerability_risk",
+        "anthroposphere_resource_utilisation",
+        "anthroposphere_perception_thematics",
+        "anthroposphere_informal_ephemeral"
+      ]
+    },
+    {
+      "id": "reference-framework",
+      "title": "Reference Framework",
+      "path": "/Reference_Framework/",
+      "kind": "reference",
+      "description": "What other data is located by: coordinate frames (CRS, geodetic control) and reference units that data refers to by ID (administrative units, statistical units, addresses), plus grids and map sheets",
+      "subspheres": [
+        "reference_crs",
+        "reference_geodetic_control",
+        "reference_administrative_units",
+        "reference_statistical_units",
+        "reference_addresses",
+        "reference_grids_map_sheets"
+      ]
+    }
+  ],
+  "classical_themes": [
+    {
+      "id": "INSPIRE/addresses",
+      "title": "Addresses",
+      "classification": "INSPIRE",
+      "code": "addresses",
+      "path": "/Classical Classifications/INSPIRE/addresses",
+      "sphere": "Reference Framework",
+      "twigs": [
+        "reference_addresses"
+      ]
+    },
+    {
+      "id": "INSPIRE/administrative-units",
+      "title": "Administrative Units",
+      "classification": "INSPIRE",
+      "code": "administrative-units",
+      "path": "/Classical Classifications/INSPIRE/administrative-units",
+      "sphere": "Reference Framework",
+      "twigs": [
+        "reference_administrative_units"
+      ]
+    },
+    {
+      "id": "INSPIRE/agricultural-aquaculture-facilities",
+      "title": "Agricultural and Aquaculture Facilities",
+      "classification": "INSPIRE",
+      "code": "agricultural-aquaculture-facilities",
+      "path": "/Classical Classifications/INSPIRE/agricultural-aquaculture-facilities",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_resource_utilisation"
+      ]
+    },
+    {
+      "id": "INSPIRE/area-management",
+      "title": "Area Management / Restriction / Regulation Zones",
+      "classification": "INSPIRE",
+      "code": "area-management",
+      "path": "/Classical Classifications/INSPIRE/area-management",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_planning"
+      ]
+    },
+    {
+      "id": "INSPIRE/atmospheric-conditions",
+      "title": "Atmospheric Conditions",
+      "classification": "INSPIRE",
+      "code": "atmospheric-conditions",
+      "path": "/Classical Classifications/INSPIRE/atmospheric-conditions",
+      "sphere": "Atmosphere",
+      "twigs": [
+        "atmosphere_weather"
+      ]
+    },
+    {
+      "id": "INSPIRE/bio-geographical-regions",
+      "title": "Bio-geographical Regions",
+      "classification": "INSPIRE",
+      "code": "bio-geographical-regions",
+      "path": "/Classical Classifications/INSPIRE/bio-geographical-regions",
+      "sphere": "Biosphere",
+      "twigs": [
+        "biosphere_ecosystems"
+      ]
+    },
+    {
+      "id": "INSPIRE/buildings",
+      "title": "Buildings",
+      "classification": "INSPIRE",
+      "code": "buildings",
+      "path": "/Classical Classifications/INSPIRE/buildings",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_infrastructure"
+      ]
+    },
+    {
+      "id": "INSPIRE/cadastral-parcels",
+      "title": "Cadastral Parcels",
+      "classification": "INSPIRE",
+      "code": "cadastral-parcels",
+      "path": "/Classical Classifications/INSPIRE/cadastral-parcels",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_governance"
+      ]
+    },
+    {
+      "id": "INSPIRE/coordinate-reference-systems",
+      "title": "Coordinate Reference Systems",
+      "classification": "INSPIRE",
+      "code": "coordinate-reference-systems",
+      "path": "/Classical Classifications/INSPIRE/coordinate-reference-systems",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_ict_flows"
+      ]
+    },
+    {
+      "id": "INSPIRE/elevation",
+      "title": "Elevation",
+      "classification": "INSPIRE",
+      "code": "elevation",
+      "path": "/Classical Classifications/INSPIRE/elevation",
+      "sphere": "Geosphere",
+      "twigs": [
+        "geosphere_landform_topography"
+      ]
+    },
+    {
+      "id": "INSPIRE/energy-resources",
+      "title": "Energy Resources",
+      "classification": "INSPIRE",
+      "code": "energy-resources",
+      "path": "/Classical Classifications/INSPIRE/energy-resources",
+      "sphere": "Geosphere",
+      "twigs": [
+        "geosphere_resources"
+      ]
+    },
+    {
+      "id": "INSPIRE/environmental-monitoring-facilities",
+      "title": "Environmental Monitoring Facilities",
+      "classification": "INSPIRE",
+      "code": "environmental-monitoring-facilities",
+      "path": "/Classical Classifications/INSPIRE/environmental-monitoring-facilities",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_services"
+      ]
+    },
+    {
+      "id": "INSPIRE/geographical-grid-systems",
+      "title": "Geographical Grid Systems",
+      "classification": "INSPIRE",
+      "code": "geographical-grid-systems",
+      "path": "/Classical Classifications/INSPIRE/geographical-grid-systems",
+      "sphere": "Reference Framework",
+      "twigs": [
+        "reference_grids_map_sheets",
+        "reference_statistical_units"
+      ]
+    },
+    {
+      "id": "INSPIRE/geographical-names",
+      "title": "Geographical Names",
+      "classification": "INSPIRE",
+      "code": "geographical-names",
+      "path": "/Classical Classifications/INSPIRE/geographical-names",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_governance"
+      ]
+    },
+    {
+      "id": "INSPIRE/geology",
+      "title": "Geology",
+      "classification": "INSPIRE",
+      "code": "geology",
+      "path": "/Classical Classifications/INSPIRE/geology",
+      "sphere": "Geosphere",
+      "twigs": [
+        "geosphere_geology"
+      ]
+    },
+    {
+      "id": "INSPIRE/habitats-and-biotopes",
+      "title": "Habitats and Biotopes",
+      "classification": "INSPIRE",
+      "code": "habitats-and-biotopes",
+      "path": "/Classical Classifications/INSPIRE/habitats-and-biotopes",
+      "sphere": "Biosphere",
+      "twigs": [
+        "biosphere_ecosystems"
+      ]
+    },
+    {
+      "id": "INSPIRE/human-health-and-safety",
+      "title": "Human Health and Safety",
+      "classification": "INSPIRE",
+      "code": "human-health-and-safety",
+      "path": "/Classical Classifications/INSPIRE/human-health-and-safety",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_services",
+        "anthroposphere_contaminants"
+      ]
+    },
+    {
+      "id": "INSPIRE/hydrography",
+      "title": "Hydrography",
+      "classification": "INSPIRE",
+      "code": "hydrography",
+      "path": "/Classical Classifications/INSPIRE/hydrography",
+      "sphere": "Hydrosphere",
+      "twigs": [
+        "hydrosphere_freshwater_surface",
+        "hydrosphere_marine"
+      ]
+    },
+    {
+      "id": "INSPIRE/land-cover-and-use",
+      "title": "Land Cover and Use",
+      "classification": "INSPIRE",
+      "code": "land-cover-and-use",
+      "path": "/Classical Classifications/INSPIRE/land-cover-and-use",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_perception_thematics"
+      ]
+    },
+    {
+      "id": "INSPIRE/meteorological-geographical-features",
+      "title": "Meteorological Geographical Features",
+      "classification": "INSPIRE",
+      "code": "meteorological-geographical-features",
+      "path": "/Classical Classifications/INSPIRE/meteorological-geographical-features",
+      "sphere": "Atmosphere",
+      "twigs": [
+        "atmosphere_weather",
+        "atmosphere_climate"
+      ]
+    },
+    {
+      "id": "INSPIRE/mineral-resources",
+      "title": "Mineral Resources",
+      "classification": "INSPIRE",
+      "code": "mineral-resources",
+      "path": "/Classical Classifications/INSPIRE/mineral-resources",
+      "sphere": "Geosphere",
+      "twigs": [
+        "geosphere_resources"
+      ]
+    },
+    {
+      "id": "INSPIRE/natural-risk-zones",
+      "title": "Natural Risk Zones",
+      "classification": "INSPIRE",
+      "code": "natural-risk-zones",
+      "path": "/Classical Classifications/INSPIRE/natural-risk-zones",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_hazard_vulnerability_risk"
+      ]
+    },
+    {
+      "id": "INSPIRE/oceanographic-geographical-features",
+      "title": "Oceanographic Geographical Features",
+      "classification": "INSPIRE",
+      "code": "oceanographic-geographical-features",
+      "path": "/Classical Classifications/INSPIRE/oceanographic-geographical-features",
+      "sphere": "Hydrosphere",
+      "twigs": [
+        "hydrosphere_marine"
+      ]
+    },
+    {
+      "id": "INSPIRE/orthoimagery",
+      "title": "Orthoimagery",
+      "classification": "INSPIRE",
+      "code": "orthoimagery",
+      "path": "/Classical Classifications/INSPIRE/orthoimagery",
+      "sphere": null,
+      "twigs": [],
+      "collection_method": "passive_rs"
+    },
+    {
+      "id": "INSPIRE/population-distribution",
+      "title": "Population Distribution — Demography",
+      "classification": "INSPIRE",
+      "code": "population-distribution",
+      "path": "/Classical Classifications/INSPIRE/population-distribution",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_socioeconomic"
+      ]
+    },
+    {
+      "id": "INSPIRE/production-and-industrial-facilities",
+      "title": "Production and Industrial Facilities",
+      "classification": "INSPIRE",
+      "code": "production-and-industrial-facilities",
+      "path": "/Classical Classifications/INSPIRE/production-and-industrial-facilities",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_infrastructure"
+      ]
+    },
+    {
+      "id": "INSPIRE/protected-sites",
+      "title": "Protected Sites",
+      "classification": "INSPIRE",
+      "code": "protected-sites",
+      "path": "/Classical Classifications/INSPIRE/protected-sites",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_planning"
+      ]
+    },
+    {
+      "id": "INSPIRE/sea-regions",
+      "title": "Sea Regions",
+      "classification": "INSPIRE",
+      "code": "sea-regions",
+      "path": "/Classical Classifications/INSPIRE/sea-regions",
+      "sphere": "Hydrosphere",
+      "twigs": [
+        "hydrosphere_marine"
+      ]
+    },
+    {
+      "id": "INSPIRE/soil",
+      "title": "Soil",
+      "classification": "INSPIRE",
+      "code": "soil",
+      "path": "/Classical Classifications/INSPIRE/soil",
+      "sphere": "Geosphere",
+      "twigs": [
+        "geosphere_soil_properties",
+        "geosphere_soil_types_mapping"
+      ]
+    },
+    {
+      "id": "INSPIRE/species-distribution",
+      "title": "Species Distribution",
+      "classification": "INSPIRE",
+      "code": "species-distribution",
+      "path": "/Classical Classifications/INSPIRE/species-distribution",
+      "sphere": "Biosphere",
+      "twigs": [
+        "biosphere_vegetation",
+        "biosphere_fauna"
+      ]
+    },
+    {
+      "id": "INSPIRE/statistical-units",
+      "title": "Statistical Units",
+      "classification": "INSPIRE",
+      "code": "statistical-units",
+      "path": "/Classical Classifications/INSPIRE/statistical-units",
+      "sphere": "Reference Framework",
+      "twigs": [
+        "reference_statistical_units"
+      ]
+    },
+    {
+      "id": "INSPIRE/transport-networks",
+      "title": "Transport Networks",
+      "classification": "INSPIRE",
+      "code": "transport-networks",
+      "path": "/Classical Classifications/INSPIRE/transport-networks",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_infrastructure"
+      ]
+    },
+    {
+      "id": "INSPIRE/utility-and-governmental-services",
+      "title": "Utility and Governmental Services",
+      "classification": "INSPIRE",
+      "code": "utility-and-governmental-services",
+      "path": "/Classical Classifications/INSPIRE/utility-and-governmental-services",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_infrastructure",
+        "anthroposphere_services"
+      ]
+    },
+    {
+      "id": "ISO 19115/biota",
+      "title": "Biota",
+      "classification": "ISO 19115",
+      "code": "biota",
+      "path": "/Classical Classifications/ISO 19115/biota",
+      "sphere": "Biosphere",
+      "twigs": [
+        "biosphere_vegetation",
+        "biosphere_fauna",
+        "biosphere_ecosystems"
+      ]
+    },
+    {
+      "id": "ISO 19115/boundaries",
+      "title": "Boundaries",
+      "classification": "ISO 19115",
+      "code": "boundaries",
+      "path": "/Classical Classifications/ISO 19115/boundaries",
+      "sphere": "Reference Framework",
+      "twigs": [
+        "reference_administrative_units"
+      ]
+    },
+    {
+      "id": "ISO 19115/climatologyMeteorologyAtmosphere",
+      "title": "Climatology / Meteorology / Atmosphere",
+      "classification": "ISO 19115",
+      "code": "climatologyMeteorologyAtmosphere",
+      "path": "/Classical Classifications/ISO 19115/climatologyMeteorologyAtmosphere",
+      "sphere": "Atmosphere",
+      "twigs": [
+        "atmosphere_climate",
+        "atmosphere_weather",
+        "atmosphere_composition"
+      ]
+    },
+    {
+      "id": "ISO 19115/economy",
+      "title": "Economy",
+      "classification": "ISO 19115",
+      "code": "economy",
+      "path": "/Classical Classifications/ISO 19115/economy",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_socioeconomic"
+      ]
+    },
+    {
+      "id": "ISO 19115/elevation",
+      "title": "Elevation",
+      "classification": "ISO 19115",
+      "code": "elevation",
+      "path": "/Classical Classifications/ISO 19115/elevation",
+      "sphere": "Geosphere",
+      "twigs": [
+        "geosphere_landform_topography"
+      ]
+    },
+    {
+      "id": "ISO 19115/environment",
+      "title": "Environment",
+      "classification": "ISO 19115",
+      "code": "environment",
+      "path": "/Classical Classifications/ISO 19115/environment",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_services"
+      ]
+    },
+    {
+      "id": "ISO 19115/farming",
+      "title": "Farming",
+      "classification": "ISO 19115",
+      "code": "farming",
+      "path": "/Classical Classifications/ISO 19115/farming",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_resource_utilisation"
+      ]
+    },
+    {
+      "id": "ISO 19115/geoscientificInformation",
+      "title": "Geoscientific Information",
+      "classification": "ISO 19115",
+      "code": "geoscientificInformation",
+      "path": "/Classical Classifications/ISO 19115/geoscientificInformation",
+      "sphere": "Geosphere",
+      "twigs": [
+        "geosphere_geology",
+        "geosphere_tectonics",
+        "geosphere_resources",
+        "geosphere_soil_types_mapping"
+      ]
+    },
+    {
+      "id": "ISO 19115/health",
+      "title": "Health",
+      "classification": "ISO 19115",
+      "code": "health",
+      "path": "/Classical Classifications/ISO 19115/health",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_services",
+        "anthroposphere_contaminants"
+      ]
+    },
+    {
+      "id": "ISO 19115/imageryBaseMapsEarthCover",
+      "title": "Imagery / Base Maps / Earth Cover",
+      "classification": "ISO 19115",
+      "code": "imageryBaseMapsEarthCover",
+      "path": "/Classical Classifications/ISO 19115/imageryBaseMapsEarthCover",
+      "sphere": null,
+      "twigs": [],
+      "collection_method": "passive_rs"
+    },
+    {
+      "id": "ISO 19115/inlandWaters",
+      "title": "Inland Waters",
+      "classification": "ISO 19115",
+      "code": "inlandWaters",
+      "path": "/Classical Classifications/ISO 19115/inlandWaters",
+      "sphere": "Hydrosphere",
+      "twigs": [
+        "hydrosphere_freshwater_surface"
+      ]
+    },
+    {
+      "id": "ISO 19115/intelligenceMilitary",
+      "title": "Intelligence / Military",
+      "classification": "ISO 19115",
+      "code": "intelligenceMilitary",
+      "path": "/Classical Classifications/ISO 19115/intelligenceMilitary",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_governance"
+      ]
+    },
+    {
+      "id": "ISO 19115/location",
+      "title": "Location",
+      "classification": "ISO 19115",
+      "code": "location",
+      "path": "/Classical Classifications/ISO 19115/location",
+      "sphere": "Reference Framework",
+      "twigs": [
+        "reference_addresses",
+        "anthroposphere_ict_flows"
+      ]
+    },
+    {
+      "id": "ISO 19115/oceans",
+      "title": "Oceans",
+      "classification": "ISO 19115",
+      "code": "oceans",
+      "path": "/Classical Classifications/ISO 19115/oceans",
+      "sphere": "Hydrosphere",
+      "twigs": [
+        "hydrosphere_marine"
+      ]
+    },
+    {
+      "id": "ISO 19115/planningCadastre",
+      "title": "Planning / Cadastre",
+      "classification": "ISO 19115",
+      "code": "planningCadastre",
+      "path": "/Classical Classifications/ISO 19115/planningCadastre",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_planning",
+        "anthroposphere_governance"
+      ]
+    },
+    {
+      "id": "ISO 19115/society",
+      "title": "Society",
+      "classification": "ISO 19115",
+      "code": "society",
+      "path": "/Classical Classifications/ISO 19115/society",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_socioeconomic"
+      ]
+    },
+    {
+      "id": "ISO 19115/structure",
+      "title": "Structure",
+      "classification": "ISO 19115",
+      "code": "structure",
+      "path": "/Classical Classifications/ISO 19115/structure",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_infrastructure"
+      ]
+    },
+    {
+      "id": "ISO 19115/transportation",
+      "title": "Transportation",
+      "classification": "ISO 19115",
+      "code": "transportation",
+      "path": "/Classical Classifications/ISO 19115/transportation",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_infrastructure"
+      ]
+    },
+    {
+      "id": "ISO 19115/utilitiesCommunication",
+      "title": "Utilities / Communication",
+      "classification": "ISO 19115",
+      "code": "utilitiesCommunication",
+      "path": "/Classical Classifications/ISO 19115/utilitiesCommunication",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_infrastructure",
+        "anthroposphere_ict_flows"
+      ]
+    },
+    {
+      "id": "UN-GGIM/addresses",
+      "title": "Addresses",
+      "classification": "UN-GGIM",
+      "code": "addresses",
+      "path": "/Classical Classifications/UN-GGIM/addresses",
+      "sphere": "Reference Framework",
+      "twigs": [
+        "reference_addresses"
+      ]
+    },
+    {
+      "id": "UN-GGIM/buildings-and-settlements",
+      "title": "Buildings and Settlements",
+      "classification": "UN-GGIM",
+      "code": "buildings-and-settlements",
+      "path": "/Classical Classifications/UN-GGIM/buildings-and-settlements",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_infrastructure"
+      ]
+    },
+    {
+      "id": "UN-GGIM/elevation-and-depth",
+      "title": "Elevation and Depth",
+      "classification": "UN-GGIM",
+      "code": "elevation-and-depth",
+      "path": "/Classical Classifications/UN-GGIM/elevation-and-depth",
+      "sphere": "Geosphere",
+      "twigs": [
+        "geosphere_landform_topography"
+      ]
+    },
+    {
+      "id": "UN-GGIM/functional-areas",
+      "title": "Functional Areas",
+      "classification": "UN-GGIM",
+      "code": "functional-areas",
+      "path": "/Classical Classifications/UN-GGIM/functional-areas",
+      "sphere": "Reference Framework",
+      "twigs": [
+        "reference_statistical_units"
+      ]
+    },
+    {
+      "id": "UN-GGIM/geographical-names",
+      "title": "Geographical Names",
+      "classification": "UN-GGIM",
+      "code": "geographical-names",
+      "path": "/Classical Classifications/UN-GGIM/geographical-names",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_governance"
+      ]
+    },
+    {
+      "id": "UN-GGIM/geology-and-soils",
+      "title": "Geology and Soils",
+      "classification": "UN-GGIM",
+      "code": "geology-and-soils",
+      "path": "/Classical Classifications/UN-GGIM/geology-and-soils",
+      "sphere": "Geosphere",
+      "twigs": [
+        "geosphere_geology",
+        "geosphere_soil_types_mapping",
+        "geosphere_soil_properties"
+      ]
+    },
+    {
+      "id": "UN-GGIM/global-geodetic-reference-frame",
+      "title": "Global Geodetic Reference Frame",
+      "classification": "UN-GGIM",
+      "code": "global-geodetic-reference-frame",
+      "path": "/Classical Classifications/UN-GGIM/global-geodetic-reference-frame",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_ict_flows"
+      ]
+    },
+    {
+      "id": "UN-GGIM/land-cover-and-land-use",
+      "title": "Land Cover and Land Use",
+      "classification": "UN-GGIM",
+      "code": "land-cover-and-land-use",
+      "path": "/Classical Classifications/UN-GGIM/land-cover-and-land-use",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_perception_thematics"
+      ]
+    },
+    {
+      "id": "UN-GGIM/land-parcels",
+      "title": "Land Parcels",
+      "classification": "UN-GGIM",
+      "code": "land-parcels",
+      "path": "/Classical Classifications/UN-GGIM/land-parcels",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_governance"
+      ]
+    },
+    {
+      "id": "UN-GGIM/orthoimagery",
+      "title": "Orthoimagery",
+      "classification": "UN-GGIM",
+      "code": "orthoimagery",
+      "path": "/Classical Classifications/UN-GGIM/orthoimagery",
+      "sphere": null,
+      "twigs": [],
+      "collection_method": "passive_rs"
+    },
+    {
+      "id": "UN-GGIM/physical-infrastructure",
+      "title": "Physical Infrastructure",
+      "classification": "UN-GGIM",
+      "code": "physical-infrastructure",
+      "path": "/Classical Classifications/UN-GGIM/physical-infrastructure",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_infrastructure"
+      ]
+    },
+    {
+      "id": "UN-GGIM/population-distribution",
+      "title": "Population Distribution",
+      "classification": "UN-GGIM",
+      "code": "population-distribution",
+      "path": "/Classical Classifications/UN-GGIM/population-distribution",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_socioeconomic"
+      ]
+    },
+    {
+      "id": "UN-GGIM/transport-networks",
+      "title": "Transport Networks",
+      "classification": "UN-GGIM",
+      "code": "transport-networks",
+      "path": "/Classical Classifications/UN-GGIM/transport-networks",
+      "sphere": "Anthroposphere",
+      "twigs": [
+        "anthroposphere_infrastructure"
+      ]
+    },
+    {
+      "id": "UN-GGIM/water",
+      "title": "Water",
+      "classification": "UN-GGIM",
+      "code": "water",
+      "path": "/Classical Classifications/UN-GGIM/water",
+      "sphere": "Hydrosphere",
+      "twigs": [
+        "hydrosphere_freshwater_surface",
+        "hydrosphere_marine",
+        "hydrosphere_groundwater"
+      ]
+    }
+  ],
+  "collection_methods": [
+    {
+      "id": "administrative_register",
+      "title": "Administrative Register",
+      "description": "Registered, declared, or legally defined facts maintained by an authority.",
+      "subtypes": [
+        "registered",
+        "declared",
+        "legally_defined"
+      ],
+      "path": "/Collection Methods/administrative_register"
+    },
+    {
+      "id": "in_situ",
+      "title": "In-situ / Field Measurement",
+      "description": "Observations made on location: monitoring stations, sampling, field and geodetic survey.",
+      "subtypes": [
+        "monitoring_station",
+        "sampling",
+        "field_survey",
+        "geodetic_survey"
+      ],
+      "path": "/Collection Methods/in_situ"
+    },
+    {
+      "id": "passive_rs",
+      "title": "Passive Remote Sensing",
+      "description": "Sensors recording reflected or emitted radiation: aerial and satellite optical, multispectral, thermal.",
+      "subtypes": [
+        "optical",
+        "multispectral",
+        "hyperspectral",
+        "thermal"
+      ],
+      "path": "/Collection Methods/passive_rs"
+    },
+    {
+      "id": "active_rs",
+      "title": "Active Remote Sensing",
+      "description": "Sensors emitting their own signal: LiDAR, radar (SAR), sonar and multibeam.",
+      "subtypes": [
+        "lidar",
+        "sar",
+        "sonar_multibeam"
+      ],
+      "path": "/Collection Methods/active_rs"
+    },
+    {
+      "id": "derived_modelled",
+      "title": "Derived / Modelled",
+      "description": "Products computed from other data: interpolation, classification, simulation, statistical aggregation.",
+      "subtypes": [
+        "interpolation",
+        "classification",
+        "simulation",
+        "statistical_aggregation",
+        "valuation_model"
+      ],
+      "path": "/Collection Methods/derived_modelled"
+    },
+    {
+      "id": "volunteered",
+      "title": "Volunteered / Crowdsourced",
+      "description": "Data contributed by communities of volunteers, such as OpenStreetMap.",
+      "subtypes": [
+        "community_mapping"
+      ],
+      "path": "/Collection Methods/volunteered"
+    },
+    {
+      "id": "cartographic_compilation",
+      "title": "Cartographic Compilation",
+      "description": "Data compiled by mapping: digitising from imagery, generalisation, historical map series.",
+      "subtypes": [
+        "digitising",
+        "generalisation",
+        "historical_map"
+      ],
+      "path": "/Collection Methods/cartographic_compilation"
+    }
+  ],
+  "twigs": {
+    "anthroposphere_contaminants": {
+      "title": "Contaminants (Human Exposure)",
+      "path": "/SPHERE/Anthroposphere/Contaminants/"
+    },
+    "anthroposphere_governance": {
+      "title": "Governance",
+      "path": "/SPHERE/Anthroposphere/Governance/"
+    },
+    "anthroposphere_hazard_vulnerability_risk": {
+      "title": "Hazard, Vulnerability, and Risk",
+      "path": "/SPHERE/Anthroposphere/Hazard_Vulnerability_Risk/"
+    },
+    "anthroposphere_ict_flows": {
+      "title": "ICT and Flows",
+      "path": "/SPHERE/Anthroposphere/ICT/"
+    },
+    "anthroposphere_informal_ephemeral": {
+      "title": "Informal and Ephemeral",
+      "path": "/SPHERE/Anthroposphere/Informal_Ephemeral/"
+    },
+    "anthroposphere_infrastructure": {
+      "title": "Infrastructure",
+      "path": "/SPHERE/Anthroposphere/Infrastructure/"
+    },
+    "anthroposphere_perception_thematics": {
+      "title": "Perception and Thematics",
+      "path": "/SPHERE/Anthroposphere/Perception_Thematics/"
+    },
+    "anthroposphere_planning": {
+      "title": "Planning",
+      "path": "/SPHERE/Anthroposphere/Planning/"
+    },
+    "anthroposphere_resource_utilisation": {
+      "title": "Resource Utilisation",
+      "path": "/SPHERE/Anthroposphere/Resource_Utilisation/"
+    },
+    "anthroposphere_services": {
+      "title": "Services",
+      "path": "/SPHERE/Anthroposphere/Services/"
+    },
+    "anthroposphere_socioeconomic": {
+      "title": "Socioeconomic",
+      "path": "/SPHERE/Anthroposphere/Socioeconomic/"
+    },
+    "atmosphere_climate": {
+      "title": "Climate",
+      "path": "/SPHERE/Atmosphere/Climate/"
+    },
+    "atmosphere_composition": {
+      "title": "Atmospheric Composition",
+      "path": "/SPHERE/Atmosphere/Composition/"
+    },
+    "atmosphere_contaminants": {
+      "title": "Atmospheric Contaminants",
+      "path": "/SPHERE/Atmosphere/Contaminants/"
+    },
+    "atmosphere_weather": {
+      "title": "Weather",
+      "path": "/SPHERE/Atmosphere/Weather/"
+    },
+    "biosphere_contaminants": {
+      "title": "Biosphere Contaminants",
+      "path": "/SPHERE/Biosphere/Contaminants/"
+    },
+    "biosphere_ecosystems": {
+      "title": "Ecosystems",
+      "path": "/SPHERE/Biosphere/Ecosystems/"
+    },
+    "biosphere_fauna": {
+      "title": "Fauna",
+      "path": "/SPHERE/Biosphere/Fauna/"
+    },
+    "biosphere_microbial": {
+      "title": "Microbial Life",
+      "path": "/SPHERE/Biosphere/Microbial/"
+    },
+    "biosphere_vegetation": {
+      "title": "Vegetation",
+      "path": "/SPHERE/Biosphere/Vegetation/"
+    },
+    "geosphere_contaminants": {
+      "title": "Geosphere Contaminants",
+      "path": "/SPHERE/Geosphere/Contaminants/"
+    },
+    "geosphere_geology": {
+      "title": "Geology",
+      "path": "/SPHERE/Geosphere/Geology/"
+    },
+    "geosphere_hazards": {
+      "title": "Lithospheric Hazards",
+      "path": "/SPHERE/Geosphere/Geohazards/"
+    },
+    "geosphere_landform_topography": {
+      "title": "Landform and Topography",
+      "path": "/SPHERE/Geosphere/Landform_Topography/"
+    },
+    "geosphere_resources": {
+      "title": "Geological Resources",
+      "path": "/SPHERE/Geosphere/Geo_Resources/"
+    },
+    "geosphere_soil_erosion_sedimentation": {
+      "title": "Soil Erosion and Sedimentation",
+      "path": "/SPHERE/Geosphere/Soil_Erosion_Sedimentation/"
+    },
+    "geosphere_soil_moisture_temperature": {
+      "title": "Soil Moisture and Temperature",
+      "path": "/SPHERE/Geosphere/Soil_Moisture_Temperature/"
+    },
+    "geosphere_soil_properties": {
+      "title": "Soil Properties",
+      "path": "/SPHERE/Geosphere/Soil_Properties/"
+    },
+    "geosphere_soil_types_mapping": {
+      "title": "Soil Types and Mapping",
+      "path": "/SPHERE/Geosphere/Soil_Types_Mapping/"
+    },
+    "geosphere_tectonics": {
+      "title": "Tectonics",
+      "path": "/SPHERE/Geosphere/Tectonics/"
+    },
+    "hydrosphere_atmospheric_water": {
+      "title": "Atmospheric Water",
+      "path": "/SPHERE/Hydrosphere/Atmospheric_Water/"
+    },
+    "hydrosphere_contaminants": {
+      "title": "Water Contaminants",
+      "path": "/SPHERE/Hydrosphere/Contaminants/"
+    },
+    "hydrosphere_cryosphere": {
+      "title": "Cryosphere",
+      "path": "/SPHERE/Hydrosphere/Cryosphere/"
+    },
+    "hydrosphere_freshwater_surface": {
+      "title": "Freshwater Surface Water",
+      "path": "/SPHERE/Hydrosphere/Freshwater_Surface/"
+    },
+    "hydrosphere_groundwater": {
+      "title": "Groundwater",
+      "path": "/SPHERE/Hydrosphere/Groundwater/"
+    },
+    "hydrosphere_hazards": {
+      "title": "Water Hazards",
+      "path": "/SPHERE/Hydrosphere/Hazards/"
+    },
+    "hydrosphere_marine": {
+      "title": "Marine Waters",
+      "path": "/SPHERE/Hydrosphere/Marine/"
+    },
+    "reference_addresses": {
+      "title": "Addresses",
+      "path": "/Reference_Framework/Addresses/"
+    },
+    "reference_administrative_units": {
+      "title": "Administrative Units",
+      "path": "/Reference_Framework/Administrative_Units/"
+    },
+    "reference_crs": {
+      "title": "Coordinate Reference Systems",
+      "path": "/Reference_Framework/CRS/"
+    },
+    "reference_geodetic_control": {
+      "title": "Geodetic Control",
+      "path": "/Reference_Framework/Geodetic_Control/"
+    },
+    "reference_grids_map_sheets": {
+      "title": "Grids and Map Sheets",
+      "path": "/Reference_Framework/Grids_Map_Sheets/"
+    },
+    "reference_statistical_units": {
+      "title": "Statistical Units",
+      "path": "/Reference_Framework/Statistical_Units/"
+    }
+  },
+  "leaves": [
+    {
+      "id": "firms",
+      "title": "Firms",
+      "path": "/Leaves/firms",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "What firm is this, as a legal registered entity?",
+      "tags": [],
+      "twig_membership": [
+        "anthroposphere_socioeconomic"
+      ],
+      "primary_lens": "anthroposphere_socioeconomic",
+      "threads": []
+    },
+    {
+      "id": "economic-activities",
+      "title": "Economic Activities",
+      "path": "/Leaves/economic-activities",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere",
+        "biosphere"
+      ],
+      "question": "What economic activity does a business perform?",
+      "tags": [
+        "biosphere_ecosystems",
+        "anthroposphere_perception_thematics"
+      ],
+      "twig_membership": [
+        "anthroposphere_socioeconomic",
+        "biosphere_ecosystems",
+        "anthroposphere_perception_thematics"
+      ],
+      "primary_lens": "anthroposphere_socioeconomic",
+      "flow_mode": "ant",
+      "temporal_mmu": "episodic",
+      "threads": [
+        "economic-activities-to-biosphere-ecosystems",
+        "economic-activities-to-perception-thematics"
+      ]
+    },
+    {
+      "id": "business-locations",
+      "title": "Business Locations",
+      "path": "/Leaves/business-locations",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere",
+        "geosphere"
+      ],
+      "question": "Where does a business physically operate?",
+      "tags": [
+        "geosphere_landform_topography",
+        "anthroposphere_perception_thematics"
+      ],
+      "twig_membership": [
+        "anthroposphere_infrastructure",
+        "geosphere_landform_topography",
+        "anthroposphere_perception_thematics"
+      ],
+      "primary_lens": "anthroposphere_infrastructure",
+      "flow_mode": "ant",
+      "temporal_mmu": "episodic",
+      "threads": [
+        "business-locations-to-topography",
+        "business-locations-to-perception-thematics"
+      ]
+    },
+    {
+      "id": "corporate-ownership",
+      "title": "Ownership and Governance",
+      "path": "/Leaves/corporate-ownership",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "Who owns, controls, or governs a firm?",
+      "tags": [],
+      "twig_membership": [
+        "anthroposphere_socioeconomic"
+      ],
+      "primary_lens": "anthroposphere_socioeconomic",
+      "threads": []
+    },
+    {
+      "id": "business-financials",
+      "title": "Economics and Employment",
+      "path": "/Leaves/business-financials",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "What are the economic and employment characteristics of a firm or establishment?",
+      "tags": [],
+      "twig_membership": [
+        "anthroposphere_socioeconomic"
+      ],
+      "primary_lens": "anthroposphere_socioeconomic",
+      "threads": []
+    },
+    {
+      "id": "addresses",
+      "title": "Addresses",
+      "path": "/Leaves/addresses",
+      "sphere": "reference-framework",
+      "spheres": [
+        "reference-framework",
+        "anthroposphere"
+      ],
+      "question": "Where is a property located by its official address?",
+      "tags": [],
+      "twig_membership": [
+        "reference_addresses",
+        "anthroposphere_governance"
+      ],
+      "primary_lens": "reference_addresses",
+      "threads": []
+    },
+    {
+      "id": "buildings",
+      "title": "Buildings",
+      "path": "/Leaves/buildings",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "What buildings exist at a location and what are their characteristics?",
+      "tags": [],
+      "twig_membership": [
+        "anthroposphere_infrastructure"
+      ],
+      "primary_lens": "anthroposphere_infrastructure",
+      "threads": []
+    },
+    {
+      "id": "administrative-units",
+      "title": "Administrative Units",
+      "path": "/Leaves/administrative-units",
+      "sphere": "reference-framework",
+      "spheres": [
+        "reference-framework",
+        "anthroposphere"
+      ],
+      "question": "Which administrative area does a location belong to?",
+      "tags": [],
+      "twig_membership": [
+        "reference_administrative_units",
+        "anthroposphere_governance"
+      ],
+      "primary_lens": "reference_administrative_units",
+      "threads": []
+    },
+    {
+      "id": "cadastral-parcels",
+      "title": "Cadastral Parcels",
+      "path": "/Leaves/cadastral-parcels",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "What are the legal boundaries and ownership of land?",
+      "tags": [],
+      "twig_membership": [
+        "anthroposphere_governance"
+      ],
+      "primary_lens": "anthroposphere_governance",
+      "threads": []
+    },
+    {
+      "id": "geographical-names",
+      "title": "Geographical Names",
+      "path": "/Leaves/geographical-names",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "What is the official name of a place or feature?",
+      "tags": [],
+      "twig_membership": [
+        "anthroposphere_governance"
+      ],
+      "primary_lens": "anthroposphere_governance",
+      "threads": []
+    },
+    {
+      "id": "elevation",
+      "title": "Elevation",
+      "path": "/Leaves/elevation",
+      "sphere": "geosphere",
+      "spheres": [
+        "geosphere",
+        "hydrosphere"
+      ],
+      "question": "What is the elevation at a given location?",
+      "tags": [
+        "hydrosphere_freshwater_surface"
+      ],
+      "twig_membership": [
+        "geosphere_landform_topography",
+        "hydrosphere_freshwater_surface"
+      ],
+      "primary_lens": "geosphere_landform_topography",
+      "threads": [
+        "elevation-to-hydrosphere-freshwater-surface"
+      ]
+    },
+    {
+      "id": "orthoimagery",
+      "title": "Orthoimagery",
+      "path": "/Leaves/orthoimagery",
+      "spheres": [],
+      "question": "What does the Earth's surface look like at a location?",
+      "tags": [
+        "collection-method/passive_rs"
+      ],
+      "twig_membership": [],
+      "flow_mode": "gauge",
+      "temporal_mmu": "episodic",
+      "threads": []
+    },
+    {
+      "id": "population",
+      "title": "Population",
+      "path": "/Leaves/population",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "How is the population distributed and what are its characteristics?",
+      "tags": [],
+      "twig_membership": [
+        "anthroposphere_socioeconomic"
+      ],
+      "primary_lens": "anthroposphere_socioeconomic",
+      "threads": []
+    },
+    {
+      "id": "transport-networks",
+      "title": "Transport Infrastructure Networks",
+      "path": "/Leaves/transport-networks",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "What transport networks, corridors, or access restrictions exist at this location?",
+      "tags": [
+        "anthroposphere_infrastructure",
+        "transport",
+        "connectivity"
+      ],
+      "twig_membership": [
+        "anthroposphere_infrastructure"
+      ],
+      "primary_lens": "anthroposphere_infrastructure",
+      "threads": []
+    },
+    {
+      "id": "services",
+      "title": "Services and Amenities",
+      "path": "/Leaves/services",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "What services or amenities are available at or near a location?",
+      "tags": [
+        "anthroposphere_services"
+      ],
+      "twig_membership": [
+        "anthroposphere_services"
+      ],
+      "primary_lens": "anthroposphere_services",
+      "threads": []
+    },
+    {
+      "id": "bathing-water-quality",
+      "title": "Bathing Water Quality",
+      "path": "/Leaves/bathing-water-quality",
+      "sphere": "hydrosphere",
+      "spheres": [
+        "hydrosphere",
+        "anthroposphere"
+      ],
+      "question": "Is bathing water suitable and safe for human recreational use at this location and time?",
+      "tags": [
+        "hydrosphere_freshwater_surface",
+        "hydrosphere_contaminants",
+        "anthroposphere_contaminants",
+        "anthroposphere_hazard_vulnerability_risk",
+        "anthroposphere_services"
+      ],
+      "twig_membership": [
+        "hydrosphere_freshwater_surface",
+        "hydrosphere_contaminants",
+        "anthroposphere_contaminants",
+        "anthroposphere_hazard_vulnerability_risk",
+        "anthroposphere_services"
+      ],
+      "primary_lens": "hydrosphere_freshwater_surface",
+      "flow_mode": "gauge",
+      "temporal_mmu": "stream",
+      "threads": [
+        "bathing-water-quality-hydrosphere-freshwater",
+        "bathing-water-quality-hydrosphere-contaminants",
+        "bathing-water-quality-socio-contaminants",
+        "bathing-water-quality-hvr",
+        "bathing-water-quality-services"
+      ]
+    },
+    {
+      "id": "freshwater-bodies",
+      "title": "Surface Freshwater Bodies",
+      "path": "/Leaves/freshwater-bodies",
+      "sphere": "hydrosphere",
+      "spheres": [
+        "hydrosphere"
+      ],
+      "question": "Which river, lake, wetland, or catchment is this location part of?",
+      "tags": [
+        "hydrosphere_freshwater_surface"
+      ],
+      "twig_membership": [
+        "hydrosphere_freshwater_surface"
+      ],
+      "primary_lens": "hydrosphere_freshwater_surface",
+      "threads": []
+    },
+    {
+      "id": "groundwater-bodies",
+      "title": "Groundwater Bodies",
+      "path": "/Leaves/groundwater-bodies",
+      "sphere": "hydrosphere",
+      "spheres": [
+        "hydrosphere"
+      ],
+      "question": "Which groundwater body or aquifer is present here, and what status applies?",
+      "tags": [
+        "hydrosphere_groundwater"
+      ],
+      "twig_membership": [
+        "hydrosphere_groundwater"
+      ],
+      "primary_lens": "hydrosphere_groundwater",
+      "threads": []
+    },
+    {
+      "id": "marine-waters",
+      "title": "Marine and Coastal Waters",
+      "path": "/Leaves/marine-waters",
+      "sphere": "hydrosphere",
+      "spheres": [
+        "hydrosphere"
+      ],
+      "question": "Which coastal or marine water body is this location part of, and what condition applies?",
+      "tags": [
+        "hydrosphere_marine"
+      ],
+      "twig_membership": [
+        "hydrosphere_marine"
+      ],
+      "primary_lens": "hydrosphere_marine",
+      "threads": []
+    },
+    {
+      "id": "aquaculture-sites",
+      "title": "Aquaculture Sites",
+      "path": "/Leaves/aquaculture-sites",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "Where are aquaculture activities located, and what production or discharge characteristics are reported there?",
+      "tags": [
+        "anthroposphere_resource_utilisation"
+      ],
+      "twig_membership": [
+        "anthroposphere_resource_utilisation"
+      ],
+      "primary_lens": "anthroposphere_resource_utilisation",
+      "threads": []
+    },
+    {
+      "id": "species-observations",
+      "title": "Species Observations",
+      "path": "/Leaves/species-observations",
+      "sphere": "biosphere",
+      "spheres": [
+        "biosphere"
+      ],
+      "question": "Which species have been observed at this location, and when were they recorded?",
+      "tags": [
+        "biosphere_ecosystems"
+      ],
+      "twig_membership": [
+        "biosphere_ecosystems"
+      ],
+      "primary_lens": "biosphere_ecosystems",
+      "threads": []
+    },
+    {
+      "id": "groundwater-chemistry",
+      "title": "Groundwater Chemistry",
+      "path": "/Leaves/groundwater-chemistry",
+      "sphere": "hydrosphere",
+      "spheres": [
+        "hydrosphere"
+      ],
+      "question": "What is the chemical status of groundwater in this area, and which substances drive trends or exceedances?",
+      "tags": [
+        "hydrosphere_groundwater"
+      ],
+      "twig_membership": [
+        "hydrosphere_groundwater"
+      ],
+      "primary_lens": "hydrosphere_groundwater",
+      "threads": []
+    },
+    {
+      "id": "land-use-agriculture",
+      "title": "Agricultural Land Management",
+      "path": "/Leaves/land-use-agriculture",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "Which agricultural management patterns and production-use classes apply in this area?",
+      "tags": [
+        "anthroposphere_resource_utilisation"
+      ],
+      "twig_membership": [
+        "anthroposphere_resource_utilisation"
+      ],
+      "primary_lens": "anthroposphere_resource_utilisation",
+      "threads": []
+    },
+    {
+      "id": "nature-protection-areas",
+      "title": "Nature Protection Areas",
+      "path": "/Leaves/nature-protection-areas",
+      "spheres": [
+        "anthroposphere",
+        "biosphere"
+      ],
+      "question": "Which nature protection designations or restrictions apply at this location?",
+      "tags": [
+        "biosphere_conservation"
+      ],
+      "twig_membership": [
+        "anthroposphere_planning",
+        "biosphere_ecosystems"
+      ],
+      "threads": []
+    },
+    {
+      "id": "fisheries-intensity",
+      "title": "Fisheries Intensity",
+      "path": "/Leaves/fisheries-intensity",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere",
+        "biosphere"
+      ],
+      "question": "What fishing effort and gear activity occur in this marine area, and how does it relate to ecosystem pressure and regulation?",
+      "tags": [
+        "anthroposphere_resource_utilisation",
+        "anthroposphere_governance",
+        "biosphere_ecosystems"
+      ],
+      "twig_membership": [
+        "anthroposphere_resource_utilisation",
+        "anthroposphere_governance",
+        "biosphere_ecosystems"
+      ],
+      "primary_lens": "anthroposphere_resource_utilisation",
+      "flow_mode": "ant",
+      "temporal_mmu": "episodic",
+      "threads": [
+        "fisheries-intensity-to-governance",
+        "fisheries-intensity-to-biosphere-ecosystems"
+      ]
+    },
+    {
+      "id": "habitat-condition",
+      "title": "Habitat Condition",
+      "path": "/Leaves/habitat-condition",
+      "sphere": "biosphere",
+      "spheres": [
+        "biosphere"
+      ],
+      "question": "What ecological condition or quality is reported for the habitat at this location?",
+      "tags": [
+        "biosphere_ecosystems"
+      ],
+      "twig_membership": [
+        "biosphere_ecosystems"
+      ],
+      "primary_lens": "biosphere_ecosystems",
+      "threads": []
+    },
+    {
+      "id": "habitat-extent",
+      "title": "Habitat Extent",
+      "path": "/Leaves/habitat-extent",
+      "sphere": "biosphere",
+      "spheres": [
+        "biosphere"
+      ],
+      "question": "Which habitat and nature-type areas are mapped at this location?",
+      "tags": [
+        "biosphere_ecosystems"
+      ],
+      "twig_membership": [
+        "biosphere_ecosystems"
+      ],
+      "primary_lens": "biosphere_ecosystems",
+      "threads": []
+    },
+    {
+      "id": "biodiversity-priority-indicators",
+      "title": "Biodiversity Priority Indicators",
+      "path": "/Leaves/biodiversity-priority-indicators",
+      "sphere": "biosphere",
+      "spheres": [
+        "biosphere"
+      ],
+      "question": "How is this area prioritized for biodiversity action, and which indicators drive that priority?",
+      "tags": [
+        "biosphere_ecosystems"
+      ],
+      "twig_membership": [
+        "biosphere_ecosystems"
+      ],
+      "primary_lens": "biosphere_ecosystems",
+      "threads": []
+    },
+    {
+      "id": "coastal-erosion-risk",
+      "title": "Coastal Erosion Risk",
+      "path": "/Leaves/coastal-erosion-risk",
+      "sphere": "geosphere",
+      "spheres": [
+        "geosphere",
+        "hydrosphere",
+        "anthroposphere"
+      ],
+      "question": "Where is coastal erosion risk highest, and how severe is the expected shoreline impact?",
+      "tags": [
+        "geosphere_hazards"
+      ],
+      "twig_membership": [
+        "geosphere_hazards",
+        "hydrosphere_marine",
+        "anthroposphere_hazard_vulnerability_risk"
+      ],
+      "primary_lens": "geosphere_hazards",
+      "threads": []
+    },
+    {
+      "id": "hydrological-basin-delineations",
+      "title": "Hydrological Basin Delineations",
+      "path": "/Leaves/hydrological-basin-delineations",
+      "sphere": "hydrosphere",
+      "spheres": [
+        "hydrosphere"
+      ],
+      "question": "Which basin or sub-basin does this location belong to in water-management planning?",
+      "tags": [
+        "hydrosphere_freshwater_surface"
+      ],
+      "twig_membership": [
+        "hydrosphere_freshwater_surface"
+      ],
+      "primary_lens": "hydrosphere_freshwater_surface",
+      "threads": []
+    },
+    {
+      "id": "marine-spatial-infrastructure",
+      "title": "Marine Spatial Infrastructure",
+      "path": "/Leaves/marine-spatial-infrastructure",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "Which marine installations or constrained-use structures are present in this sea area?",
+      "tags": [
+        "anthroposphere_infrastructure"
+      ],
+      "twig_membership": [
+        "anthroposphere_infrastructure"
+      ],
+      "primary_lens": "anthroposphere_infrastructure",
+      "threads": []
+    },
+    {
+      "id": "planning-zoning-decisions",
+      "title": "Planning and Zoning Decisions",
+      "path": "/Leaves/planning-zoning-decisions",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "Which planning or zoning decisions apply here, and what constraints do they impose?",
+      "tags": [
+        "anthroposphere_governance"
+      ],
+      "twig_membership": [
+        "anthroposphere_planning"
+      ],
+      "primary_lens": "anthroposphere_planning",
+      "threads": []
+    },
+    {
+      "id": "protected-water-use-zones",
+      "title": "Protected Water Use Zones",
+      "path": "/Leaves/protected-water-use-zones",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "Which protected-use water zones apply here, and what protection objective do they represent?",
+      "tags": [
+        "hydrosphere_contaminants"
+      ],
+      "twig_membership": [
+        "anthroposphere_planning"
+      ],
+      "primary_lens": "anthroposphere_planning",
+      "threads": []
+    },
+    {
+      "id": "species-conservation-concern",
+      "title": "Species of Conservation Concern",
+      "path": "/Leaves/species-conservation-concern",
+      "sphere": "biosphere",
+      "spheres": [
+        "biosphere"
+      ],
+      "question": "Which protected or conservation-priority species are documented here?",
+      "tags": [
+        "biosphere_ecosystems"
+      ],
+      "twig_membership": [
+        "biosphere_fauna"
+      ],
+      "primary_lens": "biosphere_fauna",
+      "threads": []
+    },
+    {
+      "id": "surface-flow-systems",
+      "title": "Surface Flow Systems",
+      "path": "/Leaves/surface-flow-systems",
+      "sphere": "hydrosphere",
+      "spheres": [
+        "hydrosphere"
+      ],
+      "question": "How does water move and accumulate on the surface here, including depressions, flooding, and catchment context?",
+      "tags": [
+        "hydrosphere_freshwater_surface"
+      ],
+      "twig_membership": [
+        "hydrosphere_freshwater_surface"
+      ],
+      "primary_lens": "hydrosphere_freshwater_surface",
+      "threads": []
+    },
+    {
+      "id": "geological-strata",
+      "title": "Geological Strata",
+      "path": "/Leaves/geological-strata",
+      "sphere": "geosphere",
+      "spheres": [
+        "geosphere"
+      ],
+      "question": "Which geological strata and subsurface structures are present here, and how do they frame subsurface interpretation?",
+      "tags": [
+        "geosphere_geology"
+      ],
+      "twig_membership": [
+        "geosphere_geology"
+      ],
+      "primary_lens": "geosphere_geology",
+      "threads": []
+    },
+    {
+      "id": "subsurface-freshwater",
+      "title": "Subsurface Freshwater",
+      "path": "/Leaves/subsurface-freshwater",
+      "sphere": "hydrosphere",
+      "spheres": [
+        "hydrosphere"
+      ],
+      "question": "What do boreholes reveal about subsurface freshwater chemistry and aquifer behavior here?",
+      "tags": [
+        "hydrosphere_groundwater"
+      ],
+      "twig_membership": [
+        "hydrosphere_groundwater"
+      ],
+      "primary_lens": "hydrosphere_groundwater",
+      "threads": []
+    },
+    {
+      "id": "atmospheric-deposition-emissions",
+      "title": "Atmospheric Deposition and Emissions",
+      "path": "/Leaves/atmospheric-deposition-emissions",
+      "sphere": "atmosphere",
+      "spheres": [
+        "atmosphere",
+        "anthroposphere"
+      ],
+      "question": "What atmospheric emissions and deposition loads are modeled for this area?",
+      "tags": [
+        "atmosphere_contaminants"
+      ],
+      "twig_membership": [
+        "atmosphere_contaminants",
+        "anthroposphere_contaminants"
+      ],
+      "primary_lens": "atmosphere_contaminants",
+      "threads": []
+    },
+    {
+      "id": "nautical-traffic",
+      "title": "Nautical Traffic",
+      "path": "/Leaves/nautical-traffic",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "What vessel traffic patterns are present here, and how intense is maritime movement over time?",
+      "tags": [
+        "anthroposphere_infrastructure"
+      ],
+      "twig_membership": [
+        "anthroposphere_infrastructure"
+      ],
+      "primary_lens": "anthroposphere_infrastructure",
+      "threads": []
+    },
+    {
+      "id": "soil-properties",
+      "title": "Soil Properties",
+      "path": "/Leaves/soil-properties",
+      "sphere": "geosphere",
+      "spheres": [
+        "geosphere"
+      ],
+      "question": "What soil types and near-surface soil properties characterize this area?",
+      "tags": [
+        "geosphere_soil_properties"
+      ],
+      "twig_membership": [
+        "geosphere_soil_properties"
+      ],
+      "primary_lens": "geosphere_soil_properties",
+      "threads": []
+    },
+    {
+      "id": "spill-pollution-incidents",
+      "title": "Spill and Pollution Incidents",
+      "path": "/Leaves/spill-pollution-incidents",
+      "sphere": "hydrosphere",
+      "spheres": [
+        "hydrosphere",
+        "anthroposphere"
+      ],
+      "question": "Which spill, contamination, or hazardous discharge signals are reported for this area?",
+      "tags": [
+        "anthroposphere_governance"
+      ],
+      "twig_membership": [
+        "hydrosphere_hazards",
+        "hydrosphere_contaminants",
+        "anthroposphere_hazard_vulnerability_risk",
+        "anthroposphere_governance"
+      ],
+      "primary_lens": "hydrosphere_hazards",
+      "threads": []
+    },
+    {
+      "id": "energy-infrastructure",
+      "title": "Energy Infrastructure",
+      "path": "/Leaves/energy-infrastructure",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "Which energy infrastructures are present here, and what operational or planning constraints apply to them?",
+      "tags": [
+        "anthroposphere_infrastructure"
+      ],
+      "twig_membership": [
+        "anthroposphere_infrastructure"
+      ],
+      "primary_lens": "anthroposphere_infrastructure",
+      "threads": []
+    },
+    {
+      "id": "flood-hazard-inundation",
+      "title": "Flood Hazard and Inundation",
+      "path": "/Leaves/flood-hazard-inundation",
+      "sphere": "hydrosphere",
+      "spheres": [
+        "hydrosphere",
+        "anthroposphere"
+      ],
+      "question": "Which areas are exposed to flooding or inundation here, and under what scenario or return period?",
+      "tags": [
+        "hydrosphere_hazards"
+      ],
+      "twig_membership": [
+        "hydrosphere_hazards",
+        "hydrosphere_freshwater_surface",
+        "anthroposphere_hazard_vulnerability_risk"
+      ],
+      "primary_lens": "hydrosphere_hazards",
+      "threads": []
+    },
+    {
+      "id": "geodetic-control-points",
+      "title": "Geodetic Control Points",
+      "path": "/Leaves/geodetic-control-points",
+      "sphere": "reference-framework",
+      "spheres": [
+        "reference-framework",
+        "anthroposphere"
+      ],
+      "question": "Where are the geodetic control points, and what coordinates and accuracy do they define?",
+      "tags": [],
+      "twig_membership": [
+        "reference_geodetic_control",
+        "anthroposphere_governance"
+      ],
+      "primary_lens": "reference_geodetic_control",
+      "threads": []
+    },
+    {
+      "id": "historical-map-sheets",
+      "title": "Historical Map Sheets",
+      "path": "/Leaves/historical-map-sheets",
+      "sphere": "reference-framework",
+      "spheres": [
+        "reference-framework"
+      ],
+      "question": "Which historical map sheet covers this location, and what cartographic source does it represent?",
+      "tags": [],
+      "twig_membership": [
+        "reference_grids_map_sheets"
+      ],
+      "primary_lens": "reference_grids_map_sheets",
+      "threads": []
+    },
+    {
+      "id": "property-valuation",
+      "title": "Property Valuation",
+      "path": "/Leaves/property-valuation",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "What is the official assessed value of a property?",
+      "tags": [],
+      "twig_membership": [
+        "anthroposphere_socioeconomic",
+        "anthroposphere_governance"
+      ],
+      "primary_lens": "anthroposphere_socioeconomic",
+      "threads": [
+        "valuation-to-cadastral-parcels"
+      ]
+    },
+    {
+      "id": "drinking-water-protection",
+      "title": "Drinking Water & Water Source Protection",
+      "path": "/Leaves/drinking-water-protection",
+      "spheres": [
+        "anthroposphere",
+        "hydrosphere"
+      ],
+      "question": "What drinking water source protection zones or supply infrastructure exist here?",
+      "tags": [
+        "water_resources",
+        "public_health",
+        "infrastructure"
+      ],
+      "twig_membership": [
+        "anthroposphere_planning",
+        "hydrosphere_groundwater",
+        "hydrosphere_freshwater_surface",
+        "anthroposphere_resource_utilisation"
+      ],
+      "threads": []
+    },
+    {
+      "id": "environmental-noise",
+      "title": "Environmental Noise & Air Transport",
+      "path": "/Leaves/environmental-noise",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere",
+        "biosphere"
+      ],
+      "question": "What noise levels and exposure zones exist at this location?",
+      "tags": [
+        "biosphere_monitoring",
+        "environmental_health",
+        "noise_regulation"
+      ],
+      "twig_membership": [
+        "anthroposphere_contaminants",
+        "biosphere_ecosystems"
+      ],
+      "primary_lens": "anthroposphere_contaminants",
+      "threads": []
+    },
+    {
+      "id": "fisheries-management",
+      "title": "Fisheries Monitoring & Management",
+      "path": "/Leaves/fisheries-management",
+      "spheres": [
+        "anthroposphere",
+        "hydrosphere"
+      ],
+      "question": "What fisheries activities, vessel density, or aquaculture operations occur here?",
+      "tags": [
+        "blue_economy",
+        "fisheries",
+        "maritime_monitoring"
+      ],
+      "twig_membership": [
+        "anthroposphere_planning",
+        "hydrosphere_marine",
+        "anthroposphere_resource_utilisation"
+      ],
+      "threads": []
+    },
+    {
+      "id": "forest-management",
+      "title": "Forest Ecosystems & Management",
+      "path": "/Leaves/forest-management",
+      "spheres": [
+        "anthroposphere",
+        "biosphere"
+      ],
+      "question": "What forest types, management units, or restoration initiatives are present here?",
+      "tags": [
+        "biosphere_vegetation",
+        "forest_conservation",
+        "sustainable_use"
+      ],
+      "twig_membership": [
+        "anthroposphere_planning",
+        "biosphere_vegetation",
+        "anthroposphere_resource_utilisation"
+      ],
+      "threads": []
+    },
+    {
+      "id": "natura-2000-habitats",
+      "title": "Natura 2000 & EU Biodiversity Directives",
+      "path": "/Leaves/natura-2000-habitats",
+      "spheres": [
+        "anthroposphere",
+        "biosphere"
+      ],
+      "question": "What Natura 2000 designations or habitat network requirements apply here?",
+      "tags": [
+        "biosphere_conservation",
+        "protected_habitat",
+        "eu_directive"
+      ],
+      "twig_membership": [
+        "anthroposphere_planning",
+        "biosphere_ecosystems"
+      ],
+      "threads": []
+    },
+    {
+      "id": "spatial-planning-decisions",
+      "title": "Spatial Planning & Municipal Decisions",
+      "path": "/Leaves/spatial-planning-decisions",
+      "sphere": "anthroposphere",
+      "spheres": [
+        "anthroposphere"
+      ],
+      "question": "What planning designations, zoning constraints, or development restrictions apply here?",
+      "tags": [
+        "planning_regulation",
+        "land_use",
+        "zoning"
+      ],
+      "twig_membership": [
+        "anthroposphere_planning"
+      ],
+      "primary_lens": "anthroposphere_planning",
+      "threads": []
+    },
+    {
+      "id": "statistical-units",
+      "title": "Statistical Units",
+      "path": "/Leaves/statistical-units",
+      "sphere": "reference-framework",
+      "spheres": [
+        "reference-framework"
+      ],
+      "question": "Which statistical unit does a location or a statistical figure belong to?",
+      "tags": [],
+      "twig_membership": [
+        "reference_statistical_units",
+        "reference_administrative_units"
+      ],
+      "primary_lens": "reference_statistical_units",
+      "threads": []
+    }
+  ],
+  "realisations": [
+    {
+      "id": "BBR_BygningerOgBoliger_business_locations",
+      "title": "BBR (BygningerOgBoliger) — Buildings by Use Code Realisation of Business Locations",
+      "path": "/Realisations/BBR_BygningerOgBoliger_business_locations",
+      "leaf": "Business Locations",
+      "dataset": "BBR",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/bbr_bygningerogboliger",
+        "leaf/business-locations"
+      ]
+    },
+    {
+      "id": "BBR_BygningerOgBoliger_services",
+      "title": "BBR (BygningerOgBoliger) — By Building Use Code Realisation of Services and Amenities",
+      "path": "/Realisations/BBR_BygningerOgBoliger_services",
+      "leaf": "Services and Amenities",
+      "dataset": "BBR",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/bbr_bygningerogboliger",
+        "leaf/services"
+      ]
+    },
+    {
+      "id": "BygningerOgBoliger_BBR_buildings",
+      "title": "BygningerOgBoliger (BBR) — Attributes Realisation of Buildings",
+      "path": "/Realisations/BygningerOgBoliger_BBR_buildings",
+      "leaf": "Buildings",
+      "dataset": "BygningerOgBoliger",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/bygningerogboliger_bbr",
+        "leaf/buildings"
+      ]
+    },
+    {
+      "id": "Copernicus_Sentinel_orthoimagery",
+      "title": "Copernicus (Sentinel-2) Realisation of Orthoimagery",
+      "path": "/Realisations/Copernicus_Sentinel_orthoimagery",
+      "leaf": "Orthoimagery",
+      "dataset": "Copernicus",
+      "collection_method": "passive_rs",
+      "collection_subtype": "multispectral",
+      "tags": [
+        "realisation/copernicus_sentinel",
+        "leaf/orthoimagery"
+      ]
+    },
+    {
+      "id": "CVR_CentraleVirksomhedsregister_business_financials",
+      "title": "CVR (CentraleVirksomhedsregister) — Per-Entity Reports Realisation of Economics and Employment",
+      "path": "/Realisations/CVR_CentraleVirksomhedsregister_business_financials",
+      "leaf": "Economics and Employment",
+      "dataset": "CVR",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/cvr_centralevirksomhedsregister",
+        "leaf/business-financials"
+      ]
+    },
+    {
+      "id": "CVR_CentraleVirksomhedsregister_business_locations",
+      "title": "CVR (CentraleVirksomhedsregister) — Registered Addresses Realisation of Business Locations",
+      "path": "/Realisations/CVR_CentraleVirksomhedsregister_business_locations",
+      "leaf": "Business Locations",
+      "dataset": "CVR",
+      "collection_method": "administrative_register",
+      "anchored_by": [
+        {
+          "leaf": "addresses",
+          "id_scheme": "kommunekode+vejnavn+husnummer"
+        }
+      ],
+      "tags": [
+        "realisation/cvr_centralevirksomhedsregister",
+        "leaf/business-locations"
+      ]
+    },
+    {
+      "id": "CVR_CentraleVirksomhedsregister_corporate_ownership",
+      "title": "CVR (CentraleVirksomhedsregister) — Ownership Entities Realisation of Ownership and Governance",
+      "path": "/Realisations/CVR_CentraleVirksomhedsregister_corporate_ownership",
+      "leaf": "Ownership and Governance",
+      "dataset": "CVR",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/cvr_centralevirksomhedsregister",
+        "leaf/corporate-ownership"
+      ]
+    },
+    {
+      "id": "CVR_CentraleVirksomhedsregister_economic_activities",
+      "title": "CVR (CentraleVirksomhedsregister) — DB25 Industry Code Realisation of Economic Activities",
+      "path": "/Realisations/CVR_CentraleVirksomhedsregister_economic_activities",
+      "leaf": "Economic Activities",
+      "dataset": "CVR",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/cvr_centralevirksomhedsregister",
+        "leaf/economic-activities"
+      ]
+    },
+    {
+      "id": "CVR_CentraleVirksomhedsregister_firms",
+      "title": "CVR (CentraleVirksomhedsregister) — Legal Business Entity Realisation of Firms",
+      "path": "/Realisations/CVR_CentraleVirksomhedsregister_firms",
+      "leaf": "Firms",
+      "dataset": "CVR",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/cvr_centralevirksomhedsregister",
+        "leaf/firms"
+      ]
+    },
+    {
+      "id": "CVR_CentraleVirksomhedsregister_services",
+      "title": "CVR (CentraleVirksomhedsregister) — By Industry Code Realisation of Services and Amenities",
+      "path": "/Realisations/CVR_CentraleVirksomhedsregister_services",
+      "leaf": "Services and Amenities",
+      "dataset": "CVR",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/cvr_centralevirksomhedsregister",
+        "leaf/services"
+      ]
+    },
+    {
+      "id": "DAGI_Danmarks_Administrative_Geografiske_Inddeling_administrative_units",
+      "title": "DAGI (Danmarks Administrative Geografiske Inddeling) Realisation of Administrative Units",
+      "path": "/Realisations/DAGI_Danmarks_Administrative_Geografiske_Inddeling_administrative_units",
+      "leaf": "Administrative Units",
+      "dataset": "DAGI",
+      "collection_method": "administrative_register",
+      "collection_subtype": "legally_defined",
+      "reference_units": [
+        {
+          "unit": "Danish regions",
+          "id_scheme": "regionskode"
+        },
+        {
+          "unit": "Danish municipalities",
+          "id_scheme": "kommunekode"
+        },
+        {
+          "unit": "Danish parishes",
+          "id_scheme": "sognekode"
+        }
+      ],
+      "tags": [
+        "realisation/dagi_danmarks_administrative_geografiske_inddeling",
+        "leaf/administrative-units"
+      ]
+    },
+    {
+      "id": "Danmarks_H_jdemodel_DHM_elevation",
+      "title": "Danmarks Højdemodel (DHM) Realisation of Elevation",
+      "path": "/Realisations/Danmarks_H_jdemodel_DHM_elevation",
+      "leaf": "Elevation",
+      "dataset": "Danmarks Højdemodel",
+      "collection_method": "derived_modelled",
+      "datafordeler_register": "Danmarks Højdemodel (DHM)",
+      "collection_subtype": "interpolation",
+      "derived_from": [
+        "active_rs"
+      ],
+      "tags": [
+        "realisation/danmarks_h_jdemodel_dhm",
+        "leaf/elevation"
+      ]
+    },
+    {
+      "id": "Danmarks_Statistik_business_financials",
+      "title": "Danmarks Statistik — Aggregated Statistics Realisation of Economics and Employment",
+      "path": "/Realisations/Danmarks_Statistik_business_financials",
+      "leaf": "Economics and Employment",
+      "dataset": "Danmarks Statistik",
+      "collection_method": "derived_modelled",
+      "collection_subtype": "statistical_aggregation",
+      "derived_from": [
+        "administrative_register"
+      ],
+      "tags": [
+        "realisation/danmarks_statistik",
+        "leaf/business-financials"
+      ]
+    },
+    {
+      "id": "Danmarks_Statistik_DST_population",
+      "title": "Danmarks Statistik (DST) Realisation of Population",
+      "path": "/Realisations/Danmarks_Statistik_DST_population",
+      "leaf": "Population",
+      "dataset": "Danmarks Statistik",
+      "collection_method": "derived_modelled",
+      "collection_subtype": "statistical_aggregation",
+      "derived_from": [
+        "administrative_register"
+      ],
+      "anchored_by": [
+        {
+          "leaf": "administrative-units",
+          "id_scheme": "kommunekode"
+        },
+        {
+          "leaf": "administrative-units",
+          "id_scheme": "sognekode"
+        }
+      ],
+      "tags": [
+        "realisation/danmarks_statistik_dst",
+        "leaf/population"
+      ]
+    },
+    {
+      "id": "Danmarks_Statistik_economic_activities",
+      "title": "Danmarks Statistik — NACE Aggregates Realisation of Economic Activities",
+      "path": "/Realisations/Danmarks_Statistik_economic_activities",
+      "leaf": "Economic Activities",
+      "dataset": "Danmarks Statistik",
+      "collection_method": "derived_modelled",
+      "collection_subtype": "statistical_aggregation",
+      "derived_from": [
+        "administrative_register"
+      ],
+      "tags": [
+        "realisation/danmarks_statistik",
+        "leaf/economic-activities"
+      ]
+    },
+    {
+      "id": "DanmarksAdresser_Addresses",
+      "title": "DAR Realisation of Addresses",
+      "path": "/Realisations/DanmarksAdresser_Addresses",
+      "leaf": "Addresses",
+      "dataset": "DanmarksAdresser",
+      "collection_method": "administrative_register",
+      "reference_units": [
+        {
+          "unit": "Addresses (dwelling and unit level)",
+          "id_scheme": "adresse_id"
+        },
+        {
+          "unit": "House numbers (access addresses)",
+          "id_scheme": "husnummer_id"
+        },
+        {
+          "unit": "House numbers by text components",
+          "id_scheme": "kommunekode+vejnavn+husnummer"
+        }
+      ],
+      "tags": [
+        "realisation/dar",
+        "leaf/addresses"
+      ]
+    },
+    {
+      "id": "Dataforsyningen_Services_orthoimagery",
+      "title": "Dataforsyningen Services Realisation of Orthoimagery",
+      "path": "/Realisations/Dataforsyningen_Services_orthoimagery",
+      "leaf": "Orthoimagery",
+      "dataset": "Dataforsyningen Services",
+      "collection_method": "passive_rs",
+      "collection_subtype": "optical",
+      "tags": [
+        "realisation/dataforsyningen_services",
+        "leaf/orthoimagery"
+      ]
+    },
+    {
+      "id": "Dataforsyningen_Tile_Services_elevation",
+      "title": "Dataforsyningen Tile Services Realisation of Elevation",
+      "path": "/Realisations/Dataforsyningen_Tile_Services_elevation",
+      "leaf": "Elevation",
+      "dataset": "Dataforsyningen Tile Services",
+      "collection_method": "derived_modelled",
+      "collection_subtype": "interpolation",
+      "derived_from": [
+        "active_rs"
+      ],
+      "tags": [
+        "realisation/dataforsyningen_tile_services",
+        "leaf/elevation"
+      ]
+    },
+    {
+      "id": "Ejendomsvurdering_property_valuation",
+      "title": "Ejendomsvurdering — Assessed Values Realisation of Property Valuation",
+      "path": "/Realisations/Ejendomsvurdering_property_valuation",
+      "leaf": "Property Valuation",
+      "dataset": "Ejendomsvurdering",
+      "collection_method": "derived_modelled",
+      "collection_subtype": "valuation_model",
+      "derived_from": [
+        "administrative_register"
+      ],
+      "tags": [
+        "realisation/ejendomsvurdering",
+        "leaf/property-valuation"
+      ]
+    },
+    {
+      "id": "Ejerfortegnelsen_cadastral_parcels",
+      "title": "Ejerfortegnelsen — Ownership Realisation of Cadastral Parcels",
+      "path": "/Realisations/Ejerfortegnelsen_cadastral_parcels",
+      "leaf": "Cadastral Parcels",
+      "dataset": "Ejerfortegnelsen",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/ejerfortegnelsen",
+        "leaf/cadastral-parcels"
+      ]
+    },
+    {
+      "id": "Fikspunkter_geodetic_control_points",
+      "title": "Fikspunkter — National Geodetic Network Realisation of Geodetic Control Points",
+      "path": "/Realisations/Fikspunkter_geodetic_control_points",
+      "leaf": "Geodetic Control Points",
+      "dataset": "Fikspunkter",
+      "collection_method": "in_situ",
+      "collection_subtype": "geodetic_survey",
+      "tags": [
+        "realisation/fikspunkter",
+        "leaf/geodetic-control-points"
+      ]
+    },
+    {
+      "id": "GeoDanmark_buildings",
+      "title": "GeoDanmark — Geometry Realisation of Buildings",
+      "path": "/Realisations/GeoDanmark_buildings",
+      "leaf": "Buildings",
+      "dataset": "GeoDanmark",
+      "collection_method": "cartographic_compilation",
+      "collection_subtype": "digitising",
+      "derived_from": [
+        "passive_rs"
+      ],
+      "tags": [
+        "realisation/geodanmark",
+        "leaf/buildings"
+      ]
+    },
+    {
+      "id": "GeoDanmark_Orthophotos_orthoimagery",
+      "title": "GeoDanmark Orthophotos Realisation of Orthoimagery",
+      "path": "/Realisations/GeoDanmark_Orthophotos_orthoimagery",
+      "leaf": "Orthoimagery",
+      "dataset": "GeoDanmark Orthophotos",
+      "collection_method": "passive_rs",
+      "collection_subtype": "optical",
+      "tags": [
+        "realisation/geodanmark_orthophotos",
+        "leaf/orthoimagery"
+      ]
+    },
+    {
+      "id": "HistoriskeKortbladsinddelinger_historical_map_sheets",
+      "title": "HistoriskeKortbladsinddelinger — Map Sheet Index Realisation of Historical Map Sheets",
+      "path": "/Realisations/HistoriskeKortbladsinddelinger_historical_map_sheets",
+      "leaf": "Historical Map Sheets",
+      "dataset": "HistoriskeKortbladsinddelinger",
+      "collection_method": "cartographic_compilation",
+      "collection_subtype": "historical_map",
+      "tags": [
+        "realisation/historiskekortbladsinddelinger",
+        "leaf/historical-map-sheets"
+      ]
+    },
+    {
+      "id": "Matrikel_cadastral_parcels",
+      "title": "Matrikel — Parcel Geometry and Identity Realisation of Cadastral Parcels",
+      "path": "/Realisations/Matrikel_cadastral_parcels",
+      "leaf": "Cadastral Parcels",
+      "dataset": "Matrikel",
+      "collection_method": "administrative_register",
+      "collection_subtype": "legally_defined",
+      "tags": [
+        "realisation/matrikel",
+        "leaf/cadastral-parcels"
+      ]
+    },
+    {
+      "id": "Matrikel_property_valuation",
+      "title": "Matrikel — Spatial Anchor Realisation of Property Valuation",
+      "path": "/Realisations/Matrikel_property_valuation",
+      "leaf": "Property Valuation",
+      "dataset": "Matrikel",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/matrikel",
+        "leaf/property-valuation"
+      ]
+    },
+    {
+      "id": "OpenStreetMap_administrative_units",
+      "title": "OpenStreetMap Realisation of Administrative Units",
+      "path": "/Realisations/OpenStreetMap_administrative_units",
+      "leaf": "Administrative Units",
+      "dataset": "OpenStreetMap",
+      "collection_method": "volunteered",
+      "collection_subtype": "community_mapping",
+      "tags": [
+        "realisation/openstreetmap",
+        "leaf/administrative-units"
+      ]
+    },
+    {
+      "id": "OpenStreetMap_buildings",
+      "title": "OpenStreetMap Realisation of Buildings",
+      "path": "/Realisations/OpenStreetMap_buildings",
+      "leaf": "Buildings",
+      "dataset": "OpenStreetMap",
+      "collection_method": "volunteered",
+      "collection_subtype": "community_mapping",
+      "tags": [
+        "realisation/openstreetmap",
+        "leaf/buildings"
+      ]
+    },
+    {
+      "id": "OpenStreetMap_business_locations",
+      "title": "OpenStreetMap — Commercial POIs Realisation of Business Locations",
+      "path": "/Realisations/OpenStreetMap_business_locations",
+      "leaf": "Business Locations",
+      "dataset": "OpenStreetMap",
+      "collection_method": "volunteered",
+      "collection_subtype": "community_mapping",
+      "tags": [
+        "realisation/openstreetmap",
+        "leaf/business-locations"
+      ]
+    },
+    {
+      "id": "OpenStreetMap_economic_activities",
+      "title": "OpenStreetMap — Tag Families Realisation of Economic Activities",
+      "path": "/Realisations/OpenStreetMap_economic_activities",
+      "leaf": "Economic Activities",
+      "dataset": "OpenStreetMap",
+      "collection_method": "volunteered",
+      "collection_subtype": "community_mapping",
+      "tags": [
+        "realisation/openstreetmap",
+        "leaf/economic-activities"
+      ]
+    },
+    {
+      "id": "OpenStreetMap_geographical_names",
+      "title": "OpenStreetMap Realisation of Geographical Names",
+      "path": "/Realisations/OpenStreetMap_geographical_names",
+      "leaf": "Geographical Names",
+      "dataset": "OpenStreetMap",
+      "collection_method": "volunteered",
+      "collection_subtype": "community_mapping",
+      "tags": [
+        "realisation/openstreetmap",
+        "leaf/geographical-names"
+      ]
+    },
+    {
+      "id": "OpenStreetMap_services",
+      "title": "OpenStreetMap — By Amenity Tag Realisation of Services and Amenities",
+      "path": "/Realisations/OpenStreetMap_services",
+      "leaf": "Services and Amenities",
+      "dataset": "OpenStreetMap",
+      "collection_method": "volunteered",
+      "collection_subtype": "community_mapping",
+      "tags": [
+        "realisation/openstreetmap",
+        "leaf/services"
+      ]
+    },
+    {
+      "id": "OSM_Addresses",
+      "title": "OSM Realisation of Addresses",
+      "path": "/Realisations/OSM_Addresses",
+      "leaf": "Addresses",
+      "dataset": "OpenStreetMap",
+      "collection_method": "volunteered",
+      "collection_subtype": "community_mapping",
+      "tags": [
+        "realisation/osm",
+        "leaf/addresses"
+      ]
+    },
+    {
+      "id": "Person_Register_CPR_population",
+      "title": "Person Register (CPR) Realisation of Population",
+      "path": "/Realisations/Person_Register_CPR_population",
+      "leaf": "Population",
+      "dataset": "Person Register",
+      "collection_method": "administrative_register",
+      "anchored_by": [
+        {
+          "leaf": "addresses",
+          "id_scheme": "adresse_id"
+        },
+        {
+          "leaf": "administrative-units",
+          "id_scheme": "kommunekode"
+        }
+      ],
+      "tags": [
+        "realisation/person_register_cpr",
+        "leaf/population"
+      ]
+    },
+    {
+      "id": "Stednavne_geographical_names",
+      "title": "Stednavne Realisation of Geographical Names",
+      "path": "/Realisations/Stednavne_geographical_names",
+      "leaf": "Geographical Names",
+      "dataset": "Stednavne",
+      "collection_method": "administrative_register",
+      "tags": [
+        "realisation/stednavne",
+        "leaf/geographical-names"
+      ]
+    },
+    {
+      "id": "Eurostat_GISCO_LAU_statistical_units",
+      "title": "Eurostat GISCO — LAU Realisation of Statistical Units",
+      "path": "/Realisations/Eurostat_GISCO_LAU_statistical_units",
+      "leaf": "Statistical Units",
+      "dataset": "Eurostat GISCO LAU",
+      "collection_method": "cartographic_compilation",
+      "collection_subtype": "generalisation",
+      "derived_from": [
+        "administrative_register"
+      ],
+      "reference_units": [
+        {
+          "unit": "Local Administrative Units",
+          "id_scheme": "GISCO_ID",
+          "version": "2024",
+          "crs": "EPSG:3035",
+          "geometries": [
+            {
+              "scale": "1:1 000 000",
+              "url": "https://gisco-services.ec.europa.eu/distribution/v2/lau/gpkg/LAU_RG_01M_2024_3035.gpkg"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "realisation/eurostat_gisco_lau",
+        "leaf/statistical-units"
+      ]
+    },
+    {
+      "id": "Eurostat_GISCO_NUTS_statistical_units",
+      "title": "Eurostat GISCO — NUTS Realisation of Statistical Units",
+      "path": "/Realisations/Eurostat_GISCO_NUTS_statistical_units",
+      "leaf": "Statistical Units",
+      "dataset": "Eurostat GISCO NUTS",
+      "collection_method": "cartographic_compilation",
+      "collection_subtype": "generalisation",
+      "derived_from": [
+        "administrative_register"
+      ],
+      "reference_units": [
+        {
+          "unit": "NUTS regions, levels 0–3",
+          "id_scheme": "NUTS_ID",
+          "version": "2024",
+          "crs": "EPSG:3035",
+          "geometries": [
+            {
+              "scale": "1:1 000 000",
+              "url": "https://gisco-services.ec.europa.eu/distribution/v2/nuts/gpkg/NUTS_RG_01M_2024_3035.gpkg"
+            },
+            {
+              "scale": "1:3 000 000",
+              "url": "https://gisco-services.ec.europa.eu/distribution/v2/nuts/gpkg/NUTS_RG_03M_2024_3035.gpkg"
+            },
+            {
+              "scale": "1:10 000 000",
+              "url": "https://gisco-services.ec.europa.eu/distribution/v2/nuts/gpkg/NUTS_RG_10M_2024_3035.gpkg"
+            },
+            {
+              "scale": "1:20 000 000",
+              "url": "https://gisco-services.ec.europa.eu/distribution/v2/nuts/gpkg/NUTS_RG_20M_2024_3035.gpkg"
+            },
+            {
+              "scale": "1:60 000 000",
+              "url": "https://gisco-services.ec.europa.eu/distribution/v2/nuts/gpkg/NUTS_RG_60M_2024_3035.gpkg"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "realisation/eurostat_gisco_nuts",
+        "leaf/statistical-units"
+      ]
+    },
+    {
+      "id": "Beskyttede_naturtyper_nature_protection_areas",
+      "title": "Beskyttede naturtyper (§ 3) Realisation of Nature Protection Areas",
+      "path": "/Realisations/Beskyttede_naturtyper_nature_protection_areas",
+      "leaf": "Nature Protection Areas",
+      "dataset": "Beskyttede naturtyper",
+      "collection_method": "administrative_register",
+      "sgis_id": "sgis-001263",
+      "subsets": {
+        "attribute": "Natyp_navn",
+        "values": [
+          {
+            "value": "Hede",
+            "label": "Hede (heath)"
+          },
+          {
+            "value": "Overdrev",
+            "label": "Overdrev (dry grassland)"
+          },
+          {
+            "value": "Mose",
+            "label": "Mose (bog and fen)"
+          },
+          {
+            "value": "Eng",
+            "label": "Eng (meadow)"
+          },
+          {
+            "value": "Strandeng",
+            "label": "Strandeng (salt marsh)"
+          },
+          {
+            "value": "Sø",
+            "label": "Sø (lake and pond)"
+          }
+        ]
+      },
+      "tags": [
+        "realisation/beskyttede_naturtyper",
+        "leaf/nature-protection-areas"
+      ]
+    },
+    {
+      "id": "Koebenhavns_Kommune_statistical_units",
+      "title": "Københavns Kommune — Bydele, Lokaludvalg, Kvarterer and Roder Realisation of Statistical Units",
+      "path": "/Realisations/Koebenhavns_Kommune_statistical_units",
+      "leaf": "Statistical Units",
+      "dataset": "Københavns Kommune statistical units",
+      "collection_method": "administrative_register",
+      "reference_units": [
+        {
+          "unit": "Københavns Kommune bydele",
+          "id_scheme": "bydel_nr_text",
+          "version": "2026-10-22",
+          "crs": "EPSG:25832",
+          "geometries": [
+            {
+              "scale": "full detail",
+              "url": "https://semanticgis.org/Data/assets/reference/koebenhavn/kk_bydel.gpkg"
+            }
+          ]
+        },
+        {
+          "unit": "Københavns Kommune lokaludvalg",
+          "id_scheme": "lokaludvalg_nr_text",
+          "version": "2026-10-22",
+          "crs": "EPSG:25832",
+          "geometries": [
+            {
+              "scale": "full detail",
+              "url": "https://semanticgis.org/Data/assets/reference/koebenhavn/kk_lokaludvalg.gpkg"
+            }
+          ]
+        },
+        {
+          "unit": "Københavns Kommune kvarterer",
+          "id_scheme": "kvarter_nr_text",
+          "version": "2026-10-22",
+          "crs": "EPSG:25832",
+          "geometries": [
+            {
+              "scale": "full detail",
+              "url": "https://semanticgis.org/Data/assets/reference/koebenhavn/kk_kvarter.gpkg"
+            }
+          ]
+        },
+        {
+          "unit": "Københavns Kommune roder",
+          "id_scheme": "rode_nr_text",
+          "version": "2026-10-22",
+          "crs": "EPSG:25832",
+          "geometries": [
+            {
+              "scale": "full detail",
+              "url": "https://semanticgis.org/Data/assets/reference/koebenhavn/kk_rode.gpkg"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "realisation/koebenhavns_kommune_statistical_units",
+        "leaf/statistical-units"
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": "bathing-water-quality-hydrosphere-freshwater",
+      "leaf": "bathing-water-quality",
+      "twig": "hydrosphere_freshwater_surface",
+      "relation_type": "core_water_body_context",
+      "question": "Which freshwater surface context does this site belong to?",
+      "rationale": "Bathing suitability is interpreted against the local freshwater surface context and station placement."
+    },
+    {
+      "id": "bathing-water-quality-hydrosphere-contaminants",
+      "leaf": "bathing-water-quality",
+      "twig": "hydrosphere_contaminants",
+      "relation_type": "water_quality_measurement",
+      "question": "Which contamination measurements determine suitability?",
+      "rationale": "Measured parameters in water are direct inputs to bathing quality status."
+    },
+    {
+      "id": "bathing-water-quality-socio-contaminants",
+      "leaf": "bathing-water-quality",
+      "twig": "anthroposphere_contaminants",
+      "relation_type": "human_exposure_signal",
+      "question": "What do measurements imply for human exposure?",
+      "rationale": "Water contamination measurements are interpreted as potential human exposure during bathing."
+    },
+    {
+      "id": "bathing-water-quality-hvr",
+      "leaf": "bathing-water-quality",
+      "twig": "anthroposphere_hazard_vulnerability_risk",
+      "relation_type": "risk_classification_input",
+      "question": "Should this site be flagged for risk communication?",
+      "rationale": "Suitability classes and thresholds support public risk messaging and advisories."
+    },
+    {
+      "id": "bathing-water-quality-services",
+      "leaf": "bathing-water-quality",
+      "twig": "anthroposphere_services",
+      "relation_type": "service_suitability",
+      "question": "Is the bathing service usable at this time?",
+      "rationale": "Bathing quality status directly affects recreational service availability."
+    },
+    {
+      "id": "economic-activities-to-biosphere-ecosystems",
+      "leaf": "economic-activities",
+      "twig": "biosphere_ecosystems",
+      "relation_type": "cross_twig_relevance",
+      "question": "How does economic activity connect to ecosystem conditions?",
+      "rationale": "Industry codes can signal pressures and impacts on ecosystems."
+    },
+    {
+      "id": "economic-activities-to-perception-thematics",
+      "leaf": "economic-activities",
+      "twig": "anthroposphere_perception_thematics",
+      "relation_type": "cross_twig_relevance",
+      "question": "How does economic activity connect to land use and cover patterns?",
+      "rationale": "Industry composition often correlates with classified land use patterns."
+    },
+    {
+      "id": "business-locations-to-topography",
+      "leaf": "business-locations",
+      "twig": "geosphere_landform_topography",
+      "relation_type": "cross_twig_relevance",
+      "question": "How do business locations connect to terrain context?",
+      "rationale": "Terrain and elevation influence accessibility and hazard exposure of business sites."
+    },
+    {
+      "id": "business-locations-to-perception-thematics",
+      "leaf": "business-locations",
+      "twig": "anthroposphere_perception_thematics",
+      "relation_type": "cross_twig_relevance",
+      "question": "How do business locations connect to land use patterns?",
+      "rationale": "Business clusters align with urban and industrial land use categories."
+    },
+    {
+      "id": "elevation-to-hydrosphere-freshwater-surface",
+      "leaf": "elevation",
+      "twig": "hydrosphere_freshwater_surface",
+      "relation_type": "cross_twig_relevance",
+      "question": "How does elevation connect to surface water behavior?",
+      "rationale": "Elevation gradients govern runoff and flow paths in freshwater systems."
+    },
+    {
+      "id": "fisheries-intensity-to-governance",
+      "leaf": "fisheries-intensity",
+      "twig": "anthroposphere_governance",
+      "relation_type": "regulatory_management_context",
+      "question": "How does observed fisheries effort connect to zoning rules and legal management constraints?",
+      "rationale": "Fishing effort layers are interpreted against protected-area rules, access constraints, and planning designations."
+    },
+    {
+      "id": "fisheries-intensity-to-biosphere-ecosystems",
+      "leaf": "fisheries-intensity",
+      "twig": "biosphere_ecosystems",
+      "relation_type": "ecosystem_pressure_signal",
+      "question": "How does fisheries effort indicate ecosystem pressure in marine habitats?",
+      "rationale": "Gear-specific effort intensity is a pressure indicator for benthic habitats, species assemblages, and ecosystem condition."
+    },
+    {
+      "id": "valuation-to-cadastral-parcels",
+      "leaf": "property-valuation",
+      "twig": "anthroposphere_governance",
+      "relation_type": "spatial_join_path",
+      "question": "How does a valuation connect to the legal cadastral parcel geometry?",
+      "rationale": "Property valuation records are non-spatial and require linkage through BFE and cadastral references to retrieve parcel-based geometry and legal boundaries."
+    }
+  ]
+}

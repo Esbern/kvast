@@ -1,0 +1,24 @@
+code,name
+1,Start
+2,Projekteret
+3,Under Opførelse
+4,Sagsgrund
+5,Oprettet
+6,Opført
+7,Gældende
+8,Godkendt
+9,Afsluttet
+10,Historisk
+11,Fejlregistreret
+12,Midlertidig Afsluttet
+13,Delvis Afsluttet
+14,Henlagt
+15,Modtaget
+16,UnderBehandling
+17,Fejl
+18,Udført
+19,Foreløbig
+20,BomSagModtaget
+21,BomSagUnderBehandling
+22,BomSagFejl
+23,BomSagUdført

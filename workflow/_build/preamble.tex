@@ -1,0 +1,17 @@
+\usepackage{xcolor}
+% Auto-numbering scheme for the book:
+%   Part      -> "Part 1", "Part 2", ... (arabic, not roman)
+%   Chapter   -> resets to 1 at the start of each Part, and is prefixed
+%                with the part number, giving 1.1, 1.2, 2.1, 2.2, ...
+%   Section   -> the A/B/C-level material within a chapter; numbered
+%                normally as 2.2.1, 2.2.2, 2.2.3 under its chapter.
+%   Anything deeper (headings inside the note content itself) is left
+%   unnumbered by LaTeX, since numbers appearing there are the author's
+%   own prose numbering (e.g. "1. Deconstructing the Brief"), not
+%   structural book numbering.
+\makeatletter
+\renewcommand\thepart{\arabic{part}}
+\@addtoreset{chapter}{part}
+\renewcommand\thechapter{\thepart.\arabic{chapter}}
+\makeatother
+\setcounter{secnumdepth}{1}

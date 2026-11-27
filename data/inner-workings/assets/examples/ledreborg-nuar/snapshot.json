@@ -1,0 +1,347 @@
+{
+ "type": "Feature",
+ "stac_version": "1.0.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+  "https://stac-extensions.github.io/classification/v2.0.0/schema.json",
+  "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+ ],
+ "id": "ledreborg-nuar-2026-11-12",
+ "bbox": [
+  11.87683,
+  55.60059,
+  11.96334,
+  55.64892
+ ],
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     11.87683,
+     55.60059
+    ],
+    [
+     11.96334,
+     55.60059
+    ],
+    [
+     11.96334,
+     55.64892
+    ],
+    [
+     11.87683,
+     55.64892
+    ],
+    [
+     11.87683,
+     55.60059
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "Example data: 2026 norms and NUAR at Ledreborg",
+  "description": "Data for the SemanticGIS example comparing the 2026 nitrogen norms with NUAR (2027) at Ledreborg Gods, Lejre (Agriculture), frozen as they were used.",
+  "datetime": "2026-11-12T00:00:00Z",
+  "proj:code": "EPSG:25832",
+  "proj:bbox": [
+   681231,
+   6165603,
+   686468,
+   6170768
+  ],
+  "license": "various",
+  "semanticgis:sources": [
+   {
+    "name": "Marker 2024–2026, Jordbundskort 2024, Kvælstofretention UMR 2027: Styrelsen for Grøn Arealomlægning og Vandmiljø",
+    "text": [
+     "Free public data, fetched 12 November 2026; Marker 2026 is preliminary.",
+     "Attribution: Indeholder data fra Styrelsen for Grøn Arealomlægning og Vandmiljø, hentet 12. november 2026"
+    ]
+   },
+   {
+    "name": "Jordartskort 1:25 000: GEUS",
+    "text": [
+     "Version 7.1, January 2026. Attribution: Indeholder data fra GEUS, Jordartskort 1:25 000"
+    ]
+   },
+   {
+    "name": "Kulstof 2022 and DJF_LAVBUND: via Danmarks Miljøportal",
+    "text": [
+     "Fetched 12 November 2026."
+    ]
+   },
+   {
+    "name": "DMI 10 km climate grid",
+    "text": [
+     "dmidk/Climate-Data-Grid-Map; the NUAR cell numbering is inferred (see the nuar code)."
+    ]
+   },
+   {
+    "name": "Model: NUAR-regneark v1.3 (SEGES Innovation / Aarhus University), via https://github.com/Esbern/nuar",
+    "text": [
+     "A preliminary tool; the final regulation may differ. The tables of the workbook are not included."
+    ]
+   },
+   {
+    "name": "Landscapes",
+    "text": [
+     "Digitised for the example by Esbern Holmes, Roskilde University."
+    ]
+   }
+  ]
+ },
+ "assets": {
+  "vectors": {
+   "href": "ledreborg_nuar.gpkg",
+   "type": "application/geopackage+sqlite3",
+   "roles": [
+    "data"
+   ],
+   "title": "Field pieces with NUAR inputs and results, and landscapes (GeoPackage)",
+   "description": "Marker 2024–2026 flattened (2 m) within the landscapes; pieces of at least 0.05 ha with a crop in all three years. Results from NUAR-regneark v1.3 (SEGES/Aarhus University) through the nuar code, for two catch-crop scenarios.",
+   "semanticgis:layers": [
+    {
+     "name": "fields",
+     "title": "field pieces, inputs and results",
+     "table:row_count": 517,
+     "table:columns": [
+      {
+       "name": "landscape",
+       "type": "string",
+       "description": "the landscape the piece lies in (largest share)"
+      },
+      {
+       "name": "y2024_Afgkode",
+       "type": "float64",
+       "description": "crop code 2024",
+       "semanticgis:codelist": "codelist-crop-codes"
+      },
+      {
+       "name": "y2025_Afgkode",
+       "type": "float64",
+       "description": "crop code 2025",
+       "semanticgis:codelist": "codelist-crop-codes"
+      },
+      {
+       "name": "y2026_Afgkode",
+       "type": "float64",
+       "description": "crop code 2026 (preliminary)",
+       "semanticgis:codelist": "codelist-crop-codes"
+      },
+      {
+       "name": "y2026_crop_en",
+       "type": "string"
+      },
+      {
+       "name": "y2026_acr_class",
+       "type": "string"
+      },
+      {
+       "name": "jb",
+       "type": "int64",
+       "description": "JB number from Jordbundskort 2024, the one covering the largest share"
+      },
+      {
+       "name": "jb_share",
+       "type": "float64",
+       "description": "that share of the piece"
+      },
+      {
+       "name": "c_horizon",
+       "type": "string",
+       "description": "subsoil as NUAR names it"
+      },
+      {
+       "name": "geus_jordart",
+       "type": "string",
+       "description": "GEUS Jordartskort 1:25 000 symbol at a point inside the piece"
+      },
+      {
+       "name": "subsoil_note",
+       "type": "string",
+       "description": "where the subsoil was set to the nearest NUAR type, or to Moræneler"
+      },
+      {
+       "name": "lowland",
+       "type": "string",
+       "description": "NUAR lowland class (Kulstof 2022 > 12 % peat: organogen; Kulstof 2022 or DJF_LAVBUND: minerogen; more than half the piece)"
+      },
+      {
+       "name": "organic_share",
+       "type": "float64"
+      },
+      {
+       "name": "lowland_share",
+       "type": "float64"
+      },
+      {
+       "name": "retention_pct",
+       "type": "float64",
+       "description": "N retention towards the coast, %, largest share (Kvælstofretention UMR 2027)"
+      },
+      {
+       "name": "grid",
+       "type": "int64",
+       "description": "DMI 10 km climate cell"
+      },
+      {
+       "name": "prev2_cover_A",
+       "type": "float64",
+       "description": "cover after the 2024 crop, scenario A"
+      },
+      {
+       "name": "prev_cover_A",
+       "type": "float64",
+       "description": "cover after the 2025 crop, A"
+      },
+      {
+       "name": "cover_A",
+       "type": "float64",
+       "description": "cover after the 2026 crop, A"
+      },
+      {
+       "name": "prev2_cover_B",
+       "type": "float64",
+       "description": "cover after the 2024 crop, scenario B"
+      },
+      {
+       "name": "prev_cover_B",
+       "type": "float64",
+       "description": "cover after the 2025 crop, B"
+      },
+      {
+       "name": "cover_B",
+       "type": "float64",
+       "description": "cover after the 2026 crop, B"
+      },
+      {
+       "name": "status_A",
+       "type": "string"
+      },
+      {
+       "name": "n_norm_A",
+       "type": "float64",
+       "description": "2026 N-norm after the previous-crop correction, kg N/ha (A)"
+      },
+      {
+       "name": "leaching_A",
+       "type": "float64",
+       "description": "leaching from the root zone at the norm, kg N/ha (A)"
+      },
+      {
+       "name": "discharge_A",
+       "type": "float64",
+       "description": "discharge to the coast at the norm, kg N/ha (A)"
+      },
+      {
+       "name": "pct_of_reference_A",
+       "type": "float64",
+       "description": "discharge at the norm as % of the reference (A)"
+      },
+      {
+       "name": "n_for_target_A",
+       "type": "float64",
+       "description": "spring mineral N that meets the reference discharge, kg N/ha (A)"
+      },
+      {
+       "name": "solve_status_A",
+       "type": "string"
+      },
+      {
+       "name": "nuar_class_A",
+       "type": "string",
+       "description": "the allowance against the norm, as mapped (A)"
+      },
+      {
+       "name": "status_B",
+       "type": "string"
+      },
+      {
+       "name": "n_norm_B",
+       "type": "float64",
+       "description": "the same, B (21 kg less after a catch crop)"
+      },
+      {
+       "name": "leaching_B",
+       "type": "float64",
+       "description": "the same, B"
+      },
+      {
+       "name": "discharge_B",
+       "type": "float64",
+       "description": "the same, B"
+      },
+      {
+       "name": "reference_discharge_B",
+       "type": "float64",
+       "description": "discharge of NUAR's reference (spring barley with catch crop) on this site, kg N/ha"
+      },
+      {
+       "name": "pct_of_reference_B",
+       "type": "float64",
+       "description": "the same, B"
+      },
+      {
+       "name": "n_for_target_B",
+       "type": "float64",
+       "description": "the same, B"
+      },
+      {
+       "name": "solve_status_B",
+       "type": "string"
+      },
+      {
+       "name": "nuar_class_B",
+       "type": "string",
+       "description": "the same, B"
+      },
+      {
+       "name": "area_ha",
+       "type": "float64",
+       "description": "area of the piece, ha"
+      }
+     ]
+    },
+    {
+     "name": "landscapes",
+     "title": "the example's landscape types",
+     "table:row_count": 8,
+     "table:columns": [
+      {
+       "name": "landscape",
+       "type": "string"
+      }
+     ]
+    }
+   ]
+  },
+  "codelist-crop-codes": {
+   "href": "codelists/crop_codes_dk.csv",
+   "type": "text/csv",
+   "roles": [
+    "metadata",
+    "codelist"
+   ],
+   "title": "Danish crop codes: names in Danish and English, groups, categories, simplified classes",
+   "semanticgis:source": "https://semanticgis.org/data/code-lists/danish-crop-codes-(afgkode)",
+   "semanticgis:retrieved": "2026-11-12"
+  },
+  "readme": {
+   "href": "README.txt",
+   "type": "text/plain",
+   "roles": [
+    "metadata"
+   ],
+   "title": "README"
+  }
+ },
+ "links": [
+  {
+   "rel": "related",
+   "title": "2026 norms and NUAR at Ledreborg",
+   "href": "https://semanticgis.org/domain-hubs/agriculture/2026-norms-and-nuar-at-ledreborg-(example)"
+  }
+ ]
+}

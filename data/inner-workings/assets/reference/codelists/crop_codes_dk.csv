@@ -1,0 +1,399 @@
+afgkode,crop_da,crop_en,group_da,group_en,category_no,category_da,category_en,basic_payment,agricultural_land,rotation,acr_code,acr_class
+0,Ingen afgrødekode,No crop code,,,,,,,,,,
+1,Vårbyg,Spring barley,Vårsæd til modenhed,Spring cereals harvested ripe,50,vårbyg,spring barley,True,True,True,4,Spring barley
+2,Vårhvede,Spring wheat,Vårsæd til modenhed,Spring cereals harvested ripe,94,vårhvede,spring wheat,True,True,True,18,Spring wheat
+3,Vårhavre,Spring oats,Vårsæd til modenhed,Spring cereals harvested ripe,18,vårhavre,spring oats,True,True,True,17,Oats
+4,Blanding af vårsåede kornarter,Mixture of spring-sown cereals,Vårsæd til modenhed,Spring cereals harvested ripe,2,vårsået blanding,spring-sown mixture,True,True,True,4,Spring barley
+5,Majs til modenhed,"Maize, harvested ripe (grain)",Vårsæd til modenhed,Spring cereals harvested ripe,98,majs,maize,True,True,True,9,Corn
+6,"Vårhvede, brødhvede","Spring wheat, bread wheat",Vårsæd til modenhed,Spring cereals harvested ripe,94,vårhvede,spring wheat,True,True,True,18,Spring wheat
+7,Korn og bælgsæd under 50% bælgsæd,"Cereals and pulses, under 50% pulses",Vårsæd til modenhed,Spring cereals harvested ripe,2,vårsået blanding,spring-sown mixture,True,True,True,4,Spring barley
+8,Vårspelt,Spring spelt,Vårsæd til modenhed,Spring cereals harvested ripe,108,vårspelt,spring spelt,True,True,True,4,Spring barley
+9,Vinterspelt,Winter spelt,Vintersæd til modenhed,Winter cereals harvested ripe,109,vinterspelt,winter spelt,True,True,True,5,Winter barley
+10,Vinterbyg,Winter barley,Vintersæd til modenhed,Winter cereals harvested ripe,49,vinterbyg,winter barley,True,True,True,5,Winter barley
+11,Vinterhvede,Winter wheat,Vintersæd til modenhed,Winter cereals harvested ripe,93,vinterhvede,winter wheat,True,True,True,6,Winter wheat
+13,"Vinterhvede, brødhvede","Winter wheat, bread wheat",Vintersæd til modenhed,Winter cereals harvested ripe,93,vinterhvede,winter wheat,True,True,True,6,Winter wheat
+14,Vinterrug,Winter rye,Vintersæd til modenhed,Winter cereals harvested ripe,83,vinterrug,winter rye,True,True,True,19,Rye
+15,Vinterhybridrug,Winter hybrid rye,Vintersæd til modenhed,Winter cereals harvested ripe,83,vinterrug,winter rye,True,True,True,19,Rye
+16,Vintertriticale,Winter triticale,Vintersæd til modenhed,Winter cereals harvested ripe,92,vintertriticale,winter triticale,True,True,True,19,Rye
+17,Blanding af efterårssåede kornarter,Mixture of autumn-sown cereals,Vintersæd til modenhed,Winter cereals harvested ripe,4,vintersået blanding,winter-sown mixture,True,True,True,5,Winter barley
+18,Korn og bælgsæd over 50% bælgsæd,"Cereals and pulses, over 50% pulses",Vårsæd til modenhed,Spring cereals harvested ripe,2,vårsået blanding,spring-sown mixture,True,True,True,8,Leguminous seed
+19,Majs til modenhed med græsudlæg,"Maize, harvested ripe, with undersown grass",Vårsæd til modenhed,Spring cereals harvested ripe,112,majs med græsudlæg,maize with undersown grass,True,True,True,9,Corn
+21,Vårraps,Spring oilseed rape,Oliefrø og Bælgsæd,Oilseeds and pulses,21,vårraps,spring oilseed rape,True,True,True,1,Spring rape
+22,Vinterraps,Winter oilseed rape,Oliefrø og Bælgsæd,Oilseeds and pulses,23,vinterraps,winter oilseed rape,True,True,True,7,Winter canola
+23,Rybs,Turnip rape,Oliefrø og Bælgsæd,Oilseeds and pulses,31,ager-kål,field mustard (turnip rape),True,True,True,7,Winter canola
+24,Solsikke,Sunflower,Oliefrø og Bælgsæd,Oilseeds and pulses,48,solsikke,sunflower,True,True,True,7,Winter canola
+25,Sojabønner,Soya beans,Oliefrø og Bælgsæd,Oilseeds and pulses,46,soja,soya bean,True,True,True,8,Leguminous seed
+26,Linser,Lentils,Oliefrø og Bælgsæd,Oilseeds and pulses,110,linse,lentil,True,True,True,8,Leguminous seed
+27,Kikærter,Chickpeas,Oliefrø og Bælgsæd,Oilseeds and pulses,111,kikært,chickpea,True,True,True,8,Leguminous seed
+30,Ærter,Peas,Oliefrø og Bælgsæd,Oilseeds and pulses,69,ært,pea,True,True,True,8,Leguminous seed
+31,Hestebønner,Field beans (faba beans),Oliefrø og Bælgsæd,Oilseeds and pulses,96,hestebønne,field bean,True,True,True,8,Leguminous seed
+32,Lupin,Lupin,Oliefrø og Bælgsæd,Oilseeds and pulses,57,lupin,lupin,True,True,True,8,Leguminous seed
+35,"Bælgsæd, flerårig blanding","Pulses, perennial mixture",Oliefrø og Bælgsæd,Oilseeds and pulses,2,vårsået blanding,spring-sown mixture,True,True,True,8,Leguminous seed
+36,"Bælgsæd, andre typer til modenhed blanding","Pulses, other types harvested ripe, mixture",Oliefrø og Bælgsæd,Oilseeds and pulses,2,vårsået blanding,spring-sown mixture,True,True,True,8,Leguminous seed
+40,Oliehør,Linseed (oil flax),Hør og Hamp,"Flax, hemp and other seed crops",55,hør,flax,True,True,True,7,Winter canola
+41,Spindhør,Fibre flax,Hør og Hamp,"Flax, hemp and other seed crops",55,hør,flax,True,True,True,4,Spring barley
+42,Hamp,Hemp,Hør og Hamp,"Flax, hemp and other seed crops",34,hamp,hemp,True,True,True,4,Spring barley
+50,Anden bredbladet afg,Other broadleaf crop,,,,,,,,,4,Spring barley
+51,"Blanding bredbladet afgrøde, frø/kerne","Broadleaf crop mixture, for seed/grain",Hør og Hamp,"Flax, hemp and other seed crops",2,vårsået blanding,spring-sown mixture,True,True,True,4,Spring barley
+52,Quinoa,Quinoa,Hør og Hamp,"Flax, hemp and other seed crops",11,quinoa,quinoa,True,True,True,4,Spring barley
+53,Boghvede,Buckwheat,Hør og Hamp,"Flax, hemp and other seed crops",12,boghvede,buckwheat,True,True,True,4,Spring barley
+54,Bælgsæd blanding,Pulse mixture,Oliefrø og Bælgsæd,Oilseeds and pulses,2,vårsået blanding,spring-sown mixture,True,True,True,8,Leguminous seed
+55,Vårrug,Spring rye,Vårsæd til modenhed,Spring cereals harvested ripe,811,vårrug,spring rye,True,True,True,25,Spring rye
+56,Vårtriticale,Spring triticale,Vårsæd til modenhed,Spring cereals harvested ripe,91,vårtriticale,spring triticale,True,True,True,19,Rye
+57,Vinterhavre,Winter oats,Vintersæd til modenhed,Winter cereals harvested ripe,91,vinterhavre,winter oats,True,True,True,5,Winter barley
+58,Sorghum,Sorghum,Vårsæd til modenhed,Spring cereals harvested ripe,95,sorghum,sorghum,True,True,True,11,Horticulture
+70,"Vårbyg, efterårssået","Spring barley, autumn-sown",Vårsæd til modenhed,Spring cereals harvested ripe,50,vårbyg,spring barley,True,True,True,4,Spring barley
+71,"Vårhvede, efterårssået","Spring wheat, autumn-sown",Vårsæd til modenhed,Spring cereals harvested ripe,94,vårhvede,spring wheat,True,True,True,18,Spring wheat
+72,"Vårhavre, efterårssået","Spring oats, autumn-sown",Vårsæd til modenhed,Spring cereals harvested ripe,18,vårhavre,spring oats,True,True,True,17,Oats
+101,"Rajgræsfrø, alm.","Ryegrass seed, perennial",Frøgræs,"Seed production (grass, clover and others)",99,vårsået rajgræsfrø,spring-sown ryegrass seed,True,True,True,21,Seed grass
+102,"Rajgræsfrø, alm. 1. år, efterårsudlagt","Ryegrass seed, perennial, 1st year, autumn-sown",Frøgræs,"Seed production (grass, clover and others)",100,efterårssået rajgræsfrø,autumn-sown ryegrass seed,True,True,True,21,Seed grass
+103,"Rajgræsfrø, ital.","Ryegrass seed, Italian",Frøgræs,"Seed production (grass, clover and others)",99,vårsået rajgræsfrø,spring-sown ryegrass seed,True,True,True,21,Seed grass
+104,"Rajgræsfrø, ital. 1. år efterårsudlagt","Ryegrass seed, Italian, 1st year, autumn-sown",Frøgræs,"Seed production (grass, clover and others)",100,efterårssået rajgræsfrø,autumn-sown ryegrass seed,True,True,True,21,Seed grass
+105,Timothefrø,Timothy seed,Frøgræs,"Seed production (grass, clover and others)",101,Timothefrø,timothy seed,True,True,True,21,Seed grass
+106,Hundegræsfrø,Cocksfoot seed,Frøgræs,"Seed production (grass, clover and others)",102,hundegræsfrø,cocksfoot seed,True,True,True,21,Seed grass
+107,Engsvingelfrø,Meadow fescue seed,Frøgræs,"Seed production (grass, clover and others)",103,svingelfrø,fescue seed,True,True,True,21,Seed grass
+108,Rødsvingelfrø,Red fescue seed,Frøgræs,"Seed production (grass, clover and others)",103,svingelfrø,fescue seed,True,True,True,21,Seed grass
+109,Rajsvingelfrø,Festulolium seed,Frøgræs,"Seed production (grass, clover and others)",104,vårssået rajsvingelfrø,spring-sown festulolium seed,True,True,True,21,Seed grass
+110,"Svingelfrø, bakke- (tidl. Stivbladet)",Hard fescue seed (formerly sheep's fescue),Frøgræs,"Seed production (grass, clover and others)",103,svingelfrø,fescue seed,True,True,True,21,Seed grass
+111,"Svingelfrø, strand-",Tall fescue seed,Frøgræs,"Seed production (grass, clover and others)",103,svingelfrø,fescue seed,True,True,True,21,Seed grass
+112,Engrapgræsfrø (marktype),Smooth meadow grass seed (field type),Frøgræs,"Seed production (grass, clover and others)",106,eng- og rapgræsfrø,meadow grass and bluegrass seed,True,True,True,21,Seed grass
+113,Engrapgræsfrø (plænetype),Smooth meadow grass seed (lawn type),Frøgræs,"Seed production (grass, clover and others)",106,eng- og rapgræsfrø,meadow grass and bluegrass seed,True,True,True,21,Seed grass
+114,"Rapgræsfrø, alm.",Rough bluegrass seed,Frøgræs,"Seed production (grass, clover and others)",106,eng- og rapgræsfrø,meadow grass and bluegrass seed,True,True,True,21,Seed grass
+115,"Hvenefrø, alm. og krybende","Bentgrass seed, common and creeping",Frøgræs,"Seed production (grass, clover and others)",107,hvenefrø,bentgrass seed,True,True,True,21,Seed grass
+116,"Rajgræsfrø, hybrid","Ryegrass seed, hybrid",Frøgræs,"Seed production (grass, clover and others)",99,vårsået rajgræsfrø,spring-sown ryegrass seed,True,True,True,2,Grass in rotation
+117,"Rajgræsfrø, efterårsudl. hybrid","Ryegrass seed, hybrid, autumn-sown",Frøgræs,"Seed production (grass, clover and others)",100,efterårssået rajgræsfrø,autumn-sown ryegrass seed,True,True,True,2,Grass in rotation
+118,"Rajsvingelfrø, efterårsudlagt","Festulolium seed, autumn-sown",Frøgræs,"Seed production (grass, clover and others)",105,efterårssået rajsvingelfrø,autumn-sown festulolium seed,True,True,True,2,Grass in rotation
+120,Kløverfrø,Clover seed,Frøgræs,"Seed production (grass, clover and others)",60,kløver,clover,True,True,True,21,Seed grass
+121,"Bælgplanter, frø",Legume seed,Frøgræs,"Seed production (grass, clover and others)",2,vårsået blanding,spring-sown mixture,True,True,True,21,Seed grass
+122,Kommenfrø,Caraway seed,Frøgræs,"Seed production (grass, clover and others)",35,kommen,caraway,True,True,True,21,Seed grass
+123,Valmuefrø,Poppy seed,Frøgræs,"Seed production (grass, clover and others)",64,valmue,poppy,True,True,True,21,Seed grass
+124,Spinatfrø,Spinach seed,Frøgræs,"Seed production (grass, clover and others)",87,spinat,spinach,True,True,True,21,Seed grass
+125,Bederoefrø,Beet seed,Frøgræs,"Seed production (grass, clover and others)",19,beder,beets,True,True,True,13,Fodder beets
+126,Blanding af markfrø til udsæd,Mixture of field seeds for sowing,Frøgræs,"Seed production (grass, clover and others)",2,vårsået blanding,spring-sown mixture,True,True,True,21,Seed grass
+127,Lucernefrø,Lucerne seed,Frøgræs,"Seed production (grass, clover and others)",59,lucerne,lucerne (alfalfa),True,True,True,21,Seed grass
+149,"Kartofler, lægge- (certificerede)","Potatoes, seed (certified)",Kartofler,Potatoes,85,kartoffel,potato,True,True,True,12,Potatoes
+150,"Kartofler, lægge- (egen opformering)","Potatoes, seed (own propagation)",Kartofler,Potatoes,85,kartoffel,potato,True,True,True,12,Potatoes
+151,"Kartofler, stivelses-","Potatoes, starch",Kartofler,Potatoes,85,kartoffel,potato,True,True,True,12,Potatoes
+152,"Kartofler, spise- (pakkeri, vejsalg)","Potatoes, table (packing, roadside sale)",Kartofler,Potatoes,85,kartoffel,potato,True,True,True,12,Potatoes
+153,"Kartofler, andre","Potatoes, other",,,,,,,,,12,Potatoes
+154,"Kartofler, spise- (proces, skrællet kogte)","Potatoes, table (processing, peeled and boiled)",Kartofler,Potatoes,85,kartoffel,potato,True,True,True,12,Potatoes
+155,"Kartofler, pulver/granules-","Potatoes, powder/granules",Kartofler,Potatoes,85,kartoffel,potato,True,True,True,12,Potatoes
+156,"Kartofler, friteret/chips/pommes frites","Potatoes, crisps/chips/French fries",Kartofler,Potatoes,85,kartoffel,potato,True,True,True,12,Potatoes
+157,"Kartofler, spise- tidligt høstede med efterafgrøder","Potatoes, table, early harvested with catch crop",Kartofler,Potatoes,117,tidlig kartoffel med efterafgrøde,early potato with catch crop,True,True,True,12,Potatoes
+160,Sukkerroer til fabrik,Sugar beet for processing,Rodfrugter til fabrik,Root crops for processing,19,beder,beets,True,True,True,14,Sugar beet and chicory
+161,Cikorierødder,Chicory roots,Rodfrugter til fabrik,Root crops for processing,37,cikorie,chicory,True,True,True,14,Sugar beet and chicory
+162,"Blanding, andre industriafgr.","Mixture, other industrial crops",Rodfrugter til fabrik,Root crops for processing,4,vintersået blanding,winter-sown mixture,True,True,True,14,Sugar beet and chicory
+170,Græs til fabrik (omdrift),Grass for processing (rotation),"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+171,"Lucerne, slæt","Lucerne, cut",Kløver og lucerne i renbestand,Pure clover and lucerne,59,lucerne,lucerne (alfalfa),True,True,True,2,Grass in rotation
+172,"Lucernegræs, over 25% græs til slæt inkl. eget foder","Lucerne grass, over 25% grass, cut, incl. own fodder","Græsmarksplanter, omdrift",Grass and green fodder in rotation,59,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+173,Kløver til slæt,"Clover, cut",Kløver og lucerne i renbestand,Pure clover and lucerne,60,kløver,clover,True,True,True,2,Grass in rotation
+174,Kløvergræs til fabrik,Clover grass for processing,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+180,Gul sennep,White mustard,Oliefrø og Bælgsæd,Oilseeds and pulses,84,sennep,mustard,True,True,True,7,Winter canola
+181,Anden oliefrøart,Other oilseed crop,,,,,,,,,7,Winter canola
+182,Blanding af oliearter,Mixture of oilseed crops,Oliefrø og Bælgsæd,Oilseeds and pulses,2,vårsået blanding,spring-sown mixture,True,True,True,7,Winter canola
+200,Fragået mark,Abandoned field,,,,,,,,,10,Fallow
+201,Sammenlagt mark,Merged field,,,,,,,,,10,Fallow
+210,"Vårbyg, helsæd","Spring barley, whole-crop silage","Helsæd, vår","Whole-crop silage, spring-sown",50,vårbyg,spring barley,True,True,True,20,Spring whole-crop silage
+211,"Vårhvede, helsæd","Spring wheat, whole-crop silage","Helsæd, vår","Whole-crop silage, spring-sown",94,vårhvede,spring wheat,True,True,True,20,Spring whole-crop silage
+212,"Vårhavre, helsæd","Spring oats, whole-crop silage","Helsæd, vår","Whole-crop silage, spring-sown",18,vårhavre,spring oats,True,True,True,20,Spring whole-crop silage
+213,"Blandkorn, vårsået, helsæd","Mixed cereals, spring-sown, whole-crop silage","Helsæd, vår","Whole-crop silage, spring-sown",2,vårsået blanding,spring-sown mixture,True,True,True,20,Spring whole-crop silage
+214,"Korn og bælgsæd, helsæd, under 50% bælgsæd","Cereals and pulses, whole-crop silage, under 50% pulses","Helsæd, vår","Whole-crop silage, spring-sown",2,vårsået blanding,spring-sown mixture,True,True,True,20,Spring whole-crop silage
+215,Ærtehelsæd,Pea whole-crop silage,"Helsæd, vår","Whole-crop silage, spring-sown",69,ært,pea,True,True,True,20,Spring whole-crop silage
+216,Majshelsæd,Maize whole-crop silage,"Helsæd, vår","Whole-crop silage, spring-sown",98,majs,maize,True,True,True,9,Corn
+217,"Korn og bælgsæd, helsæd, over 50% bælgsæd","Cereals and pulses, whole-crop silage, over 50% pulses","Helsæd, vår","Whole-crop silage, spring-sown",2,vårsået blanding,spring-sown mixture,True,True,True,8,Leguminous seed
+218,Majshelsæd med græsudlæg,Maize whole-crop silage with undersown grass,"Helsæd, vår","Whole-crop silage, spring-sown",112,majs med græsudlæg,maize with undersown grass,True,True,True,9,Corn
+220,"Vinterbyg, helsæd","Winter barley, whole-crop silage","Helsæd, vinter","Whole-crop silage, winter-sown",49,vinterbyg,winter barley,True,True,True,23,Winter whole-crop silage
+221,"Vinterhvede, helsæd","Winter wheat, whole-crop silage","Helsæd, vinter","Whole-crop silage, winter-sown",93,vinterhvede,winter wheat,True,True,True,23,Winter whole-crop silage
+222,"Vinterrug, helsæd","Winter rye, whole-crop silage","Helsæd, vinter","Whole-crop silage, winter-sown",83,vinterrug,winter rye,True,True,True,23,Winter whole-crop silage
+223,"Vintertriticale, helsæd","Winter triticale, whole-crop silage","Helsæd, vinter","Whole-crop silage, winter-sown",92,vintertriticale,winter triticale,True,True,True,23,Winter whole-crop silage
+224,"Blandkorn, efterårssået helsæd","Mixed cereals, autumn-sown, whole-crop silage","Helsæd, vinter","Whole-crop silage, winter-sown",4,vintersået blanding,winter-sown mixture,True,True,True,23,Winter whole-crop silage
+230,"Blanding af vårkorn, grønkorn","Mixture of spring cereals, green-cut","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,20,Spring whole-crop silage
+234,"Korn og bælgsæd, grønkorn, under 50% bælgsæd","Cereals and pulses, green-cut, under 50% pulses","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,20,Spring whole-crop silage
+235,"Blanding af vinterkorn, grønkorn","Mixture of winter cereals, green-cut","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,23,Winter whole-crop silage
+236,"Græs med kløver/lucerne, under 50 % bælgpl. (omdrift) efterårsudlagt i vinterkorn til grønkorn","Grass with clover/lucerne, under 50% legumes (rotation), autumn-sown in winter cereal for green-cut","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntoder,grass or other green fodder,True,True,True,2,Grass in rotation
+237,"Græs med kløver/lucerne, over 50 % bælgpl. (omdrift) efterårsudlagt i vinterkorn til grønkorn","Grass with clover/lucerne, over 50% legumes (rotation), autumn-sown in winter cereal for green-cut","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntoder,grass or other green fodder,True,True,True,8,Leguminous seed
+247,"Miljøgræs, græs (0 N), omdrift","Environmental grass, grass (0 N), rotation",Arealer med tilsagn under miljøordningerne,Land under agri-environment commitments,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,3,Permanent grass
+248,Permanent græs ved vandboring,Permanent grass near a water well,,,,,,,,,3,Permanent grass
+249,Udnyttet græs ved vandboring,Grass near a water well,,,,,,,,,3,Permanent grass
+250,"Permanent græs, meget lavt udbytte","Permanent grass, very low yield","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,3,Permanent grass
+251,"Permanent græs, lavt udbytte","Permanent grass, low yield","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,3,Permanent grass
+252,"Permanent græs, normalt udbytte","Permanent grass, normal yield","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,3,Permanent grass
+253,"Miljøgræs MVJ-tilsagn (80 N), omdrift","Environmental grass, MVJ commitment (80 N), rotation",,,,,,,,,3,Permanent grass
+254,"Miljøgræs, græs (0 N), permanent","Environmental grass, grass (0 N), permanent",Arealer med tilsagn under miljøordningerne,Land under agri-environment commitments,0,(afgrøden har ingen kategori),(no category),True,True,False,3,Permanent grass
+255,"Permanent græs, under 50% kløver/lucerne","Permanent grass, under 50% clover/lucerne","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,3,Permanent grass
+256,"Permanent kløvergræs, over 50% kløver/lucerne","Permanent clover grass, over 50% clover/lucerne","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,3,Permanent grass
+257,"Permanent græs, uden kløver","Permanent grass, without clover","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,3,Permanent grass
+258,"Permanent græs, ø-støtte","Permanent grass, island support",,,,,,,,,3,Permanent grass
+259,"Permanent græs, fabrik, over 6 tons","Permanent grass for processing, over 6 tonnes","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,2,Grass in rotation
+260,"Græs med kløver/lucerne, under 50 % bælgpl. (omdrift)","Grass with clover/lucerne, under 50% legumes (rotation)","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+261,"Kløvergræs, over 50% kløver (omdrift)","Clover grass, over 50% clover (rotation)","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+262,"Lucernegræs, over 50% lucerne (omdrift)","Lucerne grass, over 50% lucerne (rotation)","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+263,Græs uden kløvergræs (omdrift),Grass without clover (rotation),"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+264,"Græs og kløvergræs uden norm, under 50 % kløver (omdrift)","Grass and clover grass without nitrogen quota, under 50% clover (rotation)","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+265,"Græs, slæt før vårsået afgrøde","Grass, cut before a spring-sown crop",,,,,,,,,2,Grass in rotation
+266,"Græs under 50% kløver/lucerne, ekstremt lavt udbytte (omdrift)","Grass under 50% clover/lucerne, extremely low yield (rotation)","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+267,"Græs under 50% kløver/lucerne, meget lavt udbytte (omdrift)","Grass under 50% clover/lucerne, very low yield (rotation)","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+268,"Græs under 50% kløver/lucerne, lavt udbytte (omdrift)","Grass under 50% clover/lucerne, low yield (rotation)","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+269,"Græs, rullegræs","Grass, turf (roll-out lawn)","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+270,"Græs til udegrise, omdrift","Grass for outdoor pigs, rotation","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+271,Rekreative formål,Recreational purposes,"Udyrkede arealer, vildtagre o.l.","Uncultivated land, game cover crops etc.",0,(afgrøden har ingen kategori),(no category),False,False,False,3,Permanent grass
+272,Permanent græs til fabrik,Permanent grass for processing,"Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,2,Grass in rotation
+273,Lucerne til fabrik,Lucerne for processing,Kløver og lucerne i renbestand,Pure clover and lucerne,59,lucerne,lucerne (alfalfa),True,True,True,2,Grass in rotation
+274,"Permanent lucernegræs over 25% græs, til fabrik","Permanent lucerne grass, over 25% grass, for processing","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,3,Permanent grass
+275,Permanent rullegræs,Permanent turf (roll-out lawn),,,,,,,,,2,Grass in rotation
+276,"Permanent græs og kløvergræs uden norm, under 50 % kløver","Permanent grass and clover grass without nitrogen quota, under 50% clover","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,2,Grass in rotation
+277,Kløver til fabrik,Clover for processing,Kløver og lucerne i renbestand,Pure clover and lucerne,60,kløver,clover,True,True,True,2,Grass in rotation
+278,Permanent lucerne og lucernegræs over 50% lucerne,"Permanent lucerne and lucerne grass, over 50% lucerne","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,2,Grass in rotation
+279,Permanent kløvergræs til fabrik,Permanent clover grass for processing,"Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,2,Grass in rotation
+280,Fodersukkerroer,Fodder beet,Andre foderafgrøder,Other fodder crops,19,beder,beets,True,True,True,13,Fodder beets
+281,Kålroer,Swede,Andre foderafgrøder,Other fodder crops,20,vårraps,spring oilseed rape,True,True,True,13,Fodder beets
+282,Fodermarvkål,Fodder kale (marrow-stem kale),Andre foderafgrøder,Other fodder crops,20,kål,cabbage,True,True,True,13,Fodder beets
+283,Fodergulerødder,Fodder carrots,Andre foderafgrøder,Other fodder crops,43,gulerod,carrot,True,True,True,13,Fodder beets
+284,"Græs med vikke og andre bælgplanter, under 50 % bælgpl.","Grass with vetch and other legumes, under 50% legumes","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+285,"Græs og kløvergræs uden norm, over 50% kløver (omdrift)","Grass and clover grass without nitrogen quota, over 50% clover (rotation)","Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+286,"Permanent græs og kløvergræs uden norm, over 50 % kløver","Permanent grass and clover grass without nitrogen quota, over 50% clover","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,2,Grass in rotation
+287,"Græs til udegrise, permanent","Grass for outdoor pigs, permanent","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,2,Grass in rotation
+300,,,,,,,,,,,10,Fallow
+305,"Permanent græs, uden udbetaling af økologi-tilskud","Permanent grass, without organic payment",,,,,,,,,10,Fallow
+306,"Græs i omdrift, uden udbetaling af økologi-tilskud","Grass in rotation, without organic payment",,,,,,,,,2,Grass in rotation
+308,"MFO-brak, sommerslåning","EFA fallow, summer mowing",,,,,,,,,10,Fallow
+309,Udyrket areal ved vandboring,Uncultivated land near a water well,,,,,,,,,10,Fallow
+310,"Brak, slåning","Fallow, mown","Udyrkede arealer, vildtagre o.l.","Uncultivated land, game cover crops etc.",53,brak,fallow,True,True,True,10,Fallow
+311,Skovrejsning på tidl. landbrugsjord 1,Afforestation on former agricultural land 1,Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,0,(afgrøden har ingen kategori),(no category),True,False,False,16,Forest
+312,20-årig udtagning,20-year set-aside,Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,53,brak,fallow,True,True,True,10,Fallow
+313,20-årig udtagning af agerjord med frivillig skovrejsning,20-year set-aside of arable land with voluntary afforestation,,,,,,,,,10,Fallow
+314,20-årig udtagning med tilsagn om skovrejsning,20-year set-aside with afforestation commitment,,,,,,,,,10,Fallow
+315,Miljøgræs med udtagning,Environmental grass with set-aside,,,,,,,,,3,Permanent grass
+316,"20-årig Udtagning med fastholdelse, ej landbrugsareal","20-year set-aside with retention, not agricultural land",Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,0,(afgrøden har ingen kategori),(no category),True,False,False,10,Fallow
+317,Vådområder med udtagning,Wetlands with set-aside,Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,53,brak,fallow,True,True,True,10,Fallow
+318,"Miljøtilsagn, ej udtagning, ej landbrugsareal","Environmental commitment, without set-aside, not agricultural land",Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,0,(afgrøden har ingen kategori),(no category),True,False,False,10,Fallow
+319,"MVJ-tilsagn, Udtagning, ej landbrugsareal","Environmental commitment (MVJ), set-aside, not agricultural land",Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,0,(afgrøden har ingen kategori),(no category),True,False,True,10,Fallow
+320,Braklagte randzoner,"Buffer strips, set aside",,,,,,,,,10,Fallow
+321,"Miljøtiltag, ej landbrugsarealer","Environmental measures, not agricultural land",Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,0,(afgrøden har ingen kategori),(no category),True,False,False,10,Fallow
+322,"Minivådområder, projekttilsagn","Mini-wetlands, project commitment",Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,0,(afgrøden har ingen kategori),(no category),True,False,False,10,Fallow
+323,MFO-udyrket areal ved vandboring,EFA uncultivated land near a water well,,,,,,,,,10,Fallow
+324,Blomsterbrak,Flower fallow,Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,53,brak,fallow,True,True,True,10,Fallow
+325,MFO-Blomsterbrak,EFA flower fallow,,,,,,,,,10,Fallow
+326,"Ej landbrug, MSO, omlagt fra permanent græs","Not agriculture, environmentally sensitive area (MSO), converted from permanent grass",Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,0,(afgrøden har ingen kategori),(no category),False,False,False,2,Grass in rotation
+327,"Markbræmme, på omdrift, slåning","Field margin, in rotation, mowing",,,,,,,,,10,Fallow
+328,"Markbræmme, på omdrift, med blomsterblanding","Field margin, in rotation, with flower mixture",,,,,,,,,10,Fallow
+329,"MFO-bræmme, miljøtilsagn","EFA margin, environmental commitment",,,,,,,,,10,Fallow
+334,"Markbræmme, på omdrift, forårsslåning","Field margin, in rotation, spring mowing",,,,,,,,,10,Fallow
+335,"MFO-bræmme, permanent græs, forårsslåning","EFA margin, permanent grass, spring mowing",,,,,,,,,10,Fallow
+336,"MFO-bræmme, permanent græs, sommerslåning","EFA margin, permanent grass, summer mowing",,,,,,,,,10,Fallow
+337,"MFO-bræmme, permanent græs, miljøtilsagn","EFA margin, permanent grass, environmental commitment",,,,,,,,,10,Fallow
+338,"Brak, forårsslåning","Fallow, spring mowing",,,,,,,,,10,Fallow
+339,"MFO-brak, forårsslåning","EFA fallow, spring mowing",,,,,,,,,10,Fallow
+340,Randzoneordning uden udtagning,Buffer strip scheme without set-aside,,,,,,,,,10,Fallow
+341,Randzoneordning  med udtagning,Buffer strip scheme with set-aside,,,,,,,,,10,Fallow
+342,Bestøverbrak,Pollinator fallow,Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,53,brak,fallow,True,True,True,10,Fallow
+343,MFO-bestøverbrak,EFA pollinator fallow,,,,,,,,,10,Fallow
+344,"Brak langs vandløb og søer, forårsslåning (alternativ til efterafgrøder)","Fallow along watercourses and lakes, spring mowing (alternative to catch crops)",,,,,,,,,10,Fallow
+345,"Brak langs vandløb og søer, slåning (alternativ til efterafgrøder)","Fallow along watercourses and lakes, mown (alternative to catch crops)","Udyrkede arealer, vildtagre o.l.","Uncultivated land, game cover crops etc.",53,brak,fallow,True,True,True,10,Fallow
+350,Miljøgræs med N-kvote,Environmental grass with N quota,,,,,,,,,10,Fallow
+360,Vildtafgrøder,Game cover crops,,,,,,,,,10,Fallow
+361,Ikke støtteberettiget landbrugsareal,Agricultural land not eligible for payment,Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,0,(afgrøden har ingen kategori),(no category),False,False,False,10,Fallow
+362,"Paludikultur, omdriftsgræs","Paludiculture, rotational grass",Energiafgrøder og anden særlig produktion,Energy crops and other special production,56,græs eller andet grøntfoder,grass or other green fodder,True,True,True,2,Grass in rotation
+363,"Paludikultur, permanent græs","Paludiculture, permanent grass",Energiafgrøder og anden særlig produktion,Energy crops and other special production,0,(afgrøden har ingen kategori),(no category),True,True,False,3,Permanent grass
+400,Asieagurker,Gherkins,"Grøntsager, friland","Vegetables, open field",39,agurk,cucumber,True,True,True,11,Horticulture
+401,Asparges,Asparagus,"Grøntsager, friland","Vegetables, open field",0,(afgrøden har ingen kategori),(no category),True,True,False,11,Horticulture
+402,Bladselleri,Celery (leaf),"Grøntsager, friland","Vegetables, open field",16,selleri,celery,True,True,True,11,Horticulture
+403,Blomkål,Cauliflower,"Grøntsager, friland","Vegetables, open field",20,kål,cabbage,True,True,True,11,Horticulture
+404,Broccoli,Broccoli,"Grøntsager, friland","Vegetables, open field",20,kål,cabbage,True,True,True,11,Horticulture
+405,"Courgette, squash","Courgette, squash","Grøntsager, friland","Vegetables, open field",40,mandelgræskar,courgette,True,True,True,11,Horticulture
+406,Grønkål,Kale,"Grøntsager, friland","Vegetables, open field",20,kål,cabbage,True,True,True,11,Horticulture
+407,Gulerod,Carrot,"Grøntsager, friland","Vegetables, open field",43,gulerod,carrot,True,True,True,11,Horticulture
+408,Hvidkål,White cabbage,"Grøntsager, friland","Vegetables, open field",20,kål,cabbage,True,True,True,11,Horticulture
+409,Kinakål,Chinese cabbage,"Grøntsager, friland","Vegetables, open field",31,ager-kål,field mustard (turnip rape),True,True,True,11,Horticulture
+410,Knoldselleri,Celeriac,"Grøntsager, friland","Vegetables, open field",16,selleri,celery,True,True,True,11,Horticulture
+411,Løg,Onions,"Grøntsager, friland","Vegetables, open field",3,løg,onion,True,True,True,11,Horticulture
+412,Pastinak,Parsnip,"Grøntsager, friland","Vegetables, open field",65,pastinak,parsnip,True,True,True,11,Horticulture
+413,Rodpersille,Root parsley,"Grøntsager, friland","Vegetables, open field",66,persille,parsley,True,True,True,11,Horticulture
+415,Porre,Leek,"Grøntsager, friland","Vegetables, open field",3,løg,onion,True,True,True,11,Horticulture
+416,Rosenkål,Brussels sprouts,"Grøntsager, friland","Vegetables, open field",20,kål,cabbage,True,True,True,11,Horticulture
+417,Rødbede,Beetroot,"Grøntsager, friland","Vegetables, open field",19,beder,beets,True,True,True,11,Horticulture
+418,Rødkål,Red cabbage,"Grøntsager, friland","Vegetables, open field",20,kål,cabbage,True,True,True,11,Horticulture
+420,Salat (friland),Lettuce (open field),"Grøntsager, friland","Vegetables, open field",52,salat,lettuce,True,True,True,11,Horticulture
+421,Savoykål,Savoy cabbage,"Grøntsager, friland","Vegetables, open field",20,kål,cabbage,True,True,True,11,Horticulture
+422,Spinat,Spinach,"Grøntsager, friland","Vegetables, open field",87,spinat,spinach,True,True,True,11,Horticulture
+423,Sukkermajs,Sweetcorn,"Grøntsager, friland","Vegetables, open field",98,majs,maize,True,True,True,9,Corn
+424,"Ærter, konsum",Peas for human consumption,"Grøntsager, friland","Vegetables, open field",69,ært,pea,True,True,True,8,Leguminous seed
+425,Sukkermajs med græsudlæg,Sweetcorn with undersown grass,"Grøntsager, friland","Vegetables, open field",112,majs med græsudlæg,maize with undersown grass,True,True,True,9,Corn
+426,"Bønner, andre","Beans, other","Grøntsager, friland","Vegetables, open field",113,bønne,bean,True,True,True,8,Leguminous seed
+427,Babyleaves,Baby leaves,"Grøntsager, friland","Vegetables, open field",52,salat,lettuce,True,True,True,11,Horticulture
+428,Spidskål,Pointed cabbage,"Grøntsager, friland","Vegetables, open field",20,kål,cabbage,True,True,True,11,Horticulture
+429,"Jordskokker, konsum","Jerusalem artichokes, for consumption","Grøntsager, friland","Vegetables, open field",48,solsikke,sunflower,True,True,True,12,Potatoes
+430,Bladpersille,Parsley (leaf),"Grøntsager, friland","Vegetables, open field",66,persille,parsley,True,True,True,11,Horticulture
+431,Purløg,Chives,"Grøntsager, friland","Vegetables, open field",3,løg,onion,True,True,True,11,Horticulture
+432,Krydderurter (undtagen persille og purløg),Herbs (except parsley and chives),"Grøntsager, friland","Vegetables, open field",6,planteskolekultur,nursery crop,True,True,True,11,Horticulture
+433,"Krydderurter, andre","Herbs, other",,,,,,,,,11,Horticulture
+434,"Grøntsager, andre (friland)","Vegetables, other (open field)","Grøntsager, friland","Vegetables, open field",6,planteskolekultur,nursery crop,True,True,True,11,Horticulture
+440,Solhat,Coneflower (Echinacea),Medicinplanter,Medicinal plants,79,solhat,coneflower (Echinacea),True,True,True,11,Horticulture
+448,"Medicinpl., en- og toårige","Medicinal plants, annual and biennial",Medicinplanter,Medicinal plants,6,planteskolekultur,nursery crop,True,True,True,11,Horticulture
+449,"Medicinpl., stauder","Medicinal plants, perennials",Medicinplanter,Medicinal plants,6,planteskolekultur,nursery crop,True,True,True,11,Horticulture
+450,"Grøntsager, blandinger","Vegetables, mixtures","Grøntsager, friland","Vegetables, open field",116,vårsået blanding,spring-sown mixture,True,True,True,11,Horticulture
+482,Skovlandbrug med permanent græs,Agroforestry with permanent grass,Energiafgrøder og anden særlig produktion,Energy crops and other special production,0,(afgrøden har ingen kategori),(no category),True,True,False,24,Agroforestry
+483,Skovlandbrug med græs i omdrift,Agroforestry with rotational grass,Energiafgrøder og anden særlig produktion,Energy crops and other special production,114,Skovlandbrug med omdriftsgræs,agroforestry with rotational grass,True,True,True,24,Agroforestry
+484,Skovlandbrug med omdriftsafgrøder,Agroforestry with rotational crops,Energiafgrøder og anden særlig produktion,Energy crops and other special production,115,Skovlandbrug med omdriftsafgrøde,agroforestry with rotational crops,True,True,True,24,Agroforestry
+485,Skovlandbrug med permanente afgrøder,Agroforestry with permanent crops,Energiafgrøder og anden særlig produktion,Energy crops and other special production,0,(afgrøden har ingen kategori),(no category),True,True,False,24,Agroforestry
+486,Hønsegård uden plantedække,Poultry run without plant cover,"Udyrkede arealer, vildtagre o.l.","Uncultivated land, game cover crops etc.",53,brak,fallow,True,True,True,10,Fallow
+487,"Skovlandbrug, ikke støtteberettiget","Agroforestry, not eligible for payment",Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),False,False,False,10,Fallow
+488,"Hønsegård, permanent græs","Poultry run, permanent grass","Græs, permanent",Permanent grassland,0,(afgrøden har ingen kategori),(no category),True,True,False,3,Permanent grass
+489,Havtorn,Sea buckthorn,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,10,Fallow
+490,"Hassel, træ (Corylus avellana)","Hazel, tree (Corylus avellana)",Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,16,Forest
+491,Storfrugtet tranebær,Cranberry (large-fruited),Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,10,Fallow
+492,Tyttebær,Lingonberry,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,10,Fallow
+493,Surbær,Aronia (chokeberry),Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,10,Fallow
+494,Japan kvæde,Japanese quince,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,10,Fallow
+495,Morbær,Mulberry,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,10,Fallow
+496,"Medicinpl., vedplanter","Medicinal plants, woody",Medicinplanter,Medicinal plants,0,(afgrøden har ingen kategori),(no category),True,True,False,10,Fallow
+497,"Planteskolekulturer, vedplanter, til videresalg","Nursery crops, woody plants, for resale",Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,10,Fallow
+498,"Containerplads 4, vedplanter","Container area 4, woody plants",,,,,,,,,10,Fallow
+499,Lukket system,Closed system,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),False,False,False,10,Fallow
+500,,,,,,,,,,,15,"Trees, bushes"
+501,Stauder,Perennials (herbaceous),Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",6,planteskolekultur,nursery crop,True,True,True,15,"Trees, bushes"
+502,Blomsterløg,Flower bulbs,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",6,planteskolekultur,nursery crop,True,True,True,15,"Trees, bushes"
+503,En- og to-årige planter,Annual and biennial plants,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",6,planteskolekultur,nursery crop,True,True,True,10,Fallow
+504,"Solbær, stiklingeopformering","Blackcurrant, propagation by cuttings",Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+505,"Ribs, stiklingeopformering","Redcurrant, propagation by cuttings",Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+506,"Stikkelsbær, stiklingeopformering","Gooseberry, propagation by cuttings",Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+507,"Hindbær, stiklingeopformering","Raspberry, propagation by cuttings",Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+508,Andre af slægten Vaccinium,Other Vaccinium species,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+509,Trækvæde,Quince (tree),Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+510,Melon,Melon,Frugt og bær,Fruit and berries,42,melon,melon,True,True,True,11,Horticulture
+511,Græskar,Pumpkins,,,,,,,,,11,Horticulture
+512,Rabarber,Rhubarb,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,11,Horticulture
+513,Jordbær,Strawberries,Frugt og bær,Fruit and berries,45,jordbær,strawberry,True,True,True,11,Horticulture
+514,Solbær,Blackcurrant,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,11,Horticulture
+515,Ribs,Redcurrant,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+516,Stikkelsbær,Gooseberry,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+517,Brombær,Blackberry,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+518,Hindbær,Raspberry,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+519,Blåbær,Blueberry,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+520,Surkirsebær uden undervækst af græs,Sour cherry without grass undergrowth,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+521,Surkirsebær med undervækst af græs,Sour cherry with grass undergrowth,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+522,Blomme uden undervækst af græs,Plum without grass undergrowth,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+523,Blomme med undervækst af græs,Plum with grass undergrowth,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+524,Sødkirsebær uden undervækst af græs,Sweet cherry without grass undergrowth,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+525,Sødkirsebær med undervækst af græs,Sweet cherry with grass undergrowth,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+526,Hyld,Elder,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,16,Forest
+527,Hassel (Corylus maxima),Hazel (Corylus maxima),Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,16,Forest
+528,Æbler,Apples,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+529,Pærer,Pears,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,16,Forest
+530,Vindrue,Grapevine,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+531,Anden træfrugt,Other tree fruit,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+532,Anden buskfrugt,Other bush fruit,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+533,Rønnebær,Rowan berries,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+534,Hyben,Rose hips,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+535,Bærmispel,Juneberry (Amelanchier),Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+536,Spisedruer,Table grapes,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,11,Horticulture
+537,Valnød (almindelig),Walnut (common),Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,16,Forest
+538,Kastanje (ægte),Sweet chestnut,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,16,Forest
+539,Blandet frugt,Mixed fruit,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+540,Tomater,Tomatoes,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",58,tomat,tomato,True,True,True,11,Horticulture
+541,Agurker,Cucumbers,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",39,agurk,cucumber,True,True,True,11,Horticulture
+542,Salat (drivhus),Lettuce (greenhouse),Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",52,salat,lettuce,True,True,True,11,Horticulture
+543,"Grøntsager, andre (drivhus)","Vegetables, other (greenhouse)",Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",116,planteskolekultur,nursery crop,True,True,True,11,Horticulture
+544,Snitblomster og snitgrønt,Cut flowers and cut foliage,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",6,planteskolekultur,nursery crop,True,True,True,11,Horticulture
+545,Potteplanter,Pot plants,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),False,False,False,10,Fallow
+547,"Planteskolekulturer, stauder","Nursery crops, perennials",Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",6,planteskolekultur,nursery crop,True,True,True,15,"Trees, bushes"
+548,"Småplanter, en-årige","Young plants, annual",Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",6,planteskolekultur,nursery crop,True,True,True,15,"Trees, bushes"
+549,"Lukket system 1, en-årige","Closed system 1, annuals",,,,,,,,,10,Fallow
+550,"Lukket system 2, stauder","Closed system 2, perennials",,,,,,,,,10,Fallow
+551,Moskusgræskar,Butternut squash,Frugt og bær,Fruit and berries,38,moskusgræskar,butternut squash,True,True,True,11,Horticulture
+552,Mandelgræskar,Courgette (marrow),Frugt og bær,Fruit and berries,40,mandelgræskar,courgette,True,True,True,11,Horticulture
+553,Centnergræskar,Pumpkin,Frugt og bær,Fruit and berries,33,centnergræskar,pumpkin,True,True,True,11,Horticulture
+559,,,,,,,,,,,10,Fallow
+560,"Containerplads 1, frugtbuske","Container area 1, fruit bushes",,,,,,,,,10,Fallow
+561,"Containerplads 2, en-årige","Container area 2, annuals",,,,,,,,,10,Fallow
+562,"Containerplads 3, stauder","Container area 3, perennials",,,,,,,,,10,Fallow
+563,Svampe,Mushrooms,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),False,False,False,10,Fallow
+564,Containerplads,Container area,Småplanteproduktion og planteskoleplanter,"Young plants, nurseries and greenhouses",0,(afgrøden har ingen kategori),(no category),False,False,False,10,Fallow
+565,"Skovrejsning, direktivimplementerende uden tilsagn","Afforestation implementing EU directives, without commitment",Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),True,False,False,16,Forest
+566,"Klimaskovrejsning, national ordning","Climate afforestation, national scheme",Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),True,False,False,16,Forest
+567,"Klima-lavbundsprojekt, national ordning","Climate lowland project, national scheme",Særlige afgrødekoder i forbindelse med tilsagn eller miljøtiltag,Special codes for commitments and environmental measures,0,(afgrøden har ingen kategori),(no category),True,False,False,10,Fallow
+570,Humle,Hops,Frugt og bær,Fruit and berries,0,(afgrøden har ingen kategori),(no category),True,True,False,15,"Trees, bushes"
+575,Skovrejsning (privat) - kulstofbinding og grundvandsbeskyttelse,"Afforestation (private), carbon sequestration and groundwater protection",Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),True,False,False,16,Forest
+576,skovrejsning (statslig) - forbedring af vandmiljø og grundvandsbeskyttelse,"Afforestation (state), improving the aquatic environment and groundwater protection",Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),True,False,False,16,Forest
+577,Skov med biodiversitetsformål,Forest with biodiversity purpose,Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),False,False,False,16,Forest
+578,Skovrejsning (privat) – forbedring af vandmiljø og grundvandsbeskyttelse,"Afforestation (private), improving the aquatic environment and groundwater protection",Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),True,False,False,16,Forest
+579,"Tagetes, sygdomssanerende plante","Tagetes (marigold), soil-sanitising plant","Udyrkede arealer, vildtagre o.l.","Uncultivated land, game cover crops etc.",88,tagetes,marigold (Tagetes),True,True,True,10,Fallow
+580,Anden skovdrift,Other forestry,Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),False,False,False,16,Forest
+581,Skovdrift med fjernelse af ved,Forestry with wood removal,Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),False,False,False,16,Forest
+582,"Pyntegrønt, økologisk jordbrug","Ornamental greenery, organic farming",Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),False,False,False,16,Forest
+583,Juletræer og pyntegrønt,Christmas trees and ornamental greenery,Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),False,False,False,16,Forest
+584,Juletræer og pyntegrønt i fredskov,Christmas trees and ornamental greenery in protected forest,,,,,,,,,16,Forest
+585,"Skovrejsning i projektområde, som ikke er omfattet af tilsagn",Afforestation in a project area not under commitment,Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),False,False,False,16,Forest
+586,Offentlig skovrejsning,Public afforestation,Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),True,False,False,16,Forest
+587,Skovrejsning på tidl. landbrugsjord 3,Afforestation on former agricultural land 3,Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),True,False,False,16,Forest
+588,Statslig skovrejsning,State afforestation,,,,,,,,,16,Forest
+589,Bæredygtig skovdrift,Sustainable forestry,Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),False,False,False,16,Forest
+590,Bæredygtig skovdrift i Natura 2000-områder,Sustainable forestry in Natura 2000 areas,Trækulturer,Woody crops and afforestation,0,(afgrøden har ingen kategori),(no category),False,False,False,16,Forest
+591,Lavskov,Short rotation coppice,Energiafgrøder og anden særlig produktion,Energy crops and other special production,0,(afgrøden har ingen kategori),(no category),True,True,False,16,Forest
+592,Pil,Willow,Energiafgrøder og anden særlig produktion,Energy crops and other special production,0,(afgrøden har ingen kategori),(no category),True,True,False,16,Forest
+593,Poppel,Poplar,Energiafgrøder og anden særlig produktion,Energy crops and other special production,0,(afgrøden har ingen kategori),(no category),True,True,False,16,Forest
+594,El,Alder,Energiafgrøder og anden særlig produktion,Energy crops and other special production,0,(afgrøden har ingen kategori),(no category),True,True,False,16,Forest
+596,Elefantgræs,Miscanthus (elephant grass),Energiafgrøder og anden særlig produktion,Energy crops and other special production,0,(afgrøden har ingen kategori),(no category),True,True,False,2,Grass in rotation
+597,Rørgræs,Reed canary grass,Energiafgrøder og anden særlig produktion,Energy crops and other special production,0,(afgrøden har ingen kategori),(no category),True,True,False,2,Grass in rotation
+598,Sorrel,Sorrel,Energiafgrøder og anden særlig produktion,Energy crops and other special production,63,sorrel,sorrel,True,True,True,2,Grass in rotation
+599,Poppel (100-400 andre træer pr. ha),Poplar (100–400 other trees per ha),,,,,,,,,16,Forest
+602,MFO - Pil,EFA willow,,,,,,,,,3,Permanent grass
+603,MFO - Poppel (0-100 andre træer pr. ha),EFA poplar (0–100 other trees per ha),,,,,,,,,3,Permanent grass
+604,MFO - El,EFA alder,,,,,,,,,3,Permanent grass
+605,MFO - Lavskov,EFA short rotation coppice,,,,,,,,,3,Permanent grass
+606,MFO - Poppel (100-400 andre træer pr. ha),EFA poplar (100–400 other trees per ha),,,,,,,,,3,Permanent grass
+650,"Chrysanthemum Garland, frø","Garland chrysanthemum, seed",Havefrø,Vegetable and flower seed,36,chrysanthemum,chrysanthemum,True,True,True,21,Seed grass
+651,Dildfrø,Dill seed,Havefrø,Vegetable and flower seed,14,dild,dill,True,True,True,21,Seed grass
+652,Kinesisk kålfrø,Chinese cabbage seed,Havefrø,Vegetable and flower seed,31,ager-kål,field mustard (turnip rape),True,True,True,21,Seed grass
+653,Karsefrø,Cress seed,Havefrø,Vegetable and flower seed,54,karse,cress,True,True,True,21,Seed grass
+654,Rucolafrø,Rocket seed,Havefrø,Vegetable and flower seed,44,rucola,rocket,True,True,True,21,Seed grass
+655,"Olieræddike til frø, radisefrø","Oilseed radish for seed, radish seed",Havefrø,Vegetable and flower seed,74,radise,radish,True,True,True,21,Seed grass
+656,"Bladbedefrø, rødbedefrø",Chard and beetroot seed,Havefrø,Vegetable and flower seed,19,beder,beets,True,True,True,21,Seed grass
+657,Grønkålfrø,Kale seed,Havefrø,Vegetable and flower seed,20,kål,cabbage,True,True,True,21,Seed grass
+658,Gulerodsfrø,Carrot seed,Havefrø,Vegetable and flower seed,43,gulerod,carrot,True,True,True,21,Seed grass
+659,Kålfrø (hvid- og rødkål),Cabbage seed (white and red cabbage),Havefrø,Vegetable and flower seed,20,kål,cabbage,True,True,True,21,Seed grass
+660,Persillefrø,Parsley seed,Havefrø,Vegetable and flower seed,66,persille,parsley,True,True,True,21,Seed grass
+661,Kørvelfrø,Chervil seed,Havefrø,Vegetable and flower seed,15,kørvel,chervil,True,True,True,21,Seed grass
+662,Majroefrø,Turnip seed,Havefrø,Vegetable and flower seed,31,ager-kål,field mustard (turnip rape),True,True,True,21,Seed grass
+663,Pastinakfrø,Parsnip seed,Havefrø,Vegetable and flower seed,65,pastinak,parsnip,True,True,True,21,Seed grass
+664,Skorzonerrod/skorzonerrodfrø,Black salsify (root and seed),Havefrø,Vegetable and flower seed,82,skorzonerrod,black salsify,True,True,True,21,Seed grass
+665,Havrerodfrø,Salsify seed,Havefrø,Vegetable and flower seed,90,havrerod,salsify,True,True,True,21,Seed grass
+666,Purløgsfrø,Chive seed,Havefrø,Vegetable and flower seed,3,løg,onion,True,True,True,21,Seed grass
+667,Timianfrø,Thyme seed,Havefrø,Vegetable and flower seed,89,timian,thyme,True,True,True,21,Seed grass
+668,Blomsterfrø,Flower seed,Havefrø,Vegetable and flower seed,6,planteskolekultur,nursery crop,True,True,True,21,Seed grass
+669,Andet havefrø,Other vegetable seed,,,,,,,,,21,Seed grass
+701,Grønkorn af vårbyg,Green-cut spring barley,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,4,Spring barley
+702,Grønkron af vårhvede,Green-cut spring wheat,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,4,Spring barley
+703,Grønkorn af vårhavre,Green-cut spring oats,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,4,Spring barley
+704,Grønkorn af vårrug,Green-cut spring rye,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,4,Spring barley
+705,Grønkorn af vårtriticale,Green-cut spring triticale,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,4,Spring barley
+706,Grønkorn af vinterbyg,Green-cut winter barley,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,23,Winter whole-crop silage
+707,Grønkorn af vinterhvede,Green-cut winter wheat,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,23,Winter whole-crop silage
+708,Grønkorn af vinterhavre,Green-cut winter oats,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,5,Winter barley
+709,Grønkorn af vinterrug,Green-cut winter rye,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,23,Winter whole-crop silage
+710,Grønkorn af hybridrug,Green-cut hybrid rye,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,23,Winter whole-crop silage
+711,Grønkorn af vintertriticale,Green-cut winter triticale,"Græsmarksplanter, omdrift",Grass and green fodder in rotation,56,græs og andet grøntfoder,grass or other green fodder,True,True,True,23,Winter whole-crop silage
+777,Ex-non-food brak,Former non-food fallow,,,,,,,,,7,Winter canola
+800,Andre arealer i skovblokke,Other areas in forest blocks,,,,,,,,,10,Fallow
+801,Skov i IKKE skovblok,Forest outside forest blocks,,,,,,,,,10,Fallow
+900,Øvrige afgrøder,Other crops,Øvrige afgrøder,Other land,0,(afgrøden har ingen kategori),(no category),False,False,False,10,Fallow
+901,Naturarealer efter driftsloven,Natural areas under the Agricultural Holdings Act,,,,,,,,,10,Fallow
+902,Naturlignende arealer,Semi-natural areas,,,,,,,,,10,Fallow
+903,Lysåbne arealer i skov,Open areas in forest,Øvrige afgrøder,Other land,0,(afgrøden har ingen kategori),(no category),False,False,False,10,Fallow
+905,Anden anvendelse på tilsagnsarealer,Other use on land under commitment,,,,,,,,,10,Fallow
+906,Afmeldte arealer,Deregistered land,,,,,,,,,10,Fallow
+907,"Naturarealer, økologisk jordbrug","Natural areas, organic farming",Øvrige afgrøder,Other land,0,(afgrøden har ingen kategori),(no category),False,False,False,10,Fallow
+908,"Naturarealer, ansøgning om miljøtilsagn","Natural areas, application for environmental commitment",,,,,,,,,10,Fallow
+920,Økologisk sommerbrak,Organic summer fallow,,,,,,,,,10,Fallow
+921,Intern kode: Bar jord,Internal code: bare soil,,,,,,,,,3,Permanent grass
+960,"Græs, udlæg/eftersl. efter grønkorn o.l","Grass, undersown/aftermath after green-cut cereal etc.",,,,,,,,,20,Spring whole-crop silage
+961,"Græs, udlæg/eftersl. eft.helsæd/tidl.frø","Grass, undersown/aftermath after whole-crop silage/early seed",,,,,,,,,20,Spring whole-crop silage
+962,"Græs, udlæg/eftersl. eft.korn/sildig frø","Grass, undersown/aftermath after cereal/late seed",,,,,,,,,20,Spring whole-crop silage
+963,"Kløvergræs, udlæg/eftersl.efter grønkorn","Clover grass, undersown/aftermath after green-cut cereal",,,,,,,,,20,Spring whole-crop silage
+964,"Kløvergræs, udlæg/efterslæt efter helsæd","Clover grass, undersown/aftermath after whole-crop silage",,,,,,,,,20,Spring whole-crop silage
+965,"Kløvergræs, udlæg/efterslæt efter korn","Clover grass, undersown/aftermath after cereal",,,,,,,,,20,Spring whole-crop silage
+968,Pligtige efterafgrøder,Statutory catch crops,,,,,,,,,22,Catch crops
+993,"Intern kode: Blomsterbræmme, ikke MFO (kontrollørkode)","Internal code: flower strip, not EFA (inspector code)",,,,,,,,,10,Fallow
+995,Slettet mark,Deleted field,,,,,,,,,10,Fallow
+997,Ikke kontrolleret afgrøde (kontrollørkode),Crop not inspected (inspector code),,,,,,,,,10,Fallow
+999,Ugyldig afgrødekode,Invalid crop code,,,,,,,,,10,Fallow
